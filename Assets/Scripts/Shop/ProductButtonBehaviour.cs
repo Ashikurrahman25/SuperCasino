@@ -5,6 +5,7 @@ using UnityEngine.UI;
 
 public class ProductButtonBehaviour : MonoBehaviour
 {
+    [Header("References to shop & product manager")]
      ProductManager productManager;
      ShopManager shopManager;
 
@@ -14,6 +15,10 @@ public class ProductButtonBehaviour : MonoBehaviour
         shopManager = ShopManager.instance;
     }
 
+    
+    /// <summary>
+    /// This function handles the click on items button 
+    /// </summary>
     public void OnSelect()
     {
         int index = transform.GetSiblingIndex();

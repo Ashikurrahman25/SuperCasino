@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{C7EC4791-6045-A007-1D18-C2297797AC18}</ProjectGuid>
+    <ProjectGuid>{53DF2918-EECE-EA30-ADEA-FDFBC09943A4}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Unity.InternalAPIEngineBridge.003</AssemblyName>
@@ -643,7 +643,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Unity.VectorGraphics.csproj">
-      <Project>{9A631A2C-26E2-21C1-E59B-1BE4E9A79B47}</Project>
+      <Project>{1B1642DF-C4C1-B553-E848-979DE1126FBE}</Project>
       <Name>Unity.VectorGraphics</Name>
     </ProjectReference>
   </ItemGroup>

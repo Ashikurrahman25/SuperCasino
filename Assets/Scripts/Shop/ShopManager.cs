@@ -6,38 +6,45 @@ using UnityEngine.UI;
 
 public class ShopManager : MonoBehaviour
 {
-    public Image[] allButtons;
-    public Sprite activateSprite;
-    public Sprite deactivateSprite;
 
-    public TextMeshProUGUI productTitle;
-    public TextMeshProUGUI productPrice;
-    public Image productIcon;
-    public Button buyButton;
-
-    public Transform productContainer;
-    public GameObject productPrefab;
     ProductManager productManager;
-
-    public bool onPrizeChamber;
-    public bool onBall;
-    public bool onBG;
-    public bool onPowerup;
-
     public static ShopManager instance;
+
     public int coins;
     public int selectIndex;
 
+    [Space]
+    [Header("UI texts for showing details")]
+    public TextMeshProUGUI productTitle;
+    public TextMeshProUGUI productPrice;
     public TextMeshProUGUI coinCount;
-
     public TextMeshProUGUI freezeCount;
     public TextMeshProUGUI speedCount;
     public TextMeshProUGUI slowCount;
     public TextMeshProUGUI doubleCount;
 
+    [Space]
+    [Header("Buy/sell button")]
+    public Image[] allButtons;
+    public Sprite activateSprite;
+    public Sprite deactivateSprite;
+
+    [Space]
+    [Header("Prefabs and panels")]
+    public GameObject productPrefab;
     public GameObject infoPanel;
     public GameObject clickedButton;
     public GameObject buyButtons;
+    public Transform productContainer;
+    public Button buyButton;
+    public Image productIcon;
+
+    [Space]
+    [Header("Booleans for managing sates")]
+    [HideInInspector] public bool onPrizeChamber;
+    [HideInInspector] public bool onBall;
+    [HideInInspector] public bool onBG;
+    [HideInInspector] public bool onPowerup;
 
     private void Awake()
     {
@@ -52,8 +59,6 @@ public class ShopManager : MonoBehaviour
         coins = PlayerPrefs.GetInt("coins", 0);
         GlobalData.selectedBall = PlayerPrefs.GetInt("selectedball",0);
         GlobalData.selectedBG = PlayerPrefs.GetInt("selectedBG",0);
-
-        Debug.Log(GlobalData.selectedBG);
     }
 
     public void Start()
@@ -66,10 +71,6 @@ public class ShopManager : MonoBehaviour
        
     }
 
-    public void AddCoin()
-    {
-        UpdateCoin(100, true);
-    }
 
     public void OnButtonClick(int index)
     {
@@ -210,36 +211,6 @@ public class ShopManager : MonoBehaviour
         buyButton.GetComponentInChildren<Text>().text = "Buy";
     }
 
-    public void ResetAll()
-    {
-        onBall = false;
-        onPowerup = false;
-        onBG = false;
-    }
-
-    public void UpdatePowerup()
-    {
-        freezeCount.text = GlobalData.freezeCount.ToString("00");
-        speedCount.text = GlobalData.speedCount.ToString("00");
-        slowCount.text = GlobalData.slowCout.ToString("00");
-        doubleCount.text = GlobalData.doubleCount.ToString("00");
-
-        PlayerPrefs.SetInt("freeze", GlobalData.freezeCount);
-        PlayerPrefs.SetInt("speed", GlobalData.speedCount);
-        PlayerPrefs.SetInt("slow", GlobalData.slowCout);
-        PlayerPrefs.SetInt("double", GlobalData.doubleCount);
-    }
-
-    public void UpdateCoin(int coinToAdd, bool add)
-    {
-        if (add)
-            coins += coinToAdd;
-        else
-            coins -= coinToAdd;
-
-        coinCount.text = coins.ToString("00");
-        PlayerPrefs.SetInt("coins", coins);
-    }
 
     public void OnBuyButton()
     {
@@ -264,7 +235,7 @@ public class ShopManager : MonoBehaviour
                 {
                     if(coins >= productManager.allLists.ballSkins[selectIndex].productPrice)
                     {
-                        Debug.Log("Can Buy");
+
                         productManager.allLists.ballSkins[selectIndex].isBought = true;
                         buyButton.GetComponentInChildren<Text>().text = "Select";
                         productPrice.text = "Owned";
@@ -283,6 +254,7 @@ public class ShopManager : MonoBehaviour
                     buyButton.GetComponentInChildren<Text>().text = "Selected";
                     GlobalData.selectedBG = selectIndex;
                     PlayerPrefs.SetInt("selectedBG", GlobalData.selectedBG);
+
                     for (int i = 0; i < productManager.allLists.backgrounds.Length; i++)
                     {
                         productManager.allLists.backgrounds[i].isSelected = false;
@@ -293,8 +265,7 @@ public class ShopManager : MonoBehaviour
                 else
                 {
                     if (coins >= productManager.allLists.backgrounds[selectIndex].productPrice)
-                    {
-                        Debug.Log("Can Buy");
+                    {                       
                         productManager.allLists.backgrounds[selectIndex].isBought = true;
                         buyButton.GetComponentInChildren<Text>().text = "Select";
                         productPrice.text = "Owned";
@@ -335,6 +306,43 @@ public class ShopManager : MonoBehaviour
         }
 
         SaveSystem.Save(productManager.allLists);
+    }
+
+
+    public void ResetAll()
+    {
+        onBall = false;
+        onPowerup = false;
+        onBG = false;
+    }
+
+    public void UpdatePowerup()
+    {
+        freezeCount.text = GlobalData.freezeCount.ToString("00");
+        speedCount.text = GlobalData.speedCount.ToString("00");
+        slowCount.text = GlobalData.slowCout.ToString("00");
+        doubleCount.text = GlobalData.doubleCount.ToString("00");
+
+        PlayerPrefs.SetInt("freeze", GlobalData.freezeCount);
+        PlayerPrefs.SetInt("speed", GlobalData.speedCount);
+        PlayerPrefs.SetInt("slow", GlobalData.slowCout);
+        PlayerPrefs.SetInt("double", GlobalData.doubleCount);
+    }
+
+    public void UpdateCoin(int coinToAdd, bool add)
+    {
+        if (add)
+            coins += coinToAdd;
+        else
+            coins -= coinToAdd;
+
+        coinCount.text = coins.ToString("00");
+        PlayerPrefs.SetInt("coins", coins);
+    }
+
+    public void AddCoin()
+    {
+        UpdateCoin(100, true);
     }
 
 }
