@@ -113,6 +113,8 @@
     <Compile Include="Assets\Scripts\Mainmenumanager.cs" />
     <Compile Include="Assets\Scripts\Music.cs" />
     <Compile Include="Assets\Scripts\Shop\SaveSystem.cs" />
+    <Compile Include="Assets\Scripts\Views\CoinBuyView.cs" />
+    <Compile Include="Assets\Scripts\Controller\PowerUpsController.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />

@@ -35,6 +35,8 @@ public class ShopManager : MonoBehaviour
     public GameObject infoPanel;
     public GameObject clickedButton;
     public GameObject buyButtons;
+    public GameObject buySellPanel;
+    public GameObject coinBuyingPanel;
     public Transform productContainer;
     public Button buyButton;
     public Image productIcon;
@@ -90,12 +92,18 @@ public class ShopManager : MonoBehaviour
 
         if (index == 0)
         {
+            coinBuyingPanel.SetActive(false);
+            buySellPanel.SetActive(true);
+
             OnBallButton();
             onPrizeChamber = false;
         }
-        else
+        else if(index == 1)
         {
             buyButtons.SetActive(false);
+
+            coinBuyingPanel.SetActive(false);
+            buySellPanel.SetActive(true);
 
             for (int i = 0; i < productManager.allLists.achievedPrizes.Count; i++)
             {
@@ -123,6 +131,13 @@ public class ShopManager : MonoBehaviour
             onPrizeChamber = true;
             onBall = false;
             buyButton.GetComponentInChildren<Text>().text = "Sell";
+        }
+        else
+        {
+            coinBuyingPanel.SetActive(true);
+            buySellPanel.SetActive(false);
+            onPrizeChamber = false;
+            onBall = false;
         }
 
     }

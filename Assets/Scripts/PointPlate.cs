@@ -5,26 +5,29 @@ using TMPro;
 
 public class PointPlate : MonoBehaviour
 {
-
-    public float Speed=1;
+    public float normalSpeed  = 1;
+    public float Speed;
     public float Dir=1;
     public GameObject[] BrokenPlate;
     public bool isBroken;
     public GameObject Scores;
     public List<GameObject> ScoredObj;
     
-    Vector3 iniPos, Force, ScoringPos;
-    
+    Vector3 iniPos, Force, ScoringPos;   
     public ScoreManager scoreManager;
-   
 
+    public bool powerUpEnabled;
 
+    public float powerUpLength;
+    public float elapsedTime;
+    public PowerUpsController powerupsController;
 
     private void Start()
     {
-    
+        Speed = normalSpeed;
         Force = new Vector3(Random.Range(-0.0001f, 0.0001f), -0.0001f, Random.Range(-0.001f, 0.01f));
         scoreManager = FindObjectOfType<ScoreManager>();
+        powerupsController = FindObjectOfType<PowerUpsController>();
         iniPos = transform.position;
     }
     void Update()
@@ -47,7 +50,60 @@ public class PointPlate : MonoBehaviour
             }
          
         }
+
+        HandlePowerUp();
       
+    }
+
+    public void HandlePowerUp()
+    {
+
+        if (!powerUpEnabled)
+        {
+            if (powerupsController.freeze)
+            {
+                Speed = 0;
+                powerUpEnabled = true;
+
+            }
+
+            else if (powerupsController.speedUp)
+            {
+                Speed = normalSpeed * 2;
+                powerUpEnabled = true;
+
+            }
+
+            else if (powerupsController.slowDown)
+            {
+                Speed = normalSpeed / 2;
+                powerUpEnabled = true;
+
+            }
+
+            else if (powerupsController.doublePoints)
+            {
+                scoreManager.doubleScore = true;
+                powerUpEnabled = true;
+
+            }
+
+
+        }
+
+        else if (powerUpEnabled)
+        {
+            if (elapsedTime <= powerUpLength) elapsedTime += Time.deltaTime;
+            else
+            {
+                elapsedTime = 0;
+                powerUpEnabled = false;
+                Speed = normalSpeed;
+                scoreManager.doubleScore = false;
+                powerupsController.EndPowerUp();
+            }
+
+        }
     }
 
     private void OnTriggerEnter(Collider other)
@@ -65,7 +121,14 @@ public class PointPlate : MonoBehaviour
     public void Break()
     {
         StartCoroutine(DestroyingScore());
-        ScoredObj.Add(Instantiate(Scores, ScoringPos, Quaternion.identity));      
+        GameObject ScorePopup = Instantiate(Scores, ScoringPos, Quaternion.identity);
+        ScoredObj.Add(ScorePopup);
+
+        if (scoreManager.doubleScore)
+            ScorePopup.GetComponent<TextMeshPro>().text = "+2";
+        else
+            ScorePopup.GetComponent<TextMeshPro>().text = "+1";
+
         for (int i = 0; i < BrokenPlate.Length; i++)
         {
             BrokenPlate[i].GetComponent<Rigidbody>().isKinematic = false;

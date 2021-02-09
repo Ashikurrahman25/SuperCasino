@@ -11,7 +11,7 @@ public class BallSpawner : MonoBehaviour
    
     void Start()
     {
-        texture = ProductManager.instance.ballSprites[GlobalData.selectedBall];
+        //texture = ProductManager.instance.ballSprites[GlobalData.selectedBall];
         StartCoroutine(SpawnNewBall(1));
     }
 
@@ -20,7 +20,7 @@ public class BallSpawner : MonoBehaviour
     {
         yield return new WaitForSeconds(Time);
         GameObject go = Instantiate(Ball, SpawnPos.position, Quaternion.identity);
-        go.GetComponent<MeshRenderer>().material.mainTexture = texture;
+        //go.GetComponent<MeshRenderer>().material.mainTexture = texture;
     }
 
 

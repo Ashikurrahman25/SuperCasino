@@ -8,11 +8,11 @@ public class ScoreManager : MonoBehaviour
 {
     public int Score;
     public TextMeshPro ScoreText;
+    public bool doubleScore;
 
     void Start()
     {
-   
-        Score = 0;
+       Score = 0;
     }
 
    
@@ -26,7 +26,10 @@ public class ScoreManager : MonoBehaviour
 
     public void IncreasePoint()
     {
-        Score++;
+        if (!doubleScore)
+            Score++;
+        else
+            Score += 2;
      
         PlayerPrefs.SetInt("Score", Score);
     }

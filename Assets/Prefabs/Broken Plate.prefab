@@ -1708,6 +1708,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a49ba94bf4a3eb249a8cafa954a96498, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  normalSpeed: 1
   Speed: 1
   Dir: 1
   BrokenPlate:
@@ -1740,6 +1741,10 @@ MonoBehaviour:
   Scores: {fileID: 89662456804738091, guid: ece8adcb32cc37c45b818ed6c3d4395c, type: 3}
   ScoredObj: []
   scoreManager: {fileID: 0}
+  powerUpEnabled: 0
+  powerUpLength: 5
+  elapsedTime: 0
+  powerupsController: {fileID: 0}
 --- !u!54 &275280167226772666
 Rigidbody:
   m_ObjectHideFlags: 0
