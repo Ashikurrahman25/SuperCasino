@@ -93,6 +93,7 @@
     <Compile Include="Assets\Scripts\BallSpawner.cs" />
     <Compile Include="Assets\Modern UI Pack\Scripts\LaunchURL.cs" />
     <Compile Include="Assets\Scripts\VibrationMusicControll.cs" />
+    <Compile Include="Assets\Scripts\Views\CoinBuyView.cs" />
     <Compile Include="Assets\Scripts\ScoreManager.cs" />
     <Compile Include="Assets\Scripts\CoinSpawner.cs" />
     <Compile Include="Assets\Scenemanager.cs" />
@@ -106,6 +107,7 @@
     <Compile Include="Assets\Modern UI Pack\Scripts\SwitchAnim.cs" />
     <Compile Include="Assets\Modern UI Pack\Scripts\ToggleAnim.cs" />
     <Compile Include="Assets\Modern UI Pack\Scripts\UIElementInFront.cs" />
+    <Compile Include="Assets\Scripts\Controller\PowerUpsController.cs" />
     <Compile Include="Assets\Modern UI Pack\Scripts\DemoScrollForMore.cs" />
     <Compile Include="Assets\Modern UI Pack\Scripts\RadialSlider.cs" />
     <Compile Include="Assets\LeanTween\Framework\LTDescrOptional.cs" />
@@ -113,8 +115,7 @@
     <Compile Include="Assets\Scripts\Mainmenumanager.cs" />
     <Compile Include="Assets\Scripts\Music.cs" />
     <Compile Include="Assets\Scripts\Shop\SaveSystem.cs" />
-    <Compile Include="Assets\Scripts\Views\CoinBuyView.cs" />
-    <Compile Include="Assets\Scripts\Controller\PowerUpsController.cs" />
+    <Compile Include="Assets\Scripts\Controller\PrizeController.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />

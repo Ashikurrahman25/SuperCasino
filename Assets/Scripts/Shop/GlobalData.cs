@@ -9,7 +9,7 @@ public class GlobalData
 
     public static int freezeCount;
     public static int speedCount;
-    public static int slowCout;
+    public static int slowCount;
     public static int doubleCount;
 }
 

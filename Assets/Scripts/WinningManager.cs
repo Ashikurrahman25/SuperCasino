@@ -14,33 +14,43 @@ public class WinningManager : MonoBehaviour
     public bool isArcadeMode;
     public Image Prize;
     public bool Win;
+
+    PrizeController prizeController;
+    ScoreManager scoreManager;
+
     void Start()
     {
-
+        prizeController = FindObjectOfType<PrizeController>();
+        scoreManager = FindObjectOfType<ScoreManager>();
     }
 
     
     void Update()
     {
+       
+        Prize.fillAmount = oldValue;
+
         if (isArcadeMode)
         {
             if (FindObjectOfType<Timer>().TimesUp)
             {
-                GameOverPanel.SetActive(true);
+                HandleWin();
             }
         }
-        else if(!isArcadeMode)
+        else if (!isArcadeMode)
         {
-            if (PlayerPrefs.GetInt("Lives")<=0)
+            if (PlayerPrefs.GetInt("Lives") <= 0)
             {
-                GameOverPanel.SetActive(true);
+                HandleWin();
             }
         }
-    
-        oldValue = PlayerPrefs.GetFloat("Prize Name");
-        Prize.fillAmount = oldValue;
-      
+    }
 
+    public void HandleWin()
+    {        
+        GameOverPanel.SetActive(true);
+        oldValue = PlayerPrefs.GetFloat("Prize Name");
+        prizeController.SelectRandomPrize(scoreManager.Score);
     }
 
     public void Showstar()

@@ -3294,16 +3294,7 @@ MonoBehaviour:
       productPrice: 169
       isBought: 0
       isSelected: 0
-    achievedPrizes:
-    - iconIndex: 0
-      prizeName: 1
-      sellPrice: 10
-    - iconIndex: 1
-      prizeName: 2
-      sellPrice: 20
-    - iconIndex: 2
-      prizeName: 3
-      sellPrice: 30
+    achievedPrizes: []
   ballSprites:
   - {fileID: 2800000, guid: 79a187a46c6a6384981da577b04ab15a, type: 3}
   - {fileID: 2800000, guid: 252d1a85245c27742844db0b3c722d40, type: 3}
@@ -3315,14 +3306,71 @@ MonoBehaviour:
   - {fileID: 3286163911610860551, guid: 96efb1e113a114748962f65e74255315, type: 3}
   - {fileID: 21300000, guid: e771708ca0786ce468872351f6a467dc, type: 3}
   powerUpSprites:
-  - {fileID: 3286163911610860551, guid: b19a40a76cae3e541b3a905f1d2b3726, type: 3}
-  - {fileID: 3286163911610860551, guid: e6b631a03f53e5a43898dbf5abddeef0, type: 3}
-  - {fileID: 3286163911610860551, guid: f79b01a19538d7a4eb69ba9709f73542, type: 3}
+  - {fileID: 21300000, guid: 1ce807e2036a66c4ea79b77cfc5be042, type: 3}
+  - {fileID: 21300000, guid: ccd7adf256076384999eaf232524258f, type: 3}
+  - {fileID: 21300000, guid: 2ba7422d45fc71b4b85c28cb3165d225, type: 3}
   - {fileID: 21300000, guid: 2926fd9234b4a1d419fa5f2dc15a5829, type: 3}
   prizeSprites:
-  - {fileID: 21300000, guid: 7d1b55575f93710468d2df3c50322663, type: 3}
-  - {fileID: 21300000, guid: a5107ce71c9d7e844af529726e81c095, type: 3}
-  - {fileID: 21300000, guid: 4197d06eccd26d94eac2344e91cc1b7d, type: 3}
+  - {fileID: 21300000, guid: 655893a6d11cc9d4f8689f7301598f36, type: 3}
+  - {fileID: 21300000, guid: 2926fd9234b4a1d419fa5f2dc15a5829, type: 3}
+  - {fileID: 21300000, guid: 5babc92f9f86963458d429329e1c7e51, type: 3}
+  - {fileID: 21300000, guid: 805b55c4a27bd6a4db3a9c41387fecf1, type: 3}
+  - {fileID: 21300000, guid: bc8be3334501ca24fbc8b7ea62599622, type: 3}
+  - {fileID: 21300000, guid: bc8be3334501ca24fbc8b7ea62599622, type: 3}
+  - {fileID: 21300000, guid: bc8be3334501ca24fbc8b7ea62599622, type: 3}
+  - {fileID: 21300000, guid: bc8be3334501ca24fbc8b7ea62599622, type: 3}
+  - {fileID: 21300000, guid: bc8be3334501ca24fbc8b7ea62599622, type: 3}
+  - {fileID: 21300000, guid: bc8be3334501ca24fbc8b7ea62599622, type: 3}
+  - {fileID: 21300000, guid: bc8be3334501ca24fbc8b7ea62599622, type: 3}
+  - {fileID: 21300000, guid: bc8be3334501ca24fbc8b7ea62599622, type: 3}
+  - {fileID: 21300000, guid: bc8be3334501ca24fbc8b7ea62599622, type: 3}
+  - {fileID: 21300000, guid: bc8be3334501ca24fbc8b7ea62599622, type: 3}
+  - {fileID: 21300000, guid: bc8be3334501ca24fbc8b7ea62599622, type: 3}
+  - {fileID: 21300000, guid: bc8be3334501ca24fbc8b7ea62599622, type: 3}
+  - {fileID: 21300000, guid: bc8be3334501ca24fbc8b7ea62599622, type: 3}
+  - {fileID: 21300000, guid: bc8be3334501ca24fbc8b7ea62599622, type: 3}
+  - {fileID: 21300000, guid: bc8be3334501ca24fbc8b7ea62599622, type: 3}
+  - {fileID: 21300000, guid: bc8be3334501ca24fbc8b7ea62599622, type: 3}
+  - {fileID: 21300000, guid: bc8be3334501ca24fbc8b7ea62599622, type: 3}
+  - {fileID: 21300000, guid: bc8be3334501ca24fbc8b7ea62599622, type: 3}
+  - {fileID: 21300000, guid: bc8be3334501ca24fbc8b7ea62599622, type: 3}
+  - {fileID: 21300000, guid: bc8be3334501ca24fbc8b7ea62599622, type: 3}
+  - {fileID: 21300000, guid: bc8be3334501ca24fbc8b7ea62599622, type: 3}
+  - {fileID: 21300000, guid: bc8be3334501ca24fbc8b7ea62599622, type: 3}
+  - {fileID: 21300000, guid: bc8be3334501ca24fbc8b7ea62599622, type: 3}
+  - {fileID: 21300000, guid: bc8be3334501ca24fbc8b7ea62599622, type: 3}
+  - {fileID: 21300000, guid: bc8be3334501ca24fbc8b7ea62599622, type: 3}
+  - {fileID: 21300000, guid: bc8be3334501ca24fbc8b7ea62599622, type: 3}
+  - {fileID: 21300000, guid: bc8be3334501ca24fbc8b7ea62599622, type: 3}
+  - {fileID: 21300000, guid: bc8be3334501ca24fbc8b7ea62599622, type: 3}
+  - {fileID: 21300000, guid: bc8be3334501ca24fbc8b7ea62599622, type: 3}
+  - {fileID: 21300000, guid: bc8be3334501ca24fbc8b7ea62599622, type: 3}
+  - {fileID: 21300000, guid: bc8be3334501ca24fbc8b7ea62599622, type: 3}
+  - {fileID: 21300000, guid: bc8be3334501ca24fbc8b7ea62599622, type: 3}
+  - {fileID: 21300000, guid: bc8be3334501ca24fbc8b7ea62599622, type: 3}
+  - {fileID: 21300000, guid: bc8be3334501ca24fbc8b7ea62599622, type: 3}
+  - {fileID: 21300000, guid: bc8be3334501ca24fbc8b7ea62599622, type: 3}
+  - {fileID: 21300000, guid: bc8be3334501ca24fbc8b7ea62599622, type: 3}
+  - {fileID: 21300000, guid: bc8be3334501ca24fbc8b7ea62599622, type: 3}
+  - {fileID: 21300000, guid: bc8be3334501ca24fbc8b7ea62599622, type: 3}
+  - {fileID: 21300000, guid: bc8be3334501ca24fbc8b7ea62599622, type: 3}
+  - {fileID: 21300000, guid: bc8be3334501ca24fbc8b7ea62599622, type: 3}
+  - {fileID: 21300000, guid: bc8be3334501ca24fbc8b7ea62599622, type: 3}
+  - {fileID: 21300000, guid: bc8be3334501ca24fbc8b7ea62599622, type: 3}
+  - {fileID: 21300000, guid: bc8be3334501ca24fbc8b7ea62599622, type: 3}
+  - {fileID: 21300000, guid: bc8be3334501ca24fbc8b7ea62599622, type: 3}
+  - {fileID: 21300000, guid: bc8be3334501ca24fbc8b7ea62599622, type: 3}
+  - {fileID: 21300000, guid: bc8be3334501ca24fbc8b7ea62599622, type: 3}
+  - {fileID: 21300000, guid: bc8be3334501ca24fbc8b7ea62599622, type: 3}
+  - {fileID: 21300000, guid: bc8be3334501ca24fbc8b7ea62599622, type: 3}
+  - {fileID: 21300000, guid: bc8be3334501ca24fbc8b7ea62599622, type: 3}
+  - {fileID: 21300000, guid: bc8be3334501ca24fbc8b7ea62599622, type: 3}
+  - {fileID: 21300000, guid: bc8be3334501ca24fbc8b7ea62599622, type: 3}
+  - {fileID: 21300000, guid: bc8be3334501ca24fbc8b7ea62599622, type: 3}
+  - {fileID: 21300000, guid: bc8be3334501ca24fbc8b7ea62599622, type: 3}
+  - {fileID: 21300000, guid: bc8be3334501ca24fbc8b7ea62599622, type: 3}
+  - {fileID: 21300000, guid: bc8be3334501ca24fbc8b7ea62599622, type: 3}
+  - {fileID: 21300000, guid: bc8be3334501ca24fbc8b7ea62599622, type: 3}
 --- !u!4 &935578709
 Transform:
   m_ObjectHideFlags: 0
@@ -6120,7 +6168,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0.35000002, y: 1}
-  m_AnchoredPosition: {x: 4.1254272, y: 0}
+  m_AnchoredPosition: {x: 4.1254425, y: 0}
   m_SizeDelta: {x: 8.251434, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!95 &1538099603

@@ -10,10 +10,10 @@ public class Ball : MonoBehaviour
     public bool isActive;
     private void Update()
     {
-        if (transform.position.z>LimitOfActive.position.z)
-        {
-            isActive = true;
-        }
+        //if (transform.position.z>LimitOfActive.position.z)
+        //{
+        //    isActive = true;
+        //}
     }
 
     private void OnCollisionEnter(Collision collision)

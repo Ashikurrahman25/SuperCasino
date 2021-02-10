@@ -55,7 +55,7 @@ public class ShopManager : MonoBehaviour
 
         GlobalData.freezeCount = PlayerPrefs.GetInt("freeze", 0);
         GlobalData.speedCount = PlayerPrefs.GetInt("speed", 0);
-        GlobalData.slowCout = PlayerPrefs.GetInt("slow", 0);
+        GlobalData.slowCount = PlayerPrefs.GetInt("slow", 0);
         GlobalData.doubleCount = PlayerPrefs.GetInt("double", 0);
 
         coins = PlayerPrefs.GetInt("coins", 0);
@@ -302,7 +302,7 @@ public class ShopManager : MonoBehaviour
                     else if (selectIndex == 1)
                         GlobalData.speedCount++;
                     else if (selectIndex == 2)
-                        GlobalData.slowCout++;
+                        GlobalData.slowCount++;
                     else if (selectIndex == 3)
                         GlobalData.doubleCount++;
 
@@ -335,12 +335,12 @@ public class ShopManager : MonoBehaviour
     {
         freezeCount.text = GlobalData.freezeCount.ToString("00");
         speedCount.text = GlobalData.speedCount.ToString("00");
-        slowCount.text = GlobalData.slowCout.ToString("00");
+        slowCount.text = GlobalData.slowCount.ToString("00");
         doubleCount.text = GlobalData.doubleCount.ToString("00");
 
         PlayerPrefs.SetInt("freeze", GlobalData.freezeCount);
         PlayerPrefs.SetInt("speed", GlobalData.speedCount);
-        PlayerPrefs.SetInt("slow", GlobalData.slowCout);
+        PlayerPrefs.SetInt("slow", GlobalData.slowCount);
         PlayerPrefs.SetInt("double", GlobalData.doubleCount);
     }
 

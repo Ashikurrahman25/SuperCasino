@@ -1,45 +1,65 @@
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
 public class PowerUpsController : MonoBehaviour
 {
-    public GameObject[] powerUps;
+    public Button freezeButton;
+    public Button speedButton;
+    public Button slowButton;
+    public Button doubleButton;
 
     public Sprite activateSprite;
     public Sprite deactivateSprite;
 
+    public TextMeshProUGUI freezeCount;
+    public TextMeshProUGUI speedCount;
+    public TextMeshProUGUI slowCount;
+    public TextMeshProUGUI doubleCount;
+
     public float minTimeToEnablePowerup;
-    public float elapsedTime;
+    [HideInInspector] public float elapsedTime;
 
-    public bool doingPowerup;
-    public bool canUsePower;
+    [HideInInspector] public bool doingPowerup;
+    [HideInInspector] public bool canUsePower;
+    [HideInInspector] public bool freeze;
+    [HideInInspector] public bool speedUp;
+    [HideInInspector] public bool slowDown;
+    [HideInInspector] public bool doublePoints;
 
-    public bool freeze;
-    public bool speedUp;
-    public bool slowDown;
-    public bool doublePoints;
+
+    private void Start()
+    {
+        UpdatePowerUpCount();
+    }
 
     private void Update()
     {
         if (!doingPowerup)
         {
-            if (elapsedTime <= minTimeToEnablePowerup && !canUsePower)
+            if (elapsedTime <= minTimeToEnablePowerup)
             {
                 elapsedTime += Time.deltaTime;
             }
             else
             {
-                canUsePower = true;
-                elapsedTime = 0;
-                EnableDisablePower(true);
+                if (!canUsePower)
+                {
+                    canUsePower = true;
+                    elapsedTime = 0;
+                    EnableDisablePower(true);
+
+                    Debug.Log("Enabling powerups");
+                }
             }
         }
     }
 
     public void EnableFreeze()
     {
+        GlobalData.freezeCount--;
         StartPowerUp();
         freeze = true;
         Debug.Log("Doing freeze....");
@@ -47,6 +67,7 @@ public class PowerUpsController : MonoBehaviour
 
     public void EnableSpeed()
     {
+        GlobalData.speedCount--;
         StartPowerUp();
         speedUp = true;
         Debug.Log("Doing speeding....");
@@ -54,6 +75,7 @@ public class PowerUpsController : MonoBehaviour
 
     public void EnableSlow()
     {
+        GlobalData.slowCount--;
         StartPowerUp();
         slowDown = true;
         Debug.Log("Doing slowing....");
@@ -61,6 +83,7 @@ public class PowerUpsController : MonoBehaviour
 
     public void EnableDouble()
     {
+        GlobalData.doubleCount--;
         StartPowerUp();
         doublePoints = true;
         Debug.Log("Doing Double Points....");
@@ -68,6 +91,7 @@ public class PowerUpsController : MonoBehaviour
 
     void StartPowerUp()
     {
+        UpdatePowerUpCount();
         EnableDisablePower(false);
         doingPowerup = true;
         canUsePower = false;
@@ -83,11 +107,41 @@ public class PowerUpsController : MonoBehaviour
         doublePoints = false;
     }
 
+    public void UpdatePowerUpCount()
+    {
+        freezeCount.text = GlobalData.freezeCount.ToString();
+        speedCount.text = GlobalData.speedCount.ToString();
+        slowCount.text = GlobalData.slowCount.ToString();
+        doubleCount.text = GlobalData.doubleCount.ToString();
+
+        PlayerPrefs.SetInt("freeze", GlobalData.freezeCount);
+        PlayerPrefs.SetInt("speed", GlobalData.speedCount);
+        PlayerPrefs.SetInt("slow", GlobalData.slowCount);
+        PlayerPrefs.SetInt("double", GlobalData.doubleCount);
+    }
+
     void EnableDisablePower(bool status)
     {
-        for (int i = 0; i < powerUps.Length; i++)
+        if(status)
         {
-            powerUps[i].GetComponent<Button>().interactable = status;
+            if (GlobalData.freezeCount > 0)
+                freezeButton.interactable = true;
+
+            if (GlobalData.speedCount > 0)
+                speedButton.interactable = true;
+
+            if (GlobalData.slowCount > 0)
+                slowButton.interactable = true;
+
+            if (GlobalData.doubleCount > 0)
+                doubleButton.interactable = true;
+        }
+        else
+        {
+            freezeButton.interactable = false;
+            speedButton.interactable = false;
+            slowButton.interactable = false;
+            doubleButton.interactable = false;
         }
     }
 }

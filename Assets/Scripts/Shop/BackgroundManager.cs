@@ -7,7 +7,7 @@ public class BackgroundManager : MonoBehaviour
     public SpriteRenderer backGround;
     void Start()
     {
-        //backGround.sprite = ProductManager.instance.backgroundSprites[GlobalData.selectedBG];
+        backGround.sprite = ProductManager.instance.backgroundSprites[GlobalData.selectedBG];
     }
 
 

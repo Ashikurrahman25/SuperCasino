@@ -1742,7 +1742,7 @@ MonoBehaviour:
   ScoredObj: []
   scoreManager: {fileID: 0}
   powerUpEnabled: 0
-  powerUpLength: 5
+  powerUpLength: 15
   elapsedTime: 0
   powerupsController: {fileID: 0}
 --- !u!54 &275280167226772666
