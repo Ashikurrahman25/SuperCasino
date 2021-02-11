@@ -174,9 +174,9 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 4190}
     - Class: 114
-      Script: {instanceID: 18168}
+      Script: {instanceID: 18254}
     - Class: 114
-      Script: {instanceID: 18178}
+      Script: {instanceID: 18264}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -462,9 +462,9 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 4190}
     - Class: 114
-      Script: {instanceID: 18168}
+      Script: {instanceID: 18254}
     - Class: 114
-      Script: {instanceID: 18178}
+      Script: {instanceID: 18264}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -842,7 +842,7 @@ ScriptsOnlyBuild:
     className: TestResultRendererCallback
   - hash:
       serializedVersion: 2
-      Hash: 4ccfe215d7ae4316ada13f933f1928ed
+      Hash: 7fb44a41ca45b5f2624691e0b7a58c2d
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: PlateSpawner
@@ -1040,7 +1040,7 @@ ScriptsOnlyBuild:
     className: RemoteTestResultSender
   - hash:
       serializedVersion: 2
-      Hash: d54b65a6e9ad1e1bf653daae30bb8a25
+      Hash: 551433550db0d4754ff2087fa8c0c0b7
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: PointPlate

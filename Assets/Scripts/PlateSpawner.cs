@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class PlateSpawner : MonoBehaviour
 {
-    public GameObject Plate;
+    public GameObject[] plates;
     public float Direction;
     public List<GameObject> SpawnedPlate;
     public float waitTime = 2;
@@ -15,9 +15,8 @@ public class PlateSpawner : MonoBehaviour
     void Start()
     {
         powerUpsController = FindObjectOfType<PowerUpsController>();
-        wait = waitTime;
-        SpawnedPlate.Add(Instantiate(Plate, transform.position, Quaternion.identity));
-        SpawnedPlate[SpawnedPlate.Count - 1].GetComponent<PointPlate>().Dir=Direction;
+        SpawnPlate();
+
     }
 
    
@@ -60,13 +59,19 @@ public class PlateSpawner : MonoBehaviour
 
         if (wait<=0)
         {
-            SpawnedPlate.Add(Instantiate(Plate, transform.position, Quaternion.identity));
-            SpawnedPlate[SpawnedPlate.Count - 1].GetComponent<PointPlate>().Dir = Direction;
-            wait = waitTime;
+            SpawnPlate();
         }
         else
         {
             wait -= Time.deltaTime;
         }
+    }
+
+    public void SpawnPlate()
+    {
+        wait = waitTime;
+        GameObject plate = Instantiate(plates[Random.Range(0, plates.Length)], transform.position, Quaternion.identity);
+        SpawnedPlate.Add(plate);
+        SpawnedPlate[SpawnedPlate.Count - 1].GetComponent<PointPlate>().Dir = Direction;
     }
 }

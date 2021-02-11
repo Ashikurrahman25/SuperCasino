@@ -22,6 +22,8 @@ public class PointPlate : MonoBehaviour
     public float elapsedTime;
     public PowerUpsController powerupsController;
 
+    public int scoreToAdd;
+
     private void Start()
     {
         Speed = normalSpeed;
@@ -125,9 +127,9 @@ public class PointPlate : MonoBehaviour
         ScoredObj.Add(ScorePopup);
 
         if (scoreManager.doubleScore)
-            ScorePopup.GetComponent<TextMeshPro>().text = "+2";
+            ScorePopup.GetComponent<TextMeshPro>().text = $"+{scoreToAdd * 2}";
         else
-            ScorePopup.GetComponent<TextMeshPro>().text = "+1";
+            ScorePopup.GetComponent<TextMeshPro>().text = $"+{scoreToAdd}";
 
         for (int i = 0; i < BrokenPlate.Length; i++)
         {
@@ -135,7 +137,7 @@ public class PointPlate : MonoBehaviour
             BrokenPlate[i].GetComponent<Rigidbody>().AddForce(Force*Random.Range(-0.001f,0.09f) * Time.deltaTime, ForceMode.Force);
         
         }
-        scoreManager.IncreasePoint();
+        scoreManager.IncreasePoint(scoreToAdd);
         GetComponent<BoxCollider>().enabled = false;
         Destroy(gameObject, 3);
     }

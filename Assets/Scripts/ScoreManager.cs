@@ -10,26 +10,16 @@ public class ScoreManager : MonoBehaviour
     public TextMeshPro ScoreText;
     public bool doubleScore;
 
-    void Start()
-    {
-       Score = 0;
-    }
 
-   
-    void Update()
-    {
-      
-        ScoreText.text = Score.ToString();
-        float _score = Score * 0.05f;
-        PlayerPrefs.SetFloat("Prize Name",_score);
-    }
-
-    public void IncreasePoint()
+    public void IncreasePoint(int score)
     {
         if (!doubleScore)
-            Score++;
+            Score += score;
         else
-            Score += 2;
+            Score += score *2;
+
+        Score = score;
+        ScoreText.text = Score.ToString();
 
         if (Score > PlayerPrefs.GetInt("highscore", 0))
             PlayerPrefs.SetInt("highscore", Score);

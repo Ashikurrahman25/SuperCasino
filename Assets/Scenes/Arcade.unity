@@ -3964,7 +3964,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 24c256175b266b94c9e5b6394b7c01c9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Plate: {fileID: 5942750071444846725, guid: 4081fcc4aa069204981bfced058b7bb5, type: 3}
+  plates:
+  - {fileID: 7523915008142286216, guid: 2f60cca10a2cec14fb151bdb11dc6289, type: 3}
+  - {fileID: 6051062600706660425, guid: 6734ec8c25aa0c14aa0848f8f00cfba0, type: 3}
+  - {fileID: 4644756483294094597, guid: 93ee34ccdca100b44ab5821f64c9e258, type: 3}
+  - {fileID: 9037592943522350961, guid: 3c4b7873ed53a36488e72821beaf9b68, type: 3}
+  - {fileID: 8548641590133117381, guid: 4e8075ae16b8bbd41895701031b721ae, type: 3}
+  - {fileID: 5942750071444846725, guid: 4081fcc4aa069204981bfced058b7bb5, type: 3}
   Direction: -1
   SpawnedPlate: []
   waitTime: 2
@@ -5116,7 +5122,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 24c256175b266b94c9e5b6394b7c01c9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Plate: {fileID: 5942750071444846725, guid: 4081fcc4aa069204981bfced058b7bb5, type: 3}
+  plates:
+  - {fileID: 7523915008142286216, guid: 2f60cca10a2cec14fb151bdb11dc6289, type: 3}
+  - {fileID: 6051062600706660425, guid: 6734ec8c25aa0c14aa0848f8f00cfba0, type: 3}
+  - {fileID: 4644756483294094597, guid: 93ee34ccdca100b44ab5821f64c9e258, type: 3}
+  - {fileID: 9037592943522350961, guid: 3c4b7873ed53a36488e72821beaf9b68, type: 3}
+  - {fileID: 8548641590133117381, guid: 4e8075ae16b8bbd41895701031b721ae, type: 3}
+  - {fileID: 5942750071444846725, guid: 4081fcc4aa069204981bfced058b7bb5, type: 3}
   Direction: 1
   SpawnedPlate: []
   waitTime: 2
