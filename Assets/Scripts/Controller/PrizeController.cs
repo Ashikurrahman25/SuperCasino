@@ -9,6 +9,9 @@ public class PrizeController : MonoBehaviour
     public int minScoreForPrize;
     public int selectedPrizeIndex;
 
+    bool prizeShown;
+    public bool claimed;
+
     public Prize prizeToClaim;
 
     public GameObject prizePanel;
@@ -21,6 +24,9 @@ public class PrizeController : MonoBehaviour
 
     public void SelectRandomPrize(int score)
     {
+        if (prizeShown || score < minScoreForPrize || claimed) return;
+        prizeShown = true;
+
         if (score >= minScoreForPrize && score < minScoreForPrize *2)
             selectedPrizeIndex = Random.Range(0, 15);
         else if (score >= minScoreForPrize * 2 && score < minScoreForPrize * 3)
@@ -34,14 +40,17 @@ public class PrizeController : MonoBehaviour
         prizePanel.SetActive(true);
         prizeTitle.text = prizeToClaim.prizeName;
         prizePrice.text = prizeToClaim.sellPrice.ToString();
-        prizeImage.sprite = ProductManager.instance.prizeSprites[prizeToClaim.iconIndex];   
+        prizeImage.sprite = ProductManager.instance.prizeSprites[prizeToClaim.iconIndex];
         Debug.Log("Prize Set up");
     }
 
     public void ClaimPrize()
     {
+        prizePanel.SetActive(false);
         ProductManager.instance.allLists.achievedPrizes.Add(prizeToClaim);
         SaveSystem.Save(ProductManager.instance.allLists);
-        prizePanel.SetActive(false);
+        prizeShown = false;
+        claimed = true;
+        Debug.Log("Prize claimed");
     }
 }

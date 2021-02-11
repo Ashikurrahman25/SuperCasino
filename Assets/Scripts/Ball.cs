@@ -8,6 +8,12 @@ public class Ball : MonoBehaviour
     public bool isPressed;
     public float speed;
     public bool isActive;
+    public LifeCountManager lifeManager;
+
+    private void Awake()
+    {
+        lifeManager = FindObjectOfType<LifeCountManager>();
+    }
     private void Update()
     {
         //if (transform.position.z>LimitOfActive.position.z)
@@ -23,10 +29,10 @@ public class Ball : MonoBehaviour
             isActive = true;
         }
 
-        if (collision.collider.CompareTag("Bomb") && !isActive)
+        if (collision.collider.CompareTag("Bomb"))
         {
-            PlayerPrefs.SetInt("Lives", PlayerPrefs.GetInt("Lives") - 1);
-            Destroy(collision.collider.gameObject);               
+            lifeManager.HandleLifeDecrease();
+            Destroy(collision.collider.gameObject);
         }
        
     }

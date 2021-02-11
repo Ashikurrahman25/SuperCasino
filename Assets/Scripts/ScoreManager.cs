@@ -30,8 +30,9 @@ public class ScoreManager : MonoBehaviour
             Score++;
         else
             Score += 2;
-     
-        PlayerPrefs.SetInt("Score", Score);
+
+        if (Score > PlayerPrefs.GetInt("highscore", 0))
+            PlayerPrefs.SetInt("highscore", Score);
     }
 
 

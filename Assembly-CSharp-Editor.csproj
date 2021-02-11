@@ -746,6 +746,14 @@
       <Project>{B32A5410-168B-6842-9B1B-5C0CF0926AF7}</Project>
       <Name>Unity.Mathematics</Name>
     </ProjectReference>
+    <ProjectReference Include="IngameDebugConsole.Editor.csproj">
+      <Project>{8D001253-C4C3-26D5-258D-F63AE77D6450}</Project>
+      <Name>IngameDebugConsole.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="IngameDebugConsole.Runtime.csproj">
+      <Project>{7B9E9EF3-7820-C547-2136-1229553859D0}</Project>
+      <Name>IngameDebugConsole.Runtime</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />

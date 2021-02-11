@@ -61,6 +61,7 @@
     <Compile Include="Assets\LeanTween\Framework\LeanTween.cs" />
     <Compile Include="Assets\LeanTween\Framework\LTDescr.cs" />
     <Compile Include="Assets\Modern UI Pack\Scripts\SliderManager.cs" />
+    <Compile Include="Assets\Scripts\Controller\PrizeController.cs" />
     <Compile Include="Assets\LeanTween\Framework\LeanTweenExt.cs" />
     <Compile Include="Assets\LifeCountManager.cs" />
     <Compile Include="Assets\Modern UI Pack\Scripts\DemoManager.cs" />
@@ -115,7 +116,6 @@
     <Compile Include="Assets\Scripts\Mainmenumanager.cs" />
     <Compile Include="Assets\Scripts\Music.cs" />
     <Compile Include="Assets\Scripts\Shop\SaveSystem.cs" />
-    <Compile Include="Assets\Scripts\Controller\PrizeController.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
@@ -795,6 +795,14 @@
     <ProjectReference Include="Unity.Mathematics.csproj">
       <Project>{B32A5410-168B-6842-9B1B-5C0CF0926AF7}</Project>
       <Name>Unity.Mathematics</Name>
+    </ProjectReference>
+    <ProjectReference Include="IngameDebugConsole.Editor.csproj">
+      <Project>{8D001253-C4C3-26D5-258D-F63AE77D6450}</Project>
+      <Name>IngameDebugConsole.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="IngameDebugConsole.Runtime.csproj">
+      <Project>{7B9E9EF3-7820-C547-2136-1229553859D0}</Project>
+      <Name>IngameDebugConsole.Runtime</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
