@@ -56,6 +56,7 @@
     <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio Tools for Unity\16.0\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Simple Scroll-Snap\Scripts\Editor\SimpleScrollSnapEditor.cs" />
     <Compile Include="Assets\LeanTween\Editor\LeanTweenDocumentationEditor.cs" />
     <Compile Include="Assets\Modern UI Pack\Editor\ModernUI.cs" />
     <Compile Include="Assets\Modern UI Pack\Editor\InitMUIP.cs" />
@@ -730,13 +731,21 @@
       <Project>{2A37C41A-0EFC-313C-86AC-37A664C4EF23}</Project>
       <Name>Unity.Rider.Editor</Name>
     </ProjectReference>
-    <ProjectReference Include="Unity.2D.Common.Editor.csproj">
-      <Project>{9A853DB8-531C-6F3A-F09E-5A1C9B3A5796}</Project>
-      <Name>Unity.2D.Common.Editor</Name>
+    <ProjectReference Include="IngameDebugConsole.Editor.csproj">
+      <Project>{8D001253-C4C3-26D5-258D-F63AE77D6450}</Project>
+      <Name>IngameDebugConsole.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="IngameDebugConsole.Runtime.csproj">
+      <Project>{7B9E9EF3-7820-C547-2136-1229553859D0}</Project>
+      <Name>IngameDebugConsole.Runtime</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.2D.SpriteShape.Runtime.csproj">
       <Project>{F1B57085-A66A-5284-FAB9-28693A605495}</Project>
       <Name>Unity.2D.SpriteShape.Runtime</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.2D.Common.Editor.csproj">
+      <Project>{9A853DB8-531C-6F3A-F09E-5A1C9B3A5796}</Project>
+      <Name>Unity.2D.Common.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.InternalAPIEditorBridge.001.csproj">
       <Project>{A3062A72-9314-9A9C-CA28-DD65F4CC715F}</Project>
@@ -745,14 +754,6 @@
     <ProjectReference Include="Unity.Mathematics.csproj">
       <Project>{B32A5410-168B-6842-9B1B-5C0CF0926AF7}</Project>
       <Name>Unity.Mathematics</Name>
-    </ProjectReference>
-    <ProjectReference Include="IngameDebugConsole.Editor.csproj">
-      <Project>{8D001253-C4C3-26D5-258D-F63AE77D6450}</Project>
-      <Name>IngameDebugConsole.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="IngameDebugConsole.Runtime.csproj">
-      <Project>{7B9E9EF3-7820-C547-2136-1229553859D0}</Project>
-      <Name>IngameDebugConsole.Runtime</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

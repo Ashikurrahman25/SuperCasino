@@ -15,11 +15,11 @@ F:/Projects/Client/BD/SuperCasino
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-51383
+61593
 Successfully changed project path to: F:/Projects/Client/BD/SuperCasino
 F:/Projects/Client/BD/SuperCasino
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 30.38 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 32.89 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.2.1f1 (270dd8c3da1c)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.2.1f1/Editor/Data/Resources/UnitySubsystems
@@ -35,376 +35,1007 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.2.1f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.2.1f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.2.1f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56120
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56812
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.1f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001276 seconds.
+Registered in 0.001207 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 30.43 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 32.26 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.762 seconds
+- Completed reload, in  0.788 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.000500 seconds.
+Registered in 0.000728 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 33.49 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 31.87 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.703 seconds
+- Completed reload, in  0.736 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 0.37 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.38 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1511 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 79.1 MB.
-System memory in use after: 79.2 MB.
+Unloading 1519 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 79.5 MB.
+System memory in use after: 79.6 MB.
 
-Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1952.
-Total: 1.697600 ms (FindLiveObjects: 0.191300 ms CreateObjectMapping: 0.042000 ms MarkObjects: 1.417800 ms  DeleteObjects: 0.045700 ms)
-
-========================================================================
-Received Import Request.
-  path: Assets/Prefabs/Broken Plate.prefab
-  artifactKey: Guid(4081fcc4aa069204981bfced058b7bb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Broken Plate.prefab using Guid(4081fcc4aa069204981bfced058b7bb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55832ddbb6c337ed9b317398235d4915') in 0.139340 seconds
-  Import took 0.142118 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 91.091893 seconds.
-  path: Assets/Glass 4 Pack FREE/Materials/TransparentGlass.mat
-  artifactKey: Guid(9bf0935cc32b79741b09c804877c5d8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Glass 4 Pack FREE/Materials/TransparentGlass.mat using Guid(9bf0935cc32b79741b09c804877c5d8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '626aa233df315f63a6f2f10052b95cf5') in 0.030348 seconds
-  Import took 0.033060 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 32.967952 seconds.
-  path: Assets/Glass 4 Pack FREE/Materials/TransparentGlass 1.mat
-  artifactKey: Guid(290a9356ce877384891c4ee17ad787d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Glass 4 Pack FREE/Materials/TransparentGlass 1.mat using Guid(290a9356ce877384891c4ee17ad787d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba9bb722ae8b09da6f2873b11beb0a96') in 0.014260 seconds
-  Import took 0.016946 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 60.261520 seconds.
-  path: Assets/Glass 4 Pack FREE/Materials/TransparentGlass 2.mat
-  artifactKey: Guid(2a2dc764b4a51c64b84494ced7ed8f1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Glass 4 Pack FREE/Materials/TransparentGlass 2.mat using Guid(2a2dc764b4a51c64b84494ced7ed8f1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de9ff163b62ae8ba99b4a03bfa3d350c') in 0.015174 seconds
-  Import took 0.017887 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 47.917122 seconds.
-  path: Assets/Glass 4 Pack FREE/Materials/TransparentGreen.mat
-  artifactKey: Guid(2a2dc764b4a51c64b84494ced7ed8f1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Glass 4 Pack FREE/Materials/TransparentGreen.mat using Guid(2a2dc764b4a51c64b84494ced7ed8f1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b983e9b26f84d8f375131f303541087') in 0.014203 seconds
-  Import took 0.016924 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000224 seconds.
-  path: Assets/Glass 4 Pack FREE/Materials/TransparentPink.mat
-  artifactKey: Guid(7f81fd25407841b4fb2bb2f02e4c4197) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Glass 4 Pack FREE/Materials/TransparentPink.mat using Guid(7f81fd25407841b4fb2bb2f02e4c4197) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12ffad4a83aab8284d7fad8d6c64d9a2') in 0.015844 seconds
-  Import took 0.018615 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000139 seconds.
-  path: Assets/Glass 4 Pack FREE/Materials/TransparentPurple.mat
-  artifactKey: Guid(290a9356ce877384891c4ee17ad787d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Glass 4 Pack FREE/Materials/TransparentPurple.mat using Guid(290a9356ce877384891c4ee17ad787d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4660f8abfbe4a211f2bbfb4c47925b25') in 0.014929 seconds
-  Import took 0.017064 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 78.941097 seconds.
-  path: Assets/Glass 4 Pack FREE/Materials/TransparentRed.mat
-  artifactKey: Guid(6d6d1c99ed1f6ff4489033af840cdc10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Glass 4 Pack FREE/Materials/TransparentRed.mat using Guid(6d6d1c99ed1f6ff4489033af840cdc10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2ec5fe8a0f7d5a1d491fe90c3c02483') in 0.024814 seconds
-  Import took 0.027352 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 54.349277 seconds.
-  path: Assets/Prefabs/Broken Plate Purple.prefab
-  artifactKey: Guid(93ee34ccdca100b44ab5821f64c9e258) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Broken Plate Purple.prefab using Guid(93ee34ccdca100b44ab5821f64c9e258) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5ca0674e93e72a00a9c51dd79afc8ef') in 0.020930 seconds
-  Import took 0.024342 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000641 seconds.
-  path: Assets/Prefabs/Broken Plate Purple.prefab
-  artifactKey: Guid(93ee34ccdca100b44ab5821f64c9e258) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Broken Plate Purple.prefab using Guid(93ee34ccdca100b44ab5821f64c9e258) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5ca0674e93e72a00a9c51dd79afc8ef') in 0.015929 seconds
-  Import took 0.018618 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.190567 seconds.
-  path: Assets/Prefabs/Broken Plate Green.prefab
-  artifactKey: Guid(2f60cca10a2cec14fb151bdb11dc6289) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Broken Plate Green.prefab using Guid(2f60cca10a2cec14fb151bdb11dc6289) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc0435ea9b87a22251ba43666f474955') in 0.021725 seconds
-  Import took 0.024622 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001249 seconds.
-  path: Assets/Prefabs/Broken Plate Green.prefab
-  artifactKey: Guid(2f60cca10a2cec14fb151bdb11dc6289) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Broken Plate Green.prefab using Guid(2f60cca10a2cec14fb151bdb11dc6289) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc0435ea9b87a22251ba43666f474955') in 0.015251 seconds
-  Import took 0.018300 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.640842 seconds.
-  path: Assets/Prefabs/Broken Plate Pink.prefab
-  artifactKey: Guid(6734ec8c25aa0c14aa0848f8f00cfba0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Broken Plate Pink.prefab using Guid(6734ec8c25aa0c14aa0848f8f00cfba0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b97fdf86840941f69a04fde47d5844d') in 0.021327 seconds
-  Import took 0.024221 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001144 seconds.
-  path: Assets/Prefabs/Broken Plate Pink.prefab
-  artifactKey: Guid(6734ec8c25aa0c14aa0848f8f00cfba0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Broken Plate Pink.prefab using Guid(6734ec8c25aa0c14aa0848f8f00cfba0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b97fdf86840941f69a04fde47d5844d') in 0.013848 seconds
-  Import took 0.016518 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.417398 seconds.
-  path: Assets/Prefabs/Broken Plate Red.prefab
-  artifactKey: Guid(3c4b7873ed53a36488e72821beaf9b68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Broken Plate Red.prefab using Guid(3c4b7873ed53a36488e72821beaf9b68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13af14eee0e32a7e3dc5edbfe16f7ab1') in 0.028121 seconds
-  Import took 0.030966 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.447397 seconds.
-  path: Assets/Prefabs/Broken Plate White.prefab
-  artifactKey: Guid(4e8075ae16b8bbd41895701031b721ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Broken Plate White.prefab using Guid(4e8075ae16b8bbd41895701031b721ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f98837a3a10fa0fab55b02fd5b03d6fa') in 0.020896 seconds
-  Import took 0.023831 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.002194 seconds.
-  path: Assets/Prefabs/Broken Plate White.prefab
-  artifactKey: Guid(4e8075ae16b8bbd41895701031b721ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Broken Plate White.prefab using Guid(4e8075ae16b8bbd41895701031b721ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f98837a3a10fa0fab55b02fd5b03d6fa') in 0.014274 seconds
-  Import took 0.017310 seconds .
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1960.
+Total: 2.049000 ms (FindLiveObjects: 0.187900 ms CreateObjectMapping: 0.040800 ms MarkObjects: 1.759300 ms  DeleteObjects: 0.059600 ms)
 
 ========================================================================
 Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000585 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.36 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 1.18 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.656 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.38 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1485 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 80.8 MB.
-System memory in use after: 80.9 MB.
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 48.4 MB.
+System memory in use after: 48.6 MB.
 
-Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1995.
-Total: 1.536100 ms (FindLiveObjects: 0.179300 ms CreateObjectMapping: 0.031900 ms MarkObjects: 1.311800 ms  DeleteObjects: 0.012300 ms)
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1960.
+Total: 2.115000 ms (FindLiveObjects: 0.271800 ms CreateObjectMapping: 0.044700 ms MarkObjects: 1.779100 ms  DeleteObjects: 0.017600 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 155.557877 seconds.
+  path: Assets/Scenes/Arcade.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Arcade.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0dc731a2cc7ff8ae2a6afae9abd7246e') in 0.013311 seconds
+  Import took 0.016266 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 150.254990 seconds.
+  path: Assets/Balls
+  artifactKey: Guid(a2a7de4f3b879e742a8ab6562ab93d41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Balls using Guid(a2a7de4f3b879e742a8ab6562ab93d41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d797af5b94c8a029069c300e3459d2f') in 0.005226 seconds
+  Import took 0.008060 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 47.260536 seconds.
+  path: Assets/Balls/Prefabs
+  artifactKey: Guid(501a925a4fb95b2449850466af947338) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Balls/Prefabs using Guid(501a925a4fb95b2449850466af947338) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ded8d541473aca3a144257bc8ff0caa9') in 0.005768 seconds
+  Import took 0.008307 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.150016 seconds.
+  path: Assets/Balls/Prefabs/Bounce pad.prefab
+  artifactKey: Guid(ea6781a5cbb538145b342402b17bc1bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Balls/Prefabs/Bounce pad.prefab using Guid(ea6781a5cbb538145b342402b17bc1bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec7d7043baf9d903be693cc567194b4f') in 0.032030 seconds
+  Import took 0.034536 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000130 seconds.
+  path: Assets/Balls/Prefabs/Platform.prefab
+  artifactKey: Guid(a47af66a033b04b43865c1a1f428472a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Balls/Prefabs/Platform.prefab using Guid(a47af66a033b04b43865c1a1f428472a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1f297bac7a71b7f37de259f5b5e4b27') in 0.056238 seconds
+  Import took 0.058720 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000152 seconds.
+  path: Assets/Balls/Prefabs/Diamond.prefab
+  artifactKey: Guid(1723466df273d6044a527011f0469382) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Balls/Prefabs/Diamond.prefab using Guid(1723466df273d6044a527011f0469382) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b523ef92e1a4a7d18e769e02a971d897') in 0.014605 seconds
+  Import took 0.016938 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000184 seconds.
+  path: Assets/Balls/Prefabs/Love Emoji 3D.blend
+  artifactKey: Guid(efaf2c5629b273249a50f63c88c6c2c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Balls/Prefabs/Love Emoji 3D.blend using Guid(efaf2c5629b273249a50f63c88c6c2c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '471123087d251b72e3f52a32290f9b6d') in 0.129668 seconds
+  Import took 0.132559 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000214 seconds.
+  path: Assets/Balls/Prefabs/Finish line.prefab
+  artifactKey: Guid(c593fac8b78dcbd4dba5715bee3e4951) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Balls/Prefabs/Finish line.prefab using Guid(c593fac8b78dcbd4dba5715bee3e4951) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c2c3a8ddc99d99d8aeb3f09b514703e') in 0.014341 seconds
+  Import took 0.016960 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000138 seconds.
+  path: Assets/Balls/Prefabs/Egg.prefab
+  artifactKey: Guid(ba45fd56ff83b0a45bf814eecf8896b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Balls/Prefabs/Egg.prefab using Guid(ba45fd56ff83b0a45bf814eecf8896b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50cee54250e8cfabea3b280b07342f34') in 0.006447 seconds
+  Import took 0.008775 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000174 seconds.
+  path: Assets/Balls/Prefabs/Trophy.prefab
+  artifactKey: Guid(75f6af53b8e71a64fbc7c5a0f92884c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Balls/Prefabs/Trophy.prefab using Guid(75f6af53b8e71a64fbc7c5a0f92884c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '181b13f9bc97dda00f193e95276c554c') in 0.015852 seconds
+  Import took 0.018485 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.945202 seconds.
+  path: Assets/Balls/Prefabs/Game prefabs
+  artifactKey: Guid(7f8e4c14f204f0242ba68db11188e2be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Balls/Prefabs/Game prefabs using Guid(7f8e4c14f204f0242ba68db11188e2be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ca132e00e0878fb84f1499ec722069e') in 0.006152 seconds
+  Import took 0.008650 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.170061 seconds.
+  path: Assets/Balls/Prefabs/Game prefabs/nice 1.prefab
+  artifactKey: Guid(4ecfcaae838a2d640bae39b4db6ccce4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Balls/Prefabs/Game prefabs/nice 1.prefab using Guid(4ecfcaae838a2d640bae39b4db6ccce4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77131344bc7d607f7e0ae9eed5b37e1d') in 0.006416 seconds
+  Import took 0.009101 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000178 seconds.
+  path: Assets/Balls/Prefabs/Game prefabs/nice 2.prefab
+  artifactKey: Guid(a29ac0ae995f22244aaad9b4ddff3cbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Balls/Prefabs/Game prefabs/nice 2.prefab using Guid(a29ac0ae995f22244aaad9b4ddff3cbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2106a7729210bd6e7cf5009f5392304') in 0.006311 seconds
+  Import took 0.008612 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000155 seconds.
+  path: Assets/Balls/Prefabs/Game prefabs/Platform.prefab
+  artifactKey: Guid(0e8f1cd527fbd4041a2a50e79003e387) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Balls/Prefabs/Game prefabs/Platform.prefab using Guid(0e8f1cd527fbd4041a2a50e79003e387) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b2d24493df9ce2e75209ea002cfa41e') in 0.026713 seconds
+  Import took 0.029037 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000134 seconds.
+  path: Assets/Balls/Prefabs/Game prefabs/nice 3.prefab
+  artifactKey: Guid(cda39a0c2702e3249b02b46b22a26e40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Balls/Prefabs/Game prefabs/nice 3.prefab using Guid(cda39a0c2702e3249b02b46b22a26e40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b399974ef1f842711354db16ffbbece') in 0.006241 seconds
+  Import took 0.008343 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000215 seconds.
+  path: Assets/Balls/Prefabs/Game prefabs/nice.prefab
+  artifactKey: Guid(2cb1f68ec10d6924d8080da6baf2cf69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Balls/Prefabs/Game prefabs/nice.prefab using Guid(2cb1f68ec10d6924d8080da6baf2cf69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08c0d0000ada8641fa83345710e5961c') in 0.006309 seconds
+  Import took 0.008602 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000176 seconds.
+  path: Assets/Balls/Prefabs/Game prefabs/nice 4.prefab
+  artifactKey: Guid(adf177b55335e0043a4636ef1a51ec29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Balls/Prefabs/Game prefabs/nice 4.prefab using Guid(adf177b55335e0043a4636ef1a51ec29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24b0c69cb87df353b5c3453fe7fe5413') in 0.006968 seconds
+  Import took 0.009413 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000163 seconds.
+  path: Assets/Balls/Prefabs/Game prefabs/nice.prefab
+  artifactKey: Guid(2cb1f68ec10d6924d8080da6baf2cf69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Balls/Prefabs/Game prefabs/nice.prefab using Guid(2cb1f68ec10d6924d8080da6baf2cf69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08c0d0000ada8641fa83345710e5961c') in 0.003116 seconds
+  Import took 0.005489 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.781869 seconds.
+  path: Assets/Balls/Prefabs/Game prefabs/Ball
+  artifactKey: Guid(7a01c26df700b864f93f136baf2d68b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Balls/Prefabs/Game prefabs/Ball using Guid(7a01c26df700b864f93f136baf2d68b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26bdbac0a17227def652dca274e742c0') in 0.005412 seconds
+  Import took 0.007807 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.057959 seconds.
+  path: Assets/Balls/Prefabs/Game prefabs/Ball/ball_obj.prefab
+  artifactKey: Guid(060b82bbb9dfe7a4ab382089091f4b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Balls/Prefabs/Game prefabs/Ball/ball_obj.prefab using Guid(060b82bbb9dfe7a4ab382089091f4b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c919b6f34fee72420735686aa0e945c9') in 0.020297 seconds
+  Import took 0.022987 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000177 seconds.
+  path: Assets/Balls/Prefabs/Game prefabs/Ball/Beach_Ball.prefab
+  artifactKey: Guid(f28e5a6923bc6794aa8d36c5ef945d51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Balls/Prefabs/Game prefabs/Ball/Beach_Ball.prefab using Guid(f28e5a6923bc6794aa8d36c5ef945d51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7a7b8d9af1d423cada4cd0fc3466cc7') in 0.023010 seconds
+  Import took 0.025516 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000187 seconds.
+  path: Assets/Balls/Prefabs/Game prefabs/Ball/ballMesh.prefab
+  artifactKey: Guid(791ba039841e87548a0f9f4ac527b5ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Balls/Prefabs/Game prefabs/Ball/ballMesh.prefab using Guid(791ba039841e87548a0f9f4ac527b5ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de15c928f9135d76fcdd3908f2db8d7b') in 0.017311 seconds
+  Import took 0.019980 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000193 seconds.
+  path: Assets/Balls/Prefabs/Game prefabs/Ball/hexagon+sphere Variant.prefab
+  artifactKey: Guid(2d054dd61b40eed42a08c7f751cff059) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Balls/Prefabs/Game prefabs/Ball/hexagon+sphere Variant.prefab using Guid(2d054dd61b40eed42a08c7f751cff059) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63f4ed7479db010a82a4779ddeda0b0b') in 0.014971 seconds
+  Import took 0.017442 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000170 seconds.
+  path: Assets/Balls/Prefabs/Game prefabs/Ball/volley_ball_FBX.prefab
+  artifactKey: Guid(4057ec78fa40433418f314fdefe0fb9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Balls/Prefabs/Game prefabs/Ball/volley_ball_FBX.prefab using Guid(4057ec78fa40433418f314fdefe0fb9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93b6ff5d7bc64960221a823466442830') in 0.015794 seconds
+  Import took 0.018558 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000158 seconds.
+  path: Assets/Balls/Prefabs/Game prefabs/Ball/Love_Arrow.prefab
+  artifactKey: Guid(d9de74b02a4a13b4885dbecd42cdf351) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Balls/Prefabs/Game prefabs/Ball/Love_Arrow.prefab using Guid(d9de74b02a4a13b4885dbecd42cdf351) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14effa5dc0b9d97198f3ad23b53a752c') in 0.014357 seconds
+  Import took 0.016907 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000151 seconds.
+  path: Assets/Balls/Prefabs/Game prefabs/Ball/ballMesh2 Variant.prefab
+  artifactKey: Guid(ebd65e867cbc96b41850ed93c70f29fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Balls/Prefabs/Game prefabs/Ball/ballMesh2 Variant.prefab using Guid(ebd65e867cbc96b41850ed93c70f29fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9db306ed46a1ada4473939d39eb56d63') in 0.018975 seconds
+  Import took 0.021587 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000180 seconds.
+  path: Assets/Balls/Prefabs/Game prefabs/Ball/Love Emoji 3D.prefab
+  artifactKey: Guid(a76c8e67738e7614493b1cdfd0f45c88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Balls/Prefabs/Game prefabs/Ball/Love Emoji 3D.prefab using Guid(a76c8e67738e7614493b1cdfd0f45c88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3009aed9d40be9211f90e28bcecefed9') in 0.012880 seconds
+  Import took 0.015656 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000162 seconds.
+  path: Assets/Balls/Prefabs/Game prefabs/Ball/ballMesh2 Variant.prefab
+  artifactKey: Guid(ebd65e867cbc96b41850ed93c70f29fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Balls/Prefabs/Game prefabs/Ball/ballMesh2 Variant.prefab using Guid(ebd65e867cbc96b41850ed93c70f29fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9db306ed46a1ada4473939d39eb56d63') in 0.011155 seconds
+  Import took 0.013724 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000181 seconds.
+  path: Assets/Balls/Prefabs/Game prefabs/Ball/Canon-Ball 1.prefab
+  artifactKey: Guid(b6816b23f0fed5349aeb7bea149558c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Balls/Prefabs/Game prefabs/Ball/Canon-Ball 1.prefab using Guid(b6816b23f0fed5349aeb7bea149558c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9210003529dd5729e71c5a3f99e896f') in 0.015917 seconds
+  Import took 0.018594 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000173 seconds.
+  path: Assets/Balls/Prefabs/Game prefabs/Ball/Green_Planet.prefab
+  artifactKey: Guid(846e753e0a459754b8700acb9e8bc430) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Balls/Prefabs/Game prefabs/Ball/Green_Planet.prefab using Guid(846e753e0a459754b8700acb9e8bc430) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3979cab55f99ac89cf10e7c3323324f') in 0.030439 seconds
+  Import took 0.032896 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000138 seconds.
+  path: Assets/Balls/Prefabs/Game prefabs/Ball/Icosahedron.prefab
+  artifactKey: Guid(faf6b8d3dfa5ed04199acd00fad6aea2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Balls/Prefabs/Game prefabs/Ball/Icosahedron.prefab using Guid(faf6b8d3dfa5ed04199acd00fad6aea2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ae28c8add34afa87f82dcc8962e2863') in 0.024465 seconds
+  Import took 0.027647 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000153 seconds.
+  path: Assets/Balls/Prefabs/Game prefabs/Ball/TENNIS_Ball.prefab
+  artifactKey: Guid(c10a5fa81f3cbac4ba16708c70cd0eeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Balls/Prefabs/Game prefabs/Ball/TENNIS_Ball.prefab using Guid(c10a5fa81f3cbac4ba16708c70cd0eeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d05dd72f966c54af39f947bee792514') in 0.018485 seconds
+  Import took 0.020780 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000178 seconds.
+  path: Assets/Balls/Prefabs/Game prefabs/Ball/Yarn.prefab
+  artifactKey: Guid(50e2485377135144882ddba90f727a6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Balls/Prefabs/Game prefabs/Ball/Yarn.prefab using Guid(50e2485377135144882ddba90f727a6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8246565dddbdfeedb089aaec31d7b3ed') in 0.016562 seconds
+  Import took 0.018990 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000165 seconds.
+  path: Assets/Balls/Prefabs/Game prefabs/Ball/soccerball.prefab
+  artifactKey: Guid(7c6422a3d81ac5e48af890413bc7b78d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Balls/Prefabs/Game prefabs/Ball/soccerball.prefab using Guid(7c6422a3d81ac5e48af890413bc7b78d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03a73e28924d3e0f6446702e1f0ccef6') in 0.022972 seconds
+  Import took 0.030047 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000175 seconds.
+  path: Assets/Balls/Prefabs/Game prefabs/Ball/hexagon+sphere.prefab
+  artifactKey: Guid(76bf363bae2c80b498ed2bbd4123b6e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Balls/Prefabs/Game prefabs/Ball/hexagon+sphere.prefab using Guid(76bf363bae2c80b498ed2bbd4123b6e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c071b930f106117cf8d2cecafc8cc39a') in 0.020276 seconds
+  Import took 0.023138 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000162 seconds.
+  path: Assets/Balls/Prefabs/Game prefabs/Ball/Selfie Tennis.prefab
+  artifactKey: Guid(025e99798e3925548bd10d7112a2f792) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Balls/Prefabs/Game prefabs/Ball/Selfie Tennis.prefab using Guid(025e99798e3925548bd10d7112a2f792) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efab5fb9981062ec17cf5ca94aefd35d') in 0.018832 seconds
+  Import took 0.021315 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000162 seconds.
+  path: Assets/Balls/Prefabs/Game prefabs/Ball/ballMesh1.prefab
+  artifactKey: Guid(e4bca764ab3f4854184e0defe3eea509) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Balls/Prefabs/Game prefabs/Ball/ballMesh1.prefab using Guid(e4bca764ab3f4854184e0defe3eea509) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e7fc6f43c243346949530b047df1d96') in 0.017780 seconds
+  Import took 0.020508 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000206 seconds.
+  path: Assets/Balls/Prefabs/Game prefabs/Ball/ballMesh3 Variant.prefab
+  artifactKey: Guid(46ab26f111e911246881bb5983af2890) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Balls/Prefabs/Game prefabs/Ball/ballMesh3 Variant.prefab using Guid(46ab26f111e911246881bb5983af2890) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b67213406161f25dd139f2e09a821ab') in 0.019645 seconds
+  Import took 0.022441 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000162 seconds.
+  path: Assets/Balls/Prefabs/Game prefabs/Ball/Normal.prefab
+  artifactKey: Guid(00997c2ca8d05fb4d9cc57625181f41d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Balls/Prefabs/Game prefabs/Ball/Normal.prefab using Guid(00997c2ca8d05fb4d9cc57625181f41d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc8540292f9e219f7d1f7a208fc4cfd1') in 0.013236 seconds
+  Import took 0.015548 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 168.295944 seconds.
+  path: Assets/Balls/Prefabs/Game prefabs/Ball/ball_obj.prefab
+  artifactKey: Guid(060b82bbb9dfe7a4ab382089091f4b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Balls/Prefabs/Game prefabs/Ball/ball_obj.prefab using Guid(060b82bbb9dfe7a4ab382089091f4b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3f3d35421b1f1207c051ecbea0e01a0') in 0.013856 seconds
+  Import took 0.017283 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.758509 seconds.
+  path: Assets/Balls/Prefabs/Game prefabs/Ball/Basket_Ball.prefab
+  artifactKey: Guid(060b82bbb9dfe7a4ab382089091f4b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Balls/Prefabs/Game prefabs/Ball/Basket_Ball.prefab using Guid(060b82bbb9dfe7a4ab382089091f4b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf0ddc01f4559f814c63947f074a541c') in 0.014795 seconds
+  Import took 0.017503 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 55.488813 seconds.
   path: Assets/Scenes/Main Menu.unity
   artifactKey: Guid(264ed997b8361c641a1faeaef043857b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Main Menu.unity using Guid(264ed997b8361c641a1faeaef043857b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4771f515f0544624a2c89120aa539dbe') in 0.014330 seconds
-  Import took 0.016909 seconds .
+Start importing Assets/Scenes/Main Menu.unity using Guid(264ed997b8361c641a1faeaef043857b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1cf3a533a5ff8fa6afba60d634f4cd61') in 0.005497 seconds
+  Import took 0.008180 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.000561 seconds.
+Registered in 0.000742 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.39 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.41 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.650 seconds
+- Completed reload, in  0.705 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.38 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.44 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1486 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 81.2 MB.
-System memory in use after: 81.3 MB.
-
-Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1997.
-Total: 1.503700 ms (FindLiveObjects: 0.175700 ms CreateObjectMapping: 0.032700 ms MarkObjects: 1.282200 ms  DeleteObjects: 0.012400 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000558 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.39 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.654 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.39 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1486 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 81.2 MB.
-System memory in use after: 81.3 MB.
-
-Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1999.
-Total: 1.716600 ms (FindLiveObjects: 0.198400 ms CreateObjectMapping: 0.033600 ms MarkObjects: 1.470100 ms  DeleteObjects: 0.013600 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000581 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.37 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.647 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.51 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1486 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 81.8 MB.
-System memory in use after: 81.9 MB.
-
-Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 2001.
-Total: 1.852900 ms (FindLiveObjects: 0.177200 ms CreateObjectMapping: 0.032600 ms MarkObjects: 1.625600 ms  DeleteObjects: 0.016300 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 142.974418 seconds.
-  path: Assets/Prefabs/Scoring.prefab
-  artifactKey: Guid(ece8adcb32cc37c45b818ed6c3d4395c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Scoring.prefab using Guid(ece8adcb32cc37c45b818ed6c3d4395c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '215e49d0afdc42107110f1a830af2a38') in 0.049883 seconds
-  Import took 0.052718 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 13.039857 seconds.
-  path: Assets/Prefabs/Broken Plate.prefab
-  artifactKey: Guid(4081fcc4aa069204981bfced058b7bb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Broken Plate.prefab using Guid(4081fcc4aa069204981bfced058b7bb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '979a44a5e1f2783f768a7f9ee8b61d41') in 0.041135 seconds
-  Import took 0.043970 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000526 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.36 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.646 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.40 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1486 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 82.1 MB.
-System memory in use after: 82.2 MB.
-
-Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 2004.
-Total: 1.508700 ms (FindLiveObjects: 0.176400 ms CreateObjectMapping: 0.032000 ms MarkObjects: 1.288700 ms  DeleteObjects: 0.010900 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 62.483847 seconds.
-  path: Assets/Scenes/Three Lives.unity
-  artifactKey: Guid(1f058823520e3d64ba04edd59907f57f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Three Lives.unity using Guid(1f058823520e3d64ba04edd59907f57f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e411c61a8ac7bf628318ed3bfadf7337') in 0.015572 seconds
-  Import took 0.018403 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000581 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.36 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.661 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.39 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1486 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 82.3 MB.
-System memory in use after: 82.4 MB.
-
-Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 2006.
-Total: 2.193800 ms (FindLiveObjects: 0.321200 ms CreateObjectMapping: 0.052300 ms MarkObjects: 1.802800 ms  DeleteObjects: 0.015900 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000629 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.40 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.670 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.40 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1486 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 1493 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 81.7 MB.
 System memory in use after: 81.8 MB.
 
 Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 2008.
-Total: 2.288900 ms (FindLiveObjects: 0.313000 ms CreateObjectMapping: 0.050600 ms MarkObjects: 1.906200 ms  DeleteObjects: 0.018100 ms)
+Total: 1.750200 ms (FindLiveObjects: 0.218000 ms CreateObjectMapping: 0.033600 ms MarkObjects: 1.482200 ms  DeleteObjects: 0.015200 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 53.771501 seconds.
+  path: Assets/Scenes/Arcade.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Arcade.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fc0d16fec570f7a4d8b84bf0d0b447f') in 0.013553 seconds
+  Import took 0.016122 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.000704 seconds.
+Registered in 0.000632 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.40 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.655 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.53 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1494 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 82.2 MB.
+System memory in use after: 82.3 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 2010.
+Total: 1.748800 ms (FindLiveObjects: 0.173900 ms CreateObjectMapping: 0.034900 ms MarkObjects: 1.525900 ms  DeleteObjects: 0.013300 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 23.107344 seconds.
+  path: Assets/Balls/Models
+  artifactKey: Guid(f44a82eaf87b9e1458401c2dd8f17660) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Balls/Models using Guid(f44a82eaf87b9e1458401c2dd8f17660) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba0c3d2cc63a0192c85314dcc8638315') in 0.007923 seconds
+  Import took 0.010468 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.028005 seconds.
+  path: Assets/Balls/Models/13517_Beach_Ball_v2_L3.obj
+  artifactKey: Guid(aa73492cc04ced94285e7d8a9419dbd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Balls/Models/13517_Beach_Ball_v2_L3.obj using Guid(aa73492cc04ced94285e7d8a9419dbd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a59b15e77c652daa2b2cae0872a954f') in 0.126884 seconds
+  Import took 0.129534 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000194 seconds.
+  path: Assets/Balls/Models/Rhombic Icosahedron in Golden Field.dae
+  artifactKey: Guid(4f96e458e7d0af04d9d752a839785d82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Balls/Models/Rhombic Icosahedron in Golden Field.dae using Guid(4f96e458e7d0af04d9d752a839785d82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1532512f58ab50ab0a1535851e29f397') in 0.349131 seconds
+  Import took 0.352137 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000188 seconds.
+  path: Assets/Balls/Models/Finish line.fbx
+  artifactKey: Guid(00b6cd47ef369ae4ba327ff4232728c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Balls/Models/Finish line.fbx using Guid(00b6cd47ef369ae4ba327ff4232728c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef63859c0b9a8af5c5405a0cb8293951') in 0.022397 seconds
+  Import took 0.024976 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000144 seconds.
+  path: Assets/Balls/Models/Love_Arrow.obj
+  artifactKey: Guid(bee66bb6479a2944fbd25f1790fe73b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Balls/Models/Love_Arrow.obj using Guid(bee66bb6479a2944fbd25f1790fe73b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '564c41d62339c750099e51100487e801') in 0.024604 seconds
+  Import took 0.026874 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000155 seconds.
+  path: Assets/Balls/Models/Trophy.fbx
+  artifactKey: Guid(39a4ae94644679a4e8786483e6ecf459) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Balls/Models/Trophy.fbx using Guid(39a4ae94644679a4e8786483e6ecf459) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15c5e7ad3ba606a17cb8865b9d1c808c') in 0.017379 seconds
+  Import took 0.019835 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000212 seconds.
+  path: Assets/Balls/Models/texture-selfie-tennis-contest-voronoi.psd
+  artifactKey: Guid(2234e32f6fd50bf40910999497d5fc27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Balls/Models/texture-selfie-tennis-contest-voronoi.psd using Guid(2234e32f6fd50bf40910999497d5fc27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ee41364100ae80f7be0eb628b418c45') in 0.030737 seconds
+  Import took 0.033153 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000142 seconds.
+  path: Assets/Balls/Models/trophy 1.fbx
+  artifactKey: Guid(f83416b5d2487514f9f98c485e3e96b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Balls/Models/trophy 1.fbx using Guid(f83416b5d2487514f9f98c485e3e96b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c7c498d19ebdbf604f65bbf86f2962a') in 0.042241 seconds
+  Import took 0.044583 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000125 seconds.
+  path: Assets/Balls/Models/Platform.fbx
+  artifactKey: Guid(7ec8e1e71ee73634b861a86755f85b03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Balls/Models/Platform.fbx using Guid(7ec8e1e71ee73634b861a86755f85b03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a24c961f7a1539c11355e55017d087b') in 0.021226 seconds
+  Import took 0.023442 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000191 seconds.
+  path: Assets/Balls/Models/volley_ball_FBX.fbx
+  artifactKey: Guid(235937e937fb4b6489310a958c92ed70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Balls/Models/volley_ball_FBX.fbx using Guid(235937e937fb4b6489310a958c92ed70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7be97e426b289a50bd143e69744494c7') in 0.028164 seconds
+  Import took 0.030778 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000171 seconds.
+  path: Assets/Balls/Models/uploads_files_928858_Paw+Ball+Single.obj
+  artifactKey: Guid(490b3c1cd1ea1014ba9e11abd4126023) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Balls/Models/uploads_files_928858_Paw+Ball+Single.obj using Guid(490b3c1cd1ea1014ba9e11abd4126023) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbba2c407e40b08a16909c9ae61d7af6') in 0.041665 seconds
+  Import took 0.044206 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000206 seconds.
+  path: Assets/Balls/Models/Canon-Ball.blend
+  artifactKey: Guid(f9106409414dac24b8f623dc1a1408de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Balls/Models/Canon-Ball.blend using Guid(f9106409414dac24b8f623dc1a1408de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c7280abf824b3ed87d6a2bb67865772') in 0.023287 seconds
+  Import took 0.025984 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000125 seconds.
+  path: Assets/Balls/Models/Diamond.fbx
+  artifactKey: Guid(eeb71e23fb305204bad6d0fbf640495b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Balls/Models/Diamond.fbx using Guid(eeb71e23fb305204bad6d0fbf640495b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e76313e0e05799576608db97637c31fc') in 0.020015 seconds
+  Import took 0.041932 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000174 seconds.
+  path: Assets/Balls/Models/Selfie Tennis Ball Model.fbx
+  artifactKey: Guid(418039d226ba6e94daccb8349e8a999c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Balls/Models/Selfie Tennis Ball Model.fbx using Guid(418039d226ba6e94daccb8349e8a999c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f7a99f6a088db4e419771132fb3754a') in 0.021088 seconds
+  Import took 0.023675 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000150 seconds.
+  path: Assets/Balls/Models/21933_Ball_of_Yarn_V1.obj
+  artifactKey: Guid(023fe3c7dd3ecb34598560472083774c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Balls/Models/21933_Ball_of_Yarn_V1.obj using Guid(023fe3c7dd3ecb34598560472083774c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ac0b7714d0ee83bae41de51d0fd93e4') in 0.025457 seconds
+  Import took 0.028174 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000170 seconds.
+  path: Assets/Balls/Models/Beach_Ball_diffuse.jpg
+  artifactKey: Guid(f65d3064dbe21c14494f648937baad92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Balls/Models/Beach_Ball_diffuse.jpg using Guid(f65d3064dbe21c14494f648937baad92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19e16bb47a9d509ffe4aeeb20e0d1f1f') in 0.022251 seconds
+  Import took 0.024666 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000197 seconds.
+  path: Assets/Balls/Models/21933_Ball_of_Yarn_V1.obj
+  artifactKey: Guid(023fe3c7dd3ecb34598560472083774c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Balls/Models/21933_Ball_of_Yarn_V1.obj using Guid(023fe3c7dd3ecb34598560472083774c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ac0b7714d0ee83bae41de51d0fd93e4') in 0.025253 seconds
+  Import took 0.027741 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000146 seconds.
+  path: Assets/Balls/Models/soccerball.blend
+  artifactKey: Guid(6679263ede2bfdf45a7d60a0ab3ddc96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Balls/Models/soccerball.blend using Guid(6679263ede2bfdf45a7d60a0ab3ddc96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b73533a91d04b0a25448012af437f66') in 0.046833 seconds
+  Import took 0.049375 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000173 seconds.
+  path: Assets/Balls/Models/hexagon+sphere.obj
+  artifactKey: Guid(3fce06032eac3794c9dc34c43504f1dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Balls/Models/hexagon+sphere.obj using Guid(3fce06032eac3794c9dc34c43504f1dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39bc4d85d39801ddbeddae42e4f7c035') in 0.025026 seconds
+  Import took 0.027582 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.477271 seconds.
+  path: Assets/Balls/Prefabs/Game prefabs/Ball/Normal_Ball.prefab
+  artifactKey: Guid(791ba039841e87548a0f9f4ac527b5ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Balls/Prefabs/Game prefabs/Ball/Normal_Ball.prefab using Guid(791ba039841e87548a0f9f4ac527b5ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '135486a617365f04caf9b5d817962469') in 0.018109 seconds
+  Import took 0.021016 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 96.799820 seconds.
+  path: Assets/Balls/Prefabs/Game prefabs/Ball/Normal_Ball.prefab
+  artifactKey: Guid(791ba039841e87548a0f9f4ac527b5ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Balls/Prefabs/Game prefabs/Ball/Normal_Ball.prefab using Guid(791ba039841e87548a0f9f4ac527b5ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '223b06dc9136ceda95e60bbffdf92c44') in 0.014140 seconds
+  Import took 0.024837 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 94.073850 seconds.
+  path: Assets/Balls/Prefabs/Game prefabs/Ball/ballMesh1.prefab
+  artifactKey: Guid(e4bca764ab3f4854184e0defe3eea509) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Balls/Prefabs/Game prefabs/Ball/ballMesh1.prefab using Guid(e4bca764ab3f4854184e0defe3eea509) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aeaa3d8998e2d202887471700f72b8b9') in 0.019474 seconds
+  Import took 0.034949 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000135 seconds.
+  path: Assets/Balls/Prefabs/Game prefabs/Ball/ballMesh2 Variant.prefab
+  artifactKey: Guid(ebd65e867cbc96b41850ed93c70f29fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Balls/Prefabs/Game prefabs/Ball/ballMesh2 Variant.prefab using Guid(ebd65e867cbc96b41850ed93c70f29fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e30ce01f712180b9b95528ef517d41b') in 0.016119 seconds
+  Import took 0.018884 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000189 seconds.
+  path: Assets/Balls/Prefabs/Game prefabs/Ball/ballMesh3 Variant.prefab
+  artifactKey: Guid(46ab26f111e911246881bb5983af2890) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Balls/Prefabs/Game prefabs/Ball/ballMesh3 Variant.prefab using Guid(46ab26f111e911246881bb5983af2890) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ddfc88a735b0593287d80c9cd7a8777') in 0.015038 seconds
+  Import took 0.017536 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.010331 seconds.
+  path: Assets/Balls/Prefabs/Game prefabs/Ball/ballMesh1.prefab
+  artifactKey: Guid(e4bca764ab3f4854184e0defe3eea509) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Balls/Prefabs/Game prefabs/Ball/ballMesh1.prefab using Guid(e4bca764ab3f4854184e0defe3eea509) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f6100574f545b38d06f15be58aa6632') in 0.011659 seconds
+  Import took 0.014886 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000155 seconds.
+  path: Assets/Balls/Prefabs/Game prefabs/Ball/ballMesh2 Variant.prefab
+  artifactKey: Guid(ebd65e867cbc96b41850ed93c70f29fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Balls/Prefabs/Game prefabs/Ball/ballMesh2 Variant.prefab using Guid(ebd65e867cbc96b41850ed93c70f29fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62488c97ea5418ba796da3febe63daed') in 0.010878 seconds
+  Import took 0.020899 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000149 seconds.
+  path: Assets/Balls/Prefabs/Game prefabs/Ball/ballMesh3 Variant.prefab
+  artifactKey: Guid(46ab26f111e911246881bb5983af2890) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Balls/Prefabs/Game prefabs/Ball/ballMesh3 Variant.prefab using Guid(46ab26f111e911246881bb5983af2890) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd90f946aa343539e5dd38ba4efd81cb9') in 0.015419 seconds
+  Import took 0.018091 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.388649 seconds.
+  path: Assets/Balls/Prefabs/Game prefabs/Ball/Ball_Galaxy.prefab
+  artifactKey: Guid(e4bca764ab3f4854184e0defe3eea509) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Balls/Prefabs/Game prefabs/Ball/Ball_Galaxy.prefab using Guid(e4bca764ab3f4854184e0defe3eea509) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5faef8a168fcdf0a7fd208e6c2fc5f57') in 0.014482 seconds
+  Import took 0.017839 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000206 seconds.
+  path: Assets/Balls/Prefabs/Game prefabs/Ball/ballMesh2 Variant.prefab
+  artifactKey: Guid(ebd65e867cbc96b41850ed93c70f29fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Balls/Prefabs/Game prefabs/Ball/ballMesh2 Variant.prefab using Guid(ebd65e867cbc96b41850ed93c70f29fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40b09d9cb7b6bec9be23e6864d0789a9') in 0.018358 seconds
+  Import took 0.021087 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000229 seconds.
+  path: Assets/Balls/Prefabs/Game prefabs/Ball/ballMesh3 Variant.prefab
+  artifactKey: Guid(46ab26f111e911246881bb5983af2890) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Balls/Prefabs/Game prefabs/Ball/ballMesh3 Variant.prefab using Guid(46ab26f111e911246881bb5983af2890) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff3234dfc6d9d0eac3f9bffcf3fa6277') in 0.016746 seconds
+  Import took 0.036114 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.611871 seconds.
+  path: Assets/Balls/Prefabs/Game prefabs/Ball/Ball_Jupiter.prefab
+  artifactKey: Guid(ebd65e867cbc96b41850ed93c70f29fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Balls/Prefabs/Game prefabs/Ball/Ball_Jupiter.prefab using Guid(ebd65e867cbc96b41850ed93c70f29fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d24f3b794ad0c7b0ee753980487f73c') in 0.015477 seconds
+  Import took 0.018348 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000171 seconds.
+  path: Assets/Balls/Prefabs/Game prefabs/Ball/ballMesh3 Variant.prefab
+  artifactKey: Guid(46ab26f111e911246881bb5983af2890) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Balls/Prefabs/Game prefabs/Ball/ballMesh3 Variant.prefab using Guid(46ab26f111e911246881bb5983af2890) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5366d3ce9a57b3b1135f24deddb4b91c') in 0.016465 seconds
+  Import took 0.019055 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 22.263420 seconds.
+  path: Assets/Balls/Prefabs/Game prefabs/Ball/Ball_Rainbow.prefab
+  artifactKey: Guid(46ab26f111e911246881bb5983af2890) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Balls/Prefabs/Game prefabs/Ball/Ball_Rainbow.prefab using Guid(46ab26f111e911246881bb5983af2890) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d5ca59db67098ff77da8bd14d2b8fe8') in 0.019379 seconds
+  Import took 0.022329 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 95.328566 seconds.
+  path: Assets/Balls/Prefabs/Game prefabs/Ball/Beach_Ball.prefab
+  artifactKey: Guid(f28e5a6923bc6794aa8d36c5ef945d51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Balls/Prefabs/Game prefabs/Ball/Beach_Ball.prefab using Guid(f28e5a6923bc6794aa8d36c5ef945d51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e35f370bd82d6968e068fdfddcbe1556') in 0.018639 seconds
+  Import took 0.021889 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.530950 seconds.
+  path: Assets/Balls/Prefabs/Game prefabs/Ball/Beach_Ball.prefab
+  artifactKey: Guid(f28e5a6923bc6794aa8d36c5ef945d51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Balls/Prefabs/Game prefabs/Ball/Beach_Ball.prefab using Guid(f28e5a6923bc6794aa8d36c5ef945d51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51c752f14019a07695324030481c774a') in 0.019617 seconds
+  Import took 0.022527 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.799918 seconds.
+  path: Assets/Balls/Prefabs/Game prefabs/Ball/Canon_Ball.prefab
+  artifactKey: Guid(b6816b23f0fed5349aeb7bea149558c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Balls/Prefabs/Game prefabs/Ball/Canon_Ball.prefab using Guid(b6816b23f0fed5349aeb7bea149558c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25c0d48cc51122ca1367aed44714e3c6') in 0.015325 seconds
+  Import took 0.018150 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 85.773848 seconds.
+  path: Assets/Balls/Prefabs/Game prefabs/Ball/BOMB.prefab
+  artifactKey: Guid(b6816b23f0fed5349aeb7bea149558c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Balls/Prefabs/Game prefabs/Ball/BOMB.prefab using Guid(b6816b23f0fed5349aeb7bea149558c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6169722d2759b0c82fa9ddc382eb9689') in 0.012224 seconds
+  Import took 0.020314 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 120.965538 seconds.
+  path: Assets/Balls/Prefabs/Game prefabs/Ball/Icosahedron.prefab
+  artifactKey: Guid(faf6b8d3dfa5ed04199acd00fad6aea2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Balls/Prefabs/Game prefabs/Ball/Icosahedron.prefab using Guid(faf6b8d3dfa5ed04199acd00fad6aea2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3a6cc409fbbf00d49cb6001a44e0224') in 0.022936 seconds
+  Import took 0.026655 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 188.242959 seconds.
+  path: Assets/Balls/Prefabs/Game prefabs/Ball/Love_Arrow.prefab
+  artifactKey: Guid(d9de74b02a4a13b4885dbecd42cdf351) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Balls/Prefabs/Game prefabs/Ball/Love_Arrow.prefab using Guid(d9de74b02a4a13b4885dbecd42cdf351) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa63babaa0482dcd79f4803923fabab2') in 0.016464 seconds
+  Import took 0.057638 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 123.948628 seconds.
+  path: Assets/Balls/Prefabs/Game prefabs/Ball/Selfie Tennis.prefab
+  artifactKey: Guid(025e99798e3925548bd10d7112a2f792) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Balls/Prefabs/Game prefabs/Ball/Selfie Tennis.prefab using Guid(025e99798e3925548bd10d7112a2f792) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'deb616eaeb1ddeb331fd7a6d3a93422d') in 0.017714 seconds
+  Import took 0.020832 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 128.494464 seconds.
+  path: Assets/Balls/Prefabs/Game prefabs/Ball/soccerball.prefab
+  artifactKey: Guid(7c6422a3d81ac5e48af890413bc7b78d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Balls/Prefabs/Game prefabs/Ball/soccerball.prefab using Guid(7c6422a3d81ac5e48af890413bc7b78d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33c15465925d653d0869a5c921ea9462') in 0.024544 seconds
+  Import took 0.027830 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 101.750510 seconds.
+  path: Assets/Balls/Prefabs/Game prefabs/Ball/TENNIS_Ball.prefab
+  artifactKey: Guid(c10a5fa81f3cbac4ba16708c70cd0eeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Balls/Prefabs/Game prefabs/Ball/TENNIS_Ball.prefab using Guid(c10a5fa81f3cbac4ba16708c70cd0eeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1f75aa01433d77a0063be5f2ea08ef3') in 0.015185 seconds
+  Import took 0.018125 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 72.680723 seconds.
+  path: Assets/Balls/Prefabs/Game prefabs/Ball/volley_ball_FBX.prefab
+  artifactKey: Guid(4057ec78fa40433418f314fdefe0fb9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Balls/Prefabs/Game prefabs/Ball/volley_ball_FBX.prefab using Guid(4057ec78fa40433418f314fdefe0fb9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '007bccb299a94c8f62ee181bf87caf63') in 0.018574 seconds
+  Import took 0.021723 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 97.240539 seconds.
+  path: Assets/Balls/Prefabs/Game prefabs/Ball/Yarn.prefab
+  artifactKey: Guid(50e2485377135144882ddba90f727a6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Balls/Prefabs/Game prefabs/Ball/Yarn.prefab using Guid(50e2485377135144882ddba90f727a6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc36736ad55f3a1d7ff3776b20be302f') in 0.016261 seconds
+  Import took 0.019560 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000606 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.40 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.657 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.42 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1494 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 82.8 MB.
+System memory in use after: 82.9 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2014.
+Total: 1.550500 ms (FindLiveObjects: 0.178700 ms CreateObjectMapping: 0.033100 ms MarkObjects: 1.321600 ms  DeleteObjects: 0.016400 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 109.844411 seconds.
+  path: Assets/Scenes/Main Menu
+  artifactKey: Guid(3883c05239d65814aa539ca4d0391f8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Main Menu using Guid(3883c05239d65814aa539ca4d0391f8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ebe86bf318e419dae7eee1081225ed3') in 0.015804 seconds
+  Import took 0.025178 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 115.660327 seconds.
+  path: Assets/Balls/Balss/Basket_Ball.png
+  artifactKey: Guid(6939fa5f7c2692b44ae97ffb7522bf74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Balls/Balss/Basket_Ball.png using Guid(6939fa5f7c2692b44ae97ffb7522bf74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4cad358a0aacb677b5a373b86f2264d7') in 0.049967 seconds
+  Import took 0.052630 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000177 seconds.
+  path: Assets/Balls/Balss/Canon_Ball.png
+  artifactKey: Guid(3f6165f8ef3ba5c4f90e7ad3808b1fdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Balls/Balss/Canon_Ball.png using Guid(3f6165f8ef3ba5c4f90e7ad3808b1fdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b91bc8c3905b61f7526a43ef377556e3') in 0.015632 seconds
+  Import took 0.017852 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000160 seconds.
+  path: Assets/Balls/Balss/Green_Planets.png
+  artifactKey: Guid(bb55908e7a4480748be0fcd0ad7a31ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Balls/Balss/Green_Planets.png using Guid(bb55908e7a4480748be0fcd0ad7a31ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd85b6a1150dbc2da9d615e1fd2e4860') in 0.017892 seconds
+  Import took 0.020887 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000187 seconds.
+  path: Assets/Balls/Balss/Yarn_Ball.png
+  artifactKey: Guid(06ace4ac1e3c0984a8d0d9d9ac16b153) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Balls/Balss/Yarn_Ball.png using Guid(06ace4ac1e3c0984a8d0d9d9ac16b153) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a28a3362460b7ea8e072574698c83630') in 0.015096 seconds
+  Import took 0.031342 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000219 seconds.
+  path: Assets/Balls/Balss/Big Eyes.png
+  artifactKey: Guid(dba7e9c0566c8424a913bb12f525c19c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Balls/Balss/Big Eyes.png using Guid(dba7e9c0566c8424a913bb12f525c19c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6cb31c4a97b93f599c4ca11a58cf792') in 0.016667 seconds
+  Import took 0.033553 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000178 seconds.
+  path: Assets/Balls/Balss/Beach_Ball.png
+  artifactKey: Guid(317aeef71e9895444b7ff253c43d133c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Balls/Balss/Beach_Ball.png using Guid(317aeef71e9895444b7ff253c43d133c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '345dca8498ad2dd27b8201726c730ab9') in 0.015025 seconds
+  Import took 0.017922 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000154 seconds.
+  path: Assets/Balls/Balss/Ico.psd
+  artifactKey: Guid(1001d69dd0310d44884e18e679813490) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Balls/Balss/Ico.psd using Guid(1001d69dd0310d44884e18e679813490) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7b54f1ffe6df97e6ad99525f4e02977') in 0.020494 seconds
+  Import took 0.023032 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000157 seconds.
+  path: Assets/Balls/Balss/Soccer_Doccer.png
+  artifactKey: Guid(336248e1b5350a746a74e5fc6e5592b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Balls/Balss/Soccer_Doccer.png using Guid(336248e1b5350a746a74e5fc6e5592b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77d3f098d334aabc72382bfb0b03fe72') in 0.018009 seconds
+  Import took 0.020239 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000174 seconds.
+  path: Assets/Balls/Balss/Selfie_Tennis.png
+  artifactKey: Guid(f4b6f00c18793cc4784b4c7a6e85d579) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Balls/Balss/Selfie_Tennis.png using Guid(f4b6f00c18793cc4784b4c7a6e85d579) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5e4025e22780d502ddcfcd76d7b096c') in 0.017274 seconds
+  Import took 0.019745 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000229 seconds.
+  path: Assets/Balls/Balss/Lime_Hexagon.png
+  artifactKey: Guid(97489283606dc4f4d981976f44d57aa5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Balls/Balss/Lime_Hexagon.png using Guid(97489283606dc4f4d981976f44d57aa5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ef608e344def5071bba6300782ed709') in 0.019036 seconds
+  Import took 0.022149 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000186 seconds.
+  path: Assets/Balls/Balss/The_Galaxy.png
+  artifactKey: Guid(2ec4210c85db384429fd4948d6902aed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Balls/Balss/The_Galaxy.png using Guid(2ec4210c85db384429fd4948d6902aed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4170c9ba73ca61f62dbe0d57e8ded20') in 0.016931 seconds
+  Import took 0.019546 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000140 seconds.
+  path: Assets/Balls/Balss/Red Tappy.png
+  artifactKey: Guid(e1ba0d6bcbf67aa438733a4ba8191e38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Balls/Balss/Red Tappy.png using Guid(e1ba0d6bcbf67aa438733a4ba8191e38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '255cf397f5700a30579a0e345c21f75b') in 0.019292 seconds
+  Import took 0.021691 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000138 seconds.
+  path: Assets/Balls/Balss/Love_Emoji.png
+  artifactKey: Guid(587a070a52ffab84ab73e7d42f46d2eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Balls/Balss/Love_Emoji.png using Guid(587a070a52ffab84ab73e7d42f46d2eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19d78fbd6c5595445ac4abf15461a7ba') in 0.015765 seconds
+  Import took 0.017986 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000152 seconds.
+  path: Assets/Balls/Balss/Tennis.png
+  artifactKey: Guid(ba4657e14ccfa89459c9fbfdf6c56897) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Balls/Balss/Tennis.png using Guid(ba4657e14ccfa89459c9fbfdf6c56897) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4347770ffbedd72e2b7f841f980cedf5') in 0.016056 seconds
+  Import took 0.038304 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000197 seconds.
+  path: Assets/Balls/Balss/Hearty.png
+  artifactKey: Guid(c195993376c0504459c3c186df7fcd03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Balls/Balss/Hearty.png using Guid(c195993376c0504459c3c186df7fcd03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8007a8c3b0f1dc64318ca6829ee7a037') in 0.017319 seconds
+  Import took 0.020172 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000194 seconds.
+  path: Assets/Balls/Balss/Volley_Ball.png
+  artifactKey: Guid(31af988e830614b4da5c3d2696d2f17f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Balls/Balss/Volley_Ball.png using Guid(31af988e830614b4da5c3d2696d2f17f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b30e257938bd76415ce4b3db540744f') in 0.016167 seconds
+  Import took 0.018822 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002600 seconds.
+  path: Assets/Balls/Balss/Volley_Ball.png
+  artifactKey: Guid(31af988e830614b4da5c3d2696d2f17f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Balls/Balss/Volley_Ball.png using Guid(31af988e830614b4da5c3d2696d2f17f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b30e257938bd76415ce4b3db540744f') in 0.015124 seconds
+  Import took 0.018164 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 246.457406 seconds.
+  path: Assets/Balls/Balss/Mars.png
+  artifactKey: Guid(de2d2c1c79afcff4c871a269409100f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Balls/Balss/Mars.png using Guid(de2d2c1c79afcff4c871a269409100f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a314435b4b481c5a1d87c0bedb570f0a') in 0.014746 seconds
+  Import took 0.017610 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000161 seconds.
+  path: Assets/Balls/Balss/Rainbow.png
+  artifactKey: Guid(2d803631e53920e4f98390078b4bcb63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Balls/Balss/Rainbow.png using Guid(2d803631e53920e4f98390078b4bcb63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e753cdafd3a33ed547d5bdbdec36d65a') in 0.013445 seconds
+  Import took 0.015843 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003589 seconds.
+  path: Assets/Balls/Balss/Rainbow.png
+  artifactKey: Guid(2d803631e53920e4f98390078b4bcb63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Balls/Balss/Rainbow.png using Guid(2d803631e53920e4f98390078b4bcb63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e753cdafd3a33ed547d5bdbdec36d65a') in 0.013296 seconds
+  Import took 0.015828 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.024980 seconds.
+  path: Assets/Balls/Balss/Mars.png
+  artifactKey: Guid(de2d2c1c79afcff4c871a269409100f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Balls/Balss/Mars.png using Guid(de2d2c1c79afcff4c871a269409100f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56d5abc4ec94a1a29a37ee7726ea93fd') in 0.014821 seconds
+  Import took 0.022153 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000130 seconds.
+  path: Assets/Balls/Balss/Rainbow.png
+  artifactKey: Guid(2d803631e53920e4f98390078b4bcb63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Balls/Balss/Rainbow.png using Guid(2d803631e53920e4f98390078b4bcb63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0163cce2082d275f580896124c586700') in 0.015367 seconds
+  Import took 0.018356 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000834 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0.39 ms, found 0 plugins.
@@ -413,24 +1044,478 @@ Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.665 seconds
+- Completed reload, in  0.664 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.38 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.71 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1486 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 82.0 MB.
-System memory in use after: 82.1 MB.
+Unloading 1494 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 83.1 MB.
+System memory in use after: 83.2 MB.
 
-Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 2010.
-Total: 1.669600 ms (FindLiveObjects: 0.197700 ms CreateObjectMapping: 0.033200 ms MarkObjects: 1.422600 ms  DeleteObjects: 0.014800 ms)
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 2023.
+Total: 1.618400 ms (FindLiveObjects: 0.200800 ms CreateObjectMapping: 0.033600 ms MarkObjects: 1.367800 ms  DeleteObjects: 0.015400 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.000649 seconds.
+Registered in 0.000730 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.40 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.42 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.711 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.43 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1494 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 82.4 MB.
+System memory in use after: 82.5 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 2025.
+Total: 1.950900 ms (FindLiveObjects: 0.233400 ms CreateObjectMapping: 0.035100 ms MarkObjects: 1.663500 ms  DeleteObjects: 0.017200 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 430.076976 seconds.
+  path: Assets/Scenes/Three Lives.unity
+  artifactKey: Guid(1f058823520e3d64ba04edd59907f57f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Three Lives.unity using Guid(1f058823520e3d64ba04edd59907f57f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5cb79733393281695900a51389d8b10') in 0.013537 seconds
+  Import took 0.029100 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.414488 seconds.
+  path: Assets/Balls/Models/Ball_Normal/Materials/ball01.mat
+  artifactKey: Guid(9da71f5d41df362418c175bb1382cb9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Balls/Models/Ball_Normal/Materials/ball01.mat using Guid(9da71f5d41df362418c175bb1382cb9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd475bdacd29478e2f33b480e42ae80cb') in 0.051907 seconds
+  Import took 0.054653 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000152 seconds.
+  path: Assets/Balls/Models/Materials/Beach_Ball_diffuse.mat
+  artifactKey: Guid(a6638a489fdc12248b926dbbe3805880) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Balls/Models/Materials/Beach_Ball_diffuse.mat using Guid(a6638a489fdc12248b926dbbe3805880) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c10a58cf003f60c3de7de586273b3bb3') in 0.015614 seconds
+  Import took 0.018459 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000127 seconds.
+  path: Assets/Balls/Models/Ball_Normal/Materials/ball06.mat
+  artifactKey: Guid(770de290644ea0b45af5afa46ea9e438) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Balls/Models/Ball_Normal/Materials/ball06.mat using Guid(770de290644ea0b45af5afa46ea9e438) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '829df6b3a48b3d78bd6e594575466386') in 0.016954 seconds
+  Import took 0.025919 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000206 seconds.
+  path: Assets/Balls/Models/Materials/Heart_Arrow.mat
+  artifactKey: Guid(5cf7c8c73af4785439e97b213bca0fe7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Balls/Models/Materials/Heart_Arrow.mat using Guid(5cf7c8c73af4785439e97b213bca0fe7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3520a86b2d24b948b0ab0d0b0e296885') in 0.013038 seconds
+  Import took 0.017268 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000205 seconds.
+  path: Assets/Balls/Models/Ball_Normal/Materials/ball07.mat
+  artifactKey: Guid(fd6bb2d7badb19446926586cb622bf29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Balls/Models/Ball_Normal/Materials/ball07.mat using Guid(fd6bb2d7badb19446926586cb622bf29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9786e29ca8cdbd6c00db8e90564b018') in 0.018477 seconds
+  Import took 0.031157 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000254 seconds.
+  path: Assets/Balls/Models/Ball_Normal/Materials/ball02.mat
+  artifactKey: Guid(8092663b42eedeb468deb5e54882e628) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Balls/Models/Ball_Normal/Materials/ball02.mat using Guid(8092663b42eedeb468deb5e54882e628) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8225a1a75ab6ec302d698f65a49c5714') in 0.019314 seconds
+  Import took 0.021907 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000170 seconds.
+  path: Assets/Balls/Models/BasketBall/Ball_Basket.mat
+  artifactKey: Guid(1fb4ca33b105a9446bfb08dd5dcf1528) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Balls/Models/BasketBall/Ball_Basket.mat using Guid(1fb4ca33b105a9446bfb08dd5dcf1528) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3c9e78d5ff498a557a4525ef8cff508') in 0.016777 seconds
+  Import took 0.019006 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000145 seconds.
+  path: Assets/Balls/Models/Ball_Normal/Materials/ball08.mat
+  artifactKey: Guid(b91789083bc0e784a98906596ab6064c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Balls/Models/Ball_Normal/Materials/ball08.mat using Guid(b91789083bc0e784a98906596ab6064c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ccfbc2e0134ed3102da50cfbac2594c') in 0.017737 seconds
+  Import took 0.031464 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000145 seconds.
+  path: Assets/Balls/Models/BasketBall/ball_obj.obj
+  artifactKey: Guid(b9115c9bb6dd1e84981809803b6a171c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Balls/Models/BasketBall/ball_obj.obj using Guid(b9115c9bb6dd1e84981809803b6a171c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd52512d29e3eed8868ac4540ced2133') in 0.049990 seconds
+  Import took 0.052218 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000206 seconds.
+  path: Assets/Balls/Models/Ball_Normal/Materials/ball04.mat
+  artifactKey: Guid(f3e7b40dfe48d694fbd52097bbbc6fb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Balls/Models/Ball_Normal/Materials/ball04.mat using Guid(f3e7b40dfe48d694fbd52097bbbc6fb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec23a36e7a6d9505804f01684158f7b8') in 0.018441 seconds
+  Import took 0.034630 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000159 seconds.
+  path: Assets/Balls/Models/Ball_Normal/Materials/ball09.mat
+  artifactKey: Guid(708dcf7acf5c3ac438cf7e9582d831e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Balls/Models/Ball_Normal/Materials/ball09.mat using Guid(708dcf7acf5c3ac438cf7e9582d831e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c0c935f7ee3ad79d2f037c7474c9dbf') in 0.017632 seconds
+  Import took 0.019802 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.777954 seconds.
+  path: Assets/Scenes/Arcade.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Arcade.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f9713753cca4dbdb1a15434009cb241') in 0.005497 seconds
+  Import took 0.022818 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 198.724519 seconds.
+  path: Assets/Balls/Materials
+  artifactKey: Guid(694f9600c442f3c45af12952ca947eb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Balls/Materials using Guid(694f9600c442f3c45af12952ca947eb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '531b36981e464f4bf4c7347c542b0b50') in 0.005950 seconds
+  Import took 0.008738 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.097442 seconds.
+  path: Assets/Balls/Materials/New Material.mat
+  artifactKey: Guid(7afef8092b4c5bb469c1691a304a29c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Balls/Materials/New Material.mat using Guid(7afef8092b4c5bb469c1691a304a29c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89ca08d3bec5744410347bedc17349a6') in 0.016490 seconds
+  Import took 0.026437 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 43.990701 seconds.
+  path: Assets/Prefabs/Ball.prefab
+  artifactKey: Guid(c29be544d411249409fefd86aeffbed9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Ball.prefab using Guid(c29be544d411249409fefd86aeffbed9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32f10129986bb9433a350ad117770f5a') in 0.017494 seconds
+  Import took 0.020504 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.008185 seconds.
+  path: Assets/Prefabs/Ball.prefab
+  artifactKey: Guid(c29be544d411249409fefd86aeffbed9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Ball.prefab using Guid(c29be544d411249409fefd86aeffbed9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32f10129986bb9433a350ad117770f5a') in 0.008950 seconds
+  Import took 0.011920 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 84.622603 seconds.
+  path: Assets/Scenes/Main Menu.unity
+  artifactKey: Guid(264ed997b8361c641a1faeaef043857b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Main Menu.unity using Guid(264ed997b8361c641a1faeaef043857b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '800c3b4a3df4f5edb1fc7c158604012e') in 0.005563 seconds
+  Import took 0.008110 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 51.539461 seconds.
+  path: Assets/Scenes/Main Menu.unity
+  artifactKey: Guid(264ed997b8361c641a1faeaef043857b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Main Menu.unity using Guid(264ed997b8361c641a1faeaef043857b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '933d7ebbd04a6fff05e28339ab951f7a') in 0.002297 seconds
+  Import took 0.014610 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000760 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.46 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.744 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.64 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1494 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 82.8 MB.
+System memory in use after: 82.9 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 2028.
+Total: 1.669100 ms (FindLiveObjects: 0.217100 ms CreateObjectMapping: 0.032400 ms MarkObjects: 1.404400 ms  DeleteObjects: 0.013500 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 65.106450 seconds.
+  path: Assets/Balls/Models/Ball_Normal/ball01.jpg
+  artifactKey: Guid(e3c4879e40268e14e88353d362ab7902) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Balls/Models/Ball_Normal/ball01.jpg using Guid(e3c4879e40268e14e88353d362ab7902) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'adb99644711b650a7549b7eec4ad77ea') in 0.037686 seconds
+  Import took 0.046827 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000163 seconds.
+  path: Assets/Balls/Models/Ball_Normal/ball03.jpg
+  artifactKey: Guid(05321f95662b24f4784ba670fcd9d41e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Balls/Models/Ball_Normal/ball03.jpg using Guid(05321f95662b24f4784ba670fcd9d41e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d370094f495d4b64f7afb342d92e849') in 0.020118 seconds
+  Import took 0.022476 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000181 seconds.
+  path: Assets/Balls/Models/Golf_Ball/TENNIS_Ball_DIFF.tga
+  artifactKey: Guid(734943adc48460c44b4d6290d37f2b63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Balls/Models/Golf_Ball/TENNIS_Ball_DIFF.tga using Guid(734943adc48460c44b4d6290d37f2b63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90ccac5b4d116ee8e948a0af11caf267') in 0.020481 seconds
+  Import took 0.023210 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000150 seconds.
+  path: Assets/Balls/Models/Ball_Normal/ball09.jpg
+  artifactKey: Guid(44cbd5a5a66be474abbeee0c5264d7a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Balls/Models/Ball_Normal/ball09.jpg using Guid(44cbd5a5a66be474abbeee0c5264d7a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2406fb6aea53409e8a7a40903a0d72b8') in 0.013021 seconds
+  Import took 0.015571 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000161 seconds.
+  path: Assets/Balls/Models/Ball_Normal/ball02.jpg
+  artifactKey: Guid(bbf7eed3344d07641ae7713cea020a14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Balls/Models/Ball_Normal/ball02.jpg using Guid(bbf7eed3344d07641ae7713cea020a14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2390670786436182984a2095a6f13cf') in 0.013801 seconds
+  Import took 0.016391 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000202 seconds.
+  path: Assets/Balls/Models/Ball_Normal/ball07.jpg
+  artifactKey: Guid(a595796ecf8c33549875d8720c2519c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Balls/Models/Ball_Normal/ball07.jpg using Guid(a595796ecf8c33549875d8720c2519c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b568a1f671c742f91e5936d5a537d55') in 0.013584 seconds
+  Import took 0.024492 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000162 seconds.
+  path: Assets/Balls/Models/Ball_Normal/ball10.jpg
+  artifactKey: Guid(3202828787a24e049b3d66f6ec0c5a32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Balls/Models/Ball_Normal/ball10.jpg using Guid(3202828787a24e049b3d66f6ec0c5a32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54f7e5d23b92a4068dc98807d1c7bd87') in 0.017268 seconds
+  Import took 0.019962 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000151 seconds.
+  path: Assets/Balls/Models/Ball_Normal/ballMesh.FBX
+  artifactKey: Guid(2e63beaa35f78bb4b9ca283e13b93f1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Balls/Models/Ball_Normal/ballMesh.FBX using Guid(2e63beaa35f78bb4b9ca283e13b93f1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bcae464212610cba544975f4936be29c') in 0.073198 seconds
+  Import took 0.084839 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000184 seconds.
+  path: Assets/Balls/Models/Ball_Normal/ball08.jpg
+  artifactKey: Guid(1ab1dc5c5974b514c98ad97ab44608fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Balls/Models/Ball_Normal/ball08.jpg using Guid(1ab1dc5c5974b514c98ad97ab44608fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83e441afc315f3ad8f46e893e083d72f') in 0.014427 seconds
+  Import took 0.026929 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000164 seconds.
+  path: Assets/Balls/Models/Ball_Normal/ball05.jpg
+  artifactKey: Guid(296bf55c2744c184598a98879c84a2b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Balls/Models/Ball_Normal/ball05.jpg using Guid(296bf55c2744c184598a98879c84a2b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6942c22d0fac16f1ab9defac91eccbba') in 0.018031 seconds
+  Import took 0.020306 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000146 seconds.
+  path: Assets/Balls/Models/Ball_Normal/ball06.jpg
+  artifactKey: Guid(43f36f11873a295469cf8149ac49bde8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Balls/Models/Ball_Normal/ball06.jpg using Guid(43f36f11873a295469cf8149ac49bde8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a20087ec4d2027d6e28046f532ca9456') in 0.013738 seconds
+  Import took 0.027966 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000186 seconds.
+  path: Assets/Balls/Models/Ball_Normal/ball04.jpg
+  artifactKey: Guid(9be3183a01ade0449827601de1f437e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Balls/Models/Ball_Normal/ball04.jpg using Guid(9be3183a01ade0449827601de1f437e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '486b5c99c9d23fb53c86e50f4e13e108') in 0.017171 seconds
+  Import took 0.023936 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000177 seconds.
+  path: Assets/Balls/Models/BasketBall/ball_ball_BaseColor.png
+  artifactKey: Guid(549d14b837e2fc24f99fe86ddc0d59a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Balls/Models/BasketBall/ball_ball_BaseColor.png using Guid(549d14b837e2fc24f99fe86ddc0d59a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d033389ef5e33dc0c4ba0e39238ef87') in 0.020963 seconds
+  Import took 0.023263 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000173 seconds.
+  path: Assets/Balls/Models/Golf_Ball/TENNIS_Ball.obj
+  artifactKey: Guid(1ead2839ea6dd8e4b808882889d5b937) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Balls/Models/Golf_Ball/TENNIS_Ball.obj using Guid(1ead2839ea6dd8e4b808882889d5b937) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a79e149b2512bf6afe7c3160b439fc6a') in 0.027401 seconds
+  Import took 0.029654 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 18.425070 seconds.
+  path: Assets/Balls/Prefabs/Game prefabs/Ball/Ball_Galaxy.prefab
+  artifactKey: Guid(e4bca764ab3f4854184e0defe3eea509) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Balls/Prefabs/Game prefabs/Ball/Ball_Galaxy.prefab using Guid(e4bca764ab3f4854184e0defe3eea509) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0428c47e08049c33d96674b050cd6504') in 0.017224 seconds
+  Import took 0.026134 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000223 seconds.
+  path: Assets/Balls/Prefabs/Game prefabs/Ball/Beach_Ball.prefab
+  artifactKey: Guid(f28e5a6923bc6794aa8d36c5ef945d51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Balls/Prefabs/Game prefabs/Ball/Beach_Ball.prefab using Guid(f28e5a6923bc6794aa8d36c5ef945d51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37305cab06ac93a9adc203c47c8d10cb') in 0.019977 seconds
+  Import took 0.024409 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000160 seconds.
+  path: Assets/Balls/Prefabs/Game prefabs/Ball/Normal_Ball.prefab
+  artifactKey: Guid(791ba039841e87548a0f9f4ac527b5ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Balls/Prefabs/Game prefabs/Ball/Normal_Ball.prefab using Guid(791ba039841e87548a0f9f4ac527b5ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75e4e5758eaa9fa848684f244c13237b') in 0.020307 seconds
+  Import took 0.023027 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000183 seconds.
+  path: Assets/Balls/Prefabs/Game prefabs/Ball/volley_ball_FBX.prefab
+  artifactKey: Guid(4057ec78fa40433418f314fdefe0fb9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Balls/Prefabs/Game prefabs/Ball/volley_ball_FBX.prefab using Guid(4057ec78fa40433418f314fdefe0fb9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4f6b4706ae2662778ae4bca816d7141') in 0.016143 seconds
+  Import took 0.018900 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000151 seconds.
+  path: Assets/Balls/Prefabs/Game prefabs/Ball/Love_Arrow.prefab
+  artifactKey: Guid(d9de74b02a4a13b4885dbecd42cdf351) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Balls/Prefabs/Game prefabs/Ball/Love_Arrow.prefab using Guid(d9de74b02a4a13b4885dbecd42cdf351) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '568e8d469b6da992c4020394cb4b6858') in 0.014682 seconds
+  Import took 0.017105 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000149 seconds.
+  path: Assets/Balls/Prefabs/Game prefabs/Ball/Ball_Jupiter.prefab
+  artifactKey: Guid(ebd65e867cbc96b41850ed93c70f29fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Balls/Prefabs/Game prefabs/Ball/Ball_Jupiter.prefab using Guid(ebd65e867cbc96b41850ed93c70f29fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '461e0d7d6d349740808d423f19495b0f') in 0.015866 seconds
+  Import took 0.018452 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000155 seconds.
+  path: Assets/Balls/Prefabs/Game prefabs/Ball/BOMB.prefab
+  artifactKey: Guid(b6816b23f0fed5349aeb7bea149558c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Balls/Prefabs/Game prefabs/Ball/BOMB.prefab using Guid(b6816b23f0fed5349aeb7bea149558c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96db0618560b68a04dcdb5adb4d54334') in 0.014433 seconds
+  Import took 0.016986 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000175 seconds.
+  path: Assets/Balls/Prefabs/Game prefabs/Ball/Icosahedron.prefab
+  artifactKey: Guid(faf6b8d3dfa5ed04199acd00fad6aea2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Balls/Prefabs/Game prefabs/Ball/Icosahedron.prefab using Guid(faf6b8d3dfa5ed04199acd00fad6aea2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2eb5440913afca92034c6bdc856160b6') in 0.021506 seconds
+  Import took 0.024957 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000175 seconds.
+  path: Assets/Balls/Prefabs/Game prefabs/Ball/TENNIS_Ball.prefab
+  artifactKey: Guid(c10a5fa81f3cbac4ba16708c70cd0eeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Balls/Prefabs/Game prefabs/Ball/TENNIS_Ball.prefab using Guid(c10a5fa81f3cbac4ba16708c70cd0eeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a69ac5c803f1b8114c3f57dd3a6b37cc') in 0.015559 seconds
+  Import took 0.017928 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000147 seconds.
+  path: Assets/Balls/Prefabs/Game prefabs/Ball/Yarn.prefab
+  artifactKey: Guid(50e2485377135144882ddba90f727a6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Balls/Prefabs/Game prefabs/Ball/Yarn.prefab using Guid(50e2485377135144882ddba90f727a6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e53558068cc4fea090feab1f7cba6acc') in 0.013193 seconds
+  Import took 0.015828 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000143 seconds.
+  path: Assets/Balls/Prefabs/Game prefabs/Ball/soccerball.prefab
+  artifactKey: Guid(7c6422a3d81ac5e48af890413bc7b78d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Balls/Prefabs/Game prefabs/Ball/soccerball.prefab using Guid(7c6422a3d81ac5e48af890413bc7b78d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90786292d93fb81d1b8d278482f451bd') in 0.023764 seconds
+  Import took 0.029083 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000222 seconds.
+  path: Assets/Balls/Prefabs/Game prefabs/Ball/Selfie Tennis.prefab
+  artifactKey: Guid(025e99798e3925548bd10d7112a2f792) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Balls/Prefabs/Game prefabs/Ball/Selfie Tennis.prefab using Guid(025e99798e3925548bd10d7112a2f792) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3652b48a89bd585ddc8a6165097c57bb') in 0.018149 seconds
+  Import took 0.020949 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000200 seconds.
+  path: Assets/Balls/Prefabs/Game prefabs/Ball/Ball_Rainbow.prefab
+  artifactKey: Guid(46ab26f111e911246881bb5983af2890) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Balls/Prefabs/Game prefabs/Ball/Ball_Rainbow.prefab using Guid(46ab26f111e911246881bb5983af2890) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '897ac27609d5f1d199d9908a8dbe6dbc') in 0.014677 seconds
+  Import took 0.017143 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000150 seconds.
+  path: Assets/Balls/Prefabs/Game prefabs/Ball/Basket_Ball.prefab
+  artifactKey: Guid(060b82bbb9dfe7a4ab382089091f4b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Balls/Prefabs/Game prefabs/Ball/Basket_Ball.prefab using Guid(060b82bbb9dfe7a4ab382089091f4b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e89e6431339b2fe482e36653e496f59') in 0.019239 seconds
+  Import took 0.026377 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000138 seconds.
+  path: Assets/Balls/Prefabs/Game prefabs/Ball/Ball_Rainbow.prefab
+  artifactKey: Guid(46ab26f111e911246881bb5983af2890) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Balls/Prefabs/Game prefabs/Ball/Ball_Rainbow.prefab using Guid(46ab26f111e911246881bb5983af2890) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '897ac27609d5f1d199d9908a8dbe6dbc') in 0.016587 seconds
+  Import took 0.018977 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.429110 seconds.
+  path: Assets/Balls/Prefabs/Game prefabs/Ball/BOMB.prefab
+  artifactKey: Guid(b6816b23f0fed5349aeb7bea149558c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Balls/Prefabs/Game prefabs/Ball/BOMB.prefab using Guid(b6816b23f0fed5349aeb7bea149558c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '634f914940badb043b62fce924dacfdd') in 0.008485 seconds
+  Import took 0.011287 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 64.555000 seconds.
+  path: Assets/Scenes/Arcade.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Arcade.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfe464298a6e9699af52c1749986b278') in 0.002890 seconds
+  Import took 0.023944 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.569447 seconds.
+  path: Assets/Scenes/Three Lives.unity
+  artifactKey: Guid(1f058823520e3d64ba04edd59907f57f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Three Lives.unity using Guid(1f058823520e3d64ba04edd59907f57f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c6ede42200c43001860b2fbbd6fdb91') in 0.002204 seconds
+  Import took 0.004885 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000530 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.41 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
@@ -438,94 +1523,184 @@ RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
 - Completed reload, in  0.666 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.38 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.43 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1486 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 82.3 MB.
-System memory in use after: 82.4 MB.
+Unloading 1494 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 83.1 MB.
+System memory in use after: 83.2 MB.
 
-Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 2012.
-Total: 1.656500 ms (FindLiveObjects: 0.258500 ms CreateObjectMapping: 0.051400 ms MarkObjects: 1.332700 ms  DeleteObjects: 0.012800 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 237.118671 seconds.
-  path: Assets/Prefabs/Scoring.prefab
-  artifactKey: Guid(ece8adcb32cc37c45b818ed6c3d4395c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Scoring.prefab using Guid(ece8adcb32cc37c45b818ed6c3d4395c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '642df5d0e046c591c0ba3fd9c3ba2179') in 0.046527 seconds
-  Import took 0.049380 seconds .
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 2031.
+Total: 1.703100 ms (FindLiveObjects: 0.196800 ms CreateObjectMapping: 0.032000 ms MarkObjects: 1.459500 ms  DeleteObjects: 0.014100 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.000483 seconds.
+Registered in 0.000726 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.38 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.41 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.679 seconds
+- Completed reload, in  0.700 seconds
 Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.70 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1494 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 83.2 MB.
+System memory in use after: 83.3 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 2033.
+Total: 1.685200 ms (FindLiveObjects: 0.209900 ms CreateObjectMapping: 0.035500 ms MarkObjects: 1.425200 ms  DeleteObjects: 0.013600 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000986 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.65 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.948 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.68 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1494 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 82.7 MB.
+System memory in use after: 82.8 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 2035.
+Total: 2.234900 ms (FindLiveObjects: 0.307800 ms CreateObjectMapping: 0.043000 ms MarkObjects: 1.865100 ms  DeleteObjects: 0.017900 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 152.049723 seconds.
+  path: Assets/Balls/Prefabs/Game prefabs/Ball/Basket_Ball.prefab
+  artifactKey: Guid(060b82bbb9dfe7a4ab382089091f4b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Balls/Prefabs/Game prefabs/Ball/Basket_Ball.prefab using Guid(060b82bbb9dfe7a4ab382089091f4b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9cf4750c891caf94dfae8f960ed07b9') in 0.116808 seconds
+  Import took 0.120828 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000731 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0.41 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1486 Unused Serialized files (Serialized files now loaded: 0)
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.690 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.44 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1494 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 83.0 MB.
+System memory in use after: 83.1 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 2038.
+Total: 1.726000 ms (FindLiveObjects: 0.202600 ms CreateObjectMapping: 0.032000 ms MarkObjects: 1.476600 ms  DeleteObjects: 0.013900 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 52.901783 seconds.
+  path: Assets/Balls/Prefabs/Game prefabs/Ball/Basket_Ball.prefab
+  artifactKey: Guid(060b82bbb9dfe7a4ab382089091f4b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Balls/Prefabs/Game prefabs/Ball/Basket_Ball.prefab using Guid(060b82bbb9dfe7a4ab382089091f4b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d2f6b89e6c9c4cb9a698ab1dc3b0b4b') in 0.077678 seconds
+  Import took 0.080524 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000693 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.42 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.732 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.44 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1494 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 83.2 MB.
+System memory in use after: 83.3 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 2041.
+Total: 1.841900 ms (FindLiveObjects: 0.301700 ms CreateObjectMapping: 0.092600 ms MarkObjects: 1.433100 ms  DeleteObjects: 0.013500 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.438994 seconds.
+  path: Assets/Balls/Prefabs/Game prefabs/Ball/Basket_Ball.prefab
+  artifactKey: Guid(060b82bbb9dfe7a4ab382089091f4b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Balls/Prefabs/Game prefabs/Ball/Basket_Ball.prefab using Guid(060b82bbb9dfe7a4ab382089091f4b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '911dbf6de050b711a51c647e5a753319') in 0.056139 seconds
+  Import took 0.059061 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000647 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.44 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.706 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.67 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1494 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 82.6 MB.
 System memory in use after: 82.7 MB.
 
-Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 2014.
-Total: 1.708000 ms (FindLiveObjects: 0.197400 ms CreateObjectMapping: 0.031600 ms MarkObjects: 1.462800 ms  DeleteObjects: 0.015200 ms)
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 2044.
+Total: 1.819300 ms (FindLiveObjects: 0.232000 ms CreateObjectMapping: 0.035100 ms MarkObjects: 1.532300 ms  DeleteObjects: 0.018500 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 45.495761 seconds.
-  path: Assets/Prefabs/Plates
-  artifactKey: Guid(0aa279a134651ad40892a13514e67073) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Plates using Guid(0aa279a134651ad40892a13514e67073) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fcdb80c6b3926511d8a80a79bdfbead') in 0.007649 seconds
-  Import took 0.010165 seconds .
+  Time since last request: 120.390552 seconds.
+  path: Assets/Balls/Prefabs/Game prefabs/Ball/Beach_Ball.prefab
+  artifactKey: Guid(f28e5a6923bc6794aa8d36c5ef945d51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Balls/Prefabs/Game prefabs/Ball/Beach_Ball.prefab using Guid(f28e5a6923bc6794aa8d36c5ef945d51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4807b7268ae059b050ca30bc35d4897') in 0.057987 seconds
+  Import took 0.060852 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 10.586103 seconds.
-  path: Assets/Scenes/Arcade.unity
-  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Arcade.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '359b1043806330192aa7de988e54d6e5') in 0.011544 seconds
-  Import took 0.014038 seconds .
+  Time since last request: 0.518800 seconds.
+  path: Assets/Balls/Prefabs/Game prefabs/Ball/Beach_Ball.prefab
+  artifactKey: Guid(f28e5a6923bc6794aa8d36c5ef945d51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Balls/Prefabs/Game prefabs/Ball/Beach_Ball.prefab using Guid(f28e5a6923bc6794aa8d36c5ef945d51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b187ced0586b0e7fa3ba974df284f411') in 0.018519 seconds
+  Import took 0.021317 seconds .
 
 ========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 1.12 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 7 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 53.1 MB.
-System memory in use after: 53.2 MB.
-
-Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 2014.
-Total: 2.035700 ms (FindLiveObjects: 0.192800 ms CreateObjectMapping: 0.038300 ms MarkObjects: 1.794400 ms  DeleteObjects: 0.009200 ms)
+Received Import Request.
+  Time since last request: 1.389152 seconds.
+  path: Assets/Balls/Prefabs/Game prefabs/Ball/Beach_Ball.prefab
+  artifactKey: Guid(f28e5a6923bc6794aa8d36c5ef945d51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Balls/Prefabs/Game prefabs/Ball/Beach_Ball.prefab using Guid(f28e5a6923bc6794aa8d36c5ef945d51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b13f27e64c5266b2cceb09542157184') in 0.018234 seconds
+  Import took 0.021025 seconds .
 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000589 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.39 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.676 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.37 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1485 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 82.3 MB.
-System memory in use after: 82.4 MB.
-
-Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 2016.
-Total: 1.656600 ms (FindLiveObjects: 0.178400 ms CreateObjectMapping: 0.031800 ms MarkObjects: 1.429300 ms  DeleteObjects: 0.016200 ms)
+Received Import Request.
+  Time since last request: 76.139622 seconds.
+  path: Assets/Scenes/Three Lives.unity
+  artifactKey: Guid(1f058823520e3d64ba04edd59907f57f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Three Lives.unity using Guid(1f058823520e3d64ba04edd59907f57f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9fcb2ea12f30cb11175c8503222c0e1') in 0.006481 seconds
+  Import took 0.009239 seconds .
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
