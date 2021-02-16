@@ -18,7 +18,6 @@ public class ScoreManager : MonoBehaviour
         else
             Score += score *2;
 
-        Score = score;
         ScoreText.text = Score.ToString();
 
         if (Score > PlayerPrefs.GetInt("highscore", 0))
