@@ -123,10 +123,18 @@
     <Compile Include="Assets\Scripts\Mainmenumanager.cs" />
     <Compile Include="Assets\Scripts\Music.cs" />
     <Compile Include="Assets\Scripts\Shop\SaveSystem.cs" />
+    <Compile Include="Assets\Scripts\Ads\AdsInitializer.cs" />
+    <Compile Include="Assets\Scripts\Ads\AdsController.cs" />
+    <Compile Include="Assets\Scripts\Ads\RewardedAdsButton.cs" />
+    <Compile Include="Assets\GUI Kit Mono Round\_Scripts\UIParticle\UIParticleSystem.cs" />
+    <Compile Include="Assets\GUI Kit Mono Round\_Scripts\Switch.cs" />
+    <Compile Include="Assets\GUI Kit Mono Round\_Scripts\CtrPanel\CtrPanel.cs" />
+    <Compile Include="Assets\GUI Kit Mono Round\_Scripts\Rotate.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
+     <None Include="Assets\_www.unityassetcollection.com.txt" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro_Mobile.cginc" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF SSD.shader" />
@@ -135,6 +143,7 @@
      <None Include="Assets\Fonts\funky_deco\funk.txt" />
      <None Include="Assets\Modern UI Pack\Read Me.txt" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface.shader" />
+     <None Include="Assets\GUI Kit Mono Round\_Scripts\UIParticle\hidden particle.shader" />
      <None Include="Assets\TextMesh Pro\Sprites\EmojiOne Attribution.txt" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Custom-Atlas.shader" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF.shader" />
@@ -810,6 +819,18 @@
     <ProjectReference Include="Unity.Mathematics.csproj">
       <Project>{B32A5410-168B-6842-9B1B-5C0CF0926AF7}</Project>
       <Name>Unity.Mathematics</Name>
+    </ProjectReference>
+    <ProjectReference Include="UnityEngine.Advertisements.csproj">
+      <Project>{8367452D-774A-784B-0B7C-9A084EA939DA}</Project>
+      <Name>UnityEngine.Advertisements</Name>
+    </ProjectReference>
+    <ProjectReference Include="UnityEngine.Monetization.csproj">
+      <Project>{46F49D51-4EB3-C89F-857F-44E10B0A3FDD}</Project>
+      <Name>UnityEngine.Monetization</Name>
+    </ProjectReference>
+    <ProjectReference Include="UnityEngine.Advertisements.Editor.csproj">
+      <Project>{26D7164E-D5D2-E562-9EB7-5532F80573DC}</Project>
+      <Name>UnityEngine.Advertisements.Editor</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

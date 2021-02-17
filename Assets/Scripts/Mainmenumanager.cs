@@ -12,17 +12,18 @@ public class Mainmenumanager : MonoBehaviour
     public TextMeshProUGUI Score;
     public GameObject ModeSelectionPanel;
 
-    public GameObject shopPanel;
-    public Button shopButton;
-    public Button backFromShopButton;
+    public GameObject settingsPanel;
+
 
     public ShopManager shopManager;
     public int firstTimePlay;
 
-    private void OnEnable()
+    public GameObject[] shopPanels;
+
+
+    public void ShowHideSettings()
     {
-        shopButton.onClick.AddListener(delegate { ActivateDeactivatePanel(shopPanel); });
-        backFromShopButton.onClick.AddListener(delegate { ActivateDeactivatePanel(shopPanel); });
+        settingsPanel.SetActive(!settingsPanel.activeSelf);
     }
 
     private void Start()
@@ -40,15 +41,10 @@ public class Mainmenumanager : MonoBehaviour
             ProductManager.instance.LoadList();
         }
 
+        Score.text = "HighScore: " + PlayerPrefs.GetInt("highscore").ToString();
 
 
     }
-
-    private void Update()
-    {
-        Score.text = PlayerPrefs.GetInt("highscore").ToString();
-    }
-
 
     public void ArcadeMode()  
     {
@@ -56,6 +52,7 @@ public class Mainmenumanager : MonoBehaviour
     }
     public void LimitedMode()
     {
+       
         SceneManager.LoadScene("Three Lives");
     }
 
@@ -74,7 +71,6 @@ public class Mainmenumanager : MonoBehaviour
         panel.SetActive(!panel.activeSelf);
         shopManager.OnButtonClick(0);
     }
-
 
     public void Quit()
     {
@@ -95,5 +91,20 @@ public class Mainmenumanager : MonoBehaviour
             Anim.Play("Hide");
             isHidden = true;
         }
+    }
+
+    public void ShowShopPanel(GameObject panelToActivate)
+    {
+        for (int i = 0; i < shopPanels.Length; i++)
+        {
+            shopPanels[i].SetActive(false);
+        }
+
+        panelToActivate.SetActive(true);
+    }
+
+    public void HideShopPanel(GameObject panelToHide)
+    {
+        panelToHide.SetActive(false);
     }
 }
