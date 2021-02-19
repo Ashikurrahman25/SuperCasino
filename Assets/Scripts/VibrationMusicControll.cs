@@ -1,85 +1,48 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class VibrationMusicControll : MonoBehaviour
 {
-    public GameObject CrossSign;
-    public GameObject CrossSignM;
+
     public int VibratorIndex;
     public int MusicIndex;
+
+    public Slider musicOn;
+    public Slider vibrationOn;
     
     private void Start()
     {
-        MusicIndex = PlayerPrefs.GetInt("Music");
-        VibratorIndex = PlayerPrefs.GetInt("Vibrate");
-        if (VibratorIndex==0)
-        {
-            CrossSign.SetActive(true);
-         
-        }
-        else if (VibratorIndex== 1)
-        {
-            CrossSign.SetActive(false);
-       
-        }
-        
-        
-        
-        if (MusicIndex==0)
-        {
-            CrossSignM.SetActive(true);
-         
-        }
-        else if (MusicIndex== 1)
-        {
-            CrossSignM.SetActive(false);
-       
-        }
+        MusicIndex = PlayerPrefs.GetInt("music");
+        VibratorIndex = PlayerPrefs.GetInt("vibrate");
+
+        musicOn.transform.parent.GetComponent<Switch>().OnClickSwitchButton(MusicIndex == 0 ? false : true);
+        vibrationOn.transform.parent.GetComponent<Switch>().OnClickSwitchButton(VibratorIndex == 0 ? false : true);
     }
-    private void Update()
+
+
+    public void AudioControl()
     {
-       
-        PlayerPrefs.SetInt("Vibrate", VibratorIndex);
-        PlayerPrefs.SetInt("Music", MusicIndex);
-    }
-    public void ControllVibration()
-    {
-        if(VibratorIndex==0)
-        {
-          
-            CrossSign.SetActive(false);
-            VibratorIndex = 1;
-        }
-
-       else if(VibratorIndex == 1)
-       {
-            CrossSign.SetActive(true);
-         
-            VibratorIndex = 0;
-       }
-
-     
-    }
-    public void AudioControll()
-    {
-
-
-
         if (MusicIndex == 0)
-        {
-
-            CrossSignM.SetActive(false);
             MusicIndex = 1;
-        }
-
-        else if (MusicIndex == 1)
-        {
-            CrossSignM.SetActive(true);
-
+        else
             MusicIndex = 0;
-        }
 
-
+        PlayerPrefs.SetInt("music",MusicIndex);
+       // musicOn.GetComponentInParent<Switch>().OnClickSwitchButton(MusicIndex == 0 ? true : false);
     }
+
+    public void VibrateControl()
+    {
+
+        if (VibratorIndex == 0)
+            VibratorIndex = 1;
+        else
+            VibratorIndex = 0;
+
+        PlayerPrefs.SetInt("vibrate", VibratorIndex);
+        //vibrationOn.GetComponentInParent<Switch>().OnClickSwitchButton(VibratorIndex == 0 ? true:false);
+    }
+
 }

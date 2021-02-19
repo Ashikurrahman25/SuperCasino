@@ -8,7 +8,7 @@ public class ProductManager : MonoBehaviour
     public AllList allLists;
     public static ProductManager instance;
 
-    public Texture2D[] ballSprites;
+    public Sprite[] ballSprites;
     public Sprite[] backgroundSprites;
     public Sprite[] powerUpSprites;
 

@@ -28,6 +28,6 @@ public class Timer : MonoBehaviour
             TimeSec -= Time.deltaTime;
         }
 
-        TimerText.text = Minute.ToString() + ":" + second.ToString();
+        TimerText.text = Minute.ToString("00") + ":" + second.ToString("00");
     }
 }

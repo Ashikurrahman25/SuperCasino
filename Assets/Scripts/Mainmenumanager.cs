@@ -20,10 +20,13 @@ public class Mainmenumanager : MonoBehaviour
 
     public GameObject[] shopPanels;
 
+    public VibrationMusicControll vibrate;
+
+    
 
     public void ShowHideSettings()
     {
-        settingsPanel.SetActive(!settingsPanel.activeSelf);
+        settingsPanel.SetActive(!settingsPanel.activeSelf);    
     }
 
     private void Start()
@@ -42,7 +45,7 @@ public class Mainmenumanager : MonoBehaviour
         }
 
         Score.text = "HighScore: " + PlayerPrefs.GetInt("highscore").ToString();
-
+        vibrate = GetComponent<VibrationMusicControll>();
 
     }
 
@@ -69,7 +72,6 @@ public class Mainmenumanager : MonoBehaviour
     public void ActivateDeactivatePanel(GameObject panel)
     {
         panel.SetActive(!panel.activeSelf);
-        shopManager.OnButtonClick(0);
     }
 
     public void Quit()

@@ -186,8 +186,8 @@
     <Compile Include="Library\PackageCache\com.unity.timeline@1.3.6\Editor\treeview\Drawers\Layers\ClipsLayer.cs" />
     <Compile Include="Library\PackageCache\com.unity.timeline@1.3.6\Editor\Manipulators\TimeIndicator.cs" />
     <Compile Include="Library\PackageCache\com.unity.timeline@1.3.6\Editor\treeview\TimelineDataSource.cs" />
-    <Compile Include="Library\PackageCache\com.unity.timeline@1.3.6\Editor\Animation\AnimationOffsetMenu.cs" />
     <Compile Include="Library\PackageCache\com.unity.timeline@1.3.6\Editor\CustomEditors\MarkerEditor.cs" />
+    <Compile Include="Library\PackageCache\com.unity.timeline@1.3.6\Editor\Animation\AnimationOffsetMenu.cs" />
     <Compile Include="Library\PackageCache\com.unity.timeline@1.3.6\Editor\Utilities\ClipModifier.cs" />
     <Compile Include="Library\PackageCache\com.unity.timeline@1.3.6\Editor\Utilities\TimelineKeyboardNavigation.cs" />
     <Compile Include="Library\PackageCache\com.unity.timeline@1.3.6\Editor\Signals\SignalReceiverHeader.cs" />

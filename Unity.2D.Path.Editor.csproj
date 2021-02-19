@@ -61,8 +61,8 @@
     <Compile Include="Library\PackageCache\com.unity.2d.path@4.0.1\Editor\IMGUI\GUIFramework\IGUIState.cs" />
     <Compile Include="Library\PackageCache\com.unity.2d.path@4.0.1\Editor\Shapes\IShape.cs" />
     <Compile Include="Library\PackageCache\com.unity.2d.path@4.0.1\Editor\EditorTool\ScriptablePath.cs" />
-    <Compile Include="Library\PackageCache\com.unity.2d.path@4.0.1\Editor\EditablePath\BezierUtility.cs" />
     <Compile Include="Library\PackageCache\com.unity.2d.path@4.0.1\Editor\IMGUI\GUIFramework\SliderAction.cs" />
+    <Compile Include="Library\PackageCache\com.unity.2d.path@4.0.1\Editor\EditablePath\BezierUtility.cs" />
     <Compile Include="Library\PackageCache\com.unity.2d.path@4.0.1\Editor\EditorTool\ScriptablePathInspector.cs" />
     <Compile Include="Library\PackageCache\com.unity.2d.path@4.0.1\Editor\Selection\PointRectSelector.cs" />
     <Compile Include="Library\PackageCache\com.unity.2d.path@4.0.1\Editor\IMGUI\PathEditor.cs" />

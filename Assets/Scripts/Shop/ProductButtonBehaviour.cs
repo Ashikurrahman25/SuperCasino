@@ -48,8 +48,8 @@ public class ProductButtonBehaviour : MonoBehaviour
 
                 if (productManager.ballSprites[index] != null)
                 {
-                    Texture2D tex = productManager.ballSprites[index];
-                    shopManager.productIcon.sprite = Sprite.Create(tex, new Rect(0.0f, 0.0f, tex.width, tex.height), new Vector2(0.5f, 0.5f), 100.0f);
+                    //Texture2D tex = productManager.ballSprites[index];
+                    //shopManager.productIcon.sprite = Sprite.Create(tex, new Rect(0.0f, 0.0f, tex.width, tex.height), new Vector2(0.5f, 0.5f), 100.0f);
                 }
             }
             else if (shopManager.onBG)

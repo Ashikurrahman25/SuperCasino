@@ -53,7 +53,7 @@ public class WinningManager : MonoBehaviour
 
     public void ShowScoring()
     {
-        scoreText.text = $"Score: {scoreManager.Score}";
+        scoreText.text = scoreManager.Score.ToString("00");
         highScoreText.text = $"High Score: {PlayerPrefs.GetInt("highscore",0)}";
     }
 

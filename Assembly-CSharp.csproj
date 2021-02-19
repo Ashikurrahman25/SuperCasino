@@ -58,11 +58,14 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\Ball.cs" />
     <Compile Include="Assets\Scripts\Shop\GlobalData.cs" />
+    <Compile Include="Assets\GUI Kit Mono Round\_Scripts\UIParticle\UIParticleSystem.cs" />
     <Compile Include="Assets\LeanTween\Framework\LeanTween.cs" />
+    <Compile Include="Assets\GUI Kit Mono Round\_Scripts\CtrPanel\CtrPanel.cs" />
     <Compile Include="Assets\LeanTween\Framework\LTDescr.cs" />
     <Compile Include="Assets\Modern UI Pack\Scripts\SliderManager.cs" />
     <Compile Include="Assets\Scripts\Controller\PrizeController.cs" />
     <Compile Include="Assets\LeanTween\Framework\LeanTweenExt.cs" />
+    <Compile Include="Assets\GUI Kit Mono Round\_Scripts\Switch.cs" />
     <Compile Include="Assets\LifeCountManager.cs" />
     <Compile Include="Assets\Modern UI Pack\Scripts\DemoManager.cs" />
     <Compile Include="Assets\LeanTween\Framework\LTSeq.cs" />
@@ -72,6 +75,7 @@
     <Compile Include="Assets\Modern UI Pack\Scripts\RangeMaxSlider.cs" />
     <Compile Include="Assets\Modern UI Pack\Scripts\ProgressBar.cs" />
     <Compile Include="Assets\Scripts\Shop\GameObjectExtension.cs" />
+    <Compile Include="Assets\Scripts\Ads\AdsInitializer.cs" />
     <Compile Include="Assets\Scripts\SwipeScript.cs" />
     <Compile Include="Assets\Modern UI Pack\Scripts\DemoHamburgerMenu.cs" />
     <Compile Include="Assets\LeanTween\Framework\LeanAudio.cs" />
@@ -95,7 +99,9 @@
     <Compile Include="Assets\Modern UI Pack\Scripts\HamburgerPanelButton.cs" />
     <Compile Include="Assets\LeanTween\Framework\LeanSmooth.cs" />
     <Compile Include="Assets\Scripts\BallSpawner.cs" />
+    <Compile Include="Assets\Scripts\Ads\RewardedAdsButton.cs" />
     <Compile Include="Assets\Modern UI Pack\Scripts\LaunchURL.cs" />
+    <Compile Include="Assets\Scripts\Ads\AdsController.cs" />
     <Compile Include="Assets\Scripts\VibrationMusicControll.cs" />
     <Compile Include="Assets\Scripts\Views\CoinBuyView.cs" />
     <Compile Include="Assets\Scripts\ScoreManager.cs" />
@@ -121,15 +127,10 @@
     <Compile Include="Assets\LeanTween\Framework\LTDescrOptional.cs" />
     <Compile Include="Assets\Modern UI Pack\Scripts\NotificationExample.cs" />
     <Compile Include="Assets\Scripts\Mainmenumanager.cs" />
+    <Compile Include="Assets\GUI Kit Mono Round\_Scripts\Rotate.cs" />
     <Compile Include="Assets\Scripts\Music.cs" />
     <Compile Include="Assets\Scripts\Shop\SaveSystem.cs" />
-    <Compile Include="Assets\Scripts\Ads\AdsInitializer.cs" />
-    <Compile Include="Assets\Scripts\Ads\AdsController.cs" />
-    <Compile Include="Assets\Scripts\Ads\RewardedAdsButton.cs" />
-    <Compile Include="Assets\GUI Kit Mono Round\_Scripts\UIParticle\UIParticleSystem.cs" />
-    <Compile Include="Assets\GUI Kit Mono Round\_Scripts\Switch.cs" />
-    <Compile Include="Assets\GUI Kit Mono Round\_Scripts\CtrPanel\CtrPanel.cs" />
-    <Compile Include="Assets\GUI Kit Mono Round\_Scripts\Rotate.cs" />
+    <Compile Include="Assets\Scripts\Views\ItemView.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
@@ -752,9 +753,9 @@
       <Project>{0862D3DD-C88D-F86A-90B7-86F07720E674}</Project>
       <Name>Unity.VisualStudio.Editor</Name>
     </ProjectReference>
-    <ProjectReference Include="Unity.Timeline.Editor.csproj">
-      <Project>{8ACD971E-96B4-6333-1BA8-1BF654FCEC68}</Project>
-      <Name>Unity.Timeline.Editor</Name>
+    <ProjectReference Include="Unity.VectorGraphics.csproj">
+      <Project>{1B1642DF-C4C1-B553-E848-979DE1126FBE}</Project>
+      <Name>Unity.VectorGraphics</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Timeline.csproj">
       <Project>{8BB03376-B899-411A-AC92-3728E38595C2}</Project>
@@ -764,33 +765,21 @@
       <Project>{49DD212E-E9EB-724B-9B7A-65B81E4752D4}</Project>
       <Name>Unity.TextMeshPro</Name>
     </ProjectReference>
-    <ProjectReference Include="Unity.VectorGraphics.Editor.csproj">
-      <Project>{4DA92177-630D-3375-D9A9-EF19D6319678}</Project>
-      <Name>Unity.VectorGraphics.Editor</Name>
-    </ProjectReference>
     <ProjectReference Include="Unity.InternalAPIEngineBridge.003.csproj">
       <Project>{53DF2918-EECE-EA30-ADEA-FDFBC09943A4}</Project>
       <Name>Unity.InternalAPIEngineBridge.003</Name>
     </ProjectReference>
-    <ProjectReference Include="Unity.Mathematics.Editor.csproj">
-      <Project>{62FB581D-BC4C-C5C4-25F8-BBD9BC888031}</Project>
-      <Name>Unity.Mathematics.Editor</Name>
+    <ProjectReference Include="UnityEngine.Advertisements.csproj">
+      <Project>{8367452D-774A-784B-0B7C-9A084EA939DA}</Project>
+      <Name>UnityEngine.Advertisements</Name>
     </ProjectReference>
-    <ProjectReference Include="Unity.2D.Common.Runtime.csproj">
-      <Project>{DF4BC0E5-080E-5338-BFAA-2E317165BA21}</Project>
-      <Name>Unity.2D.Common.Runtime</Name>
+    <ProjectReference Include="Unity.InternalAPIEditorBridge.001.csproj">
+      <Project>{A3062A72-9314-9A9C-CA28-DD65F4CC715F}</Project>
+      <Name>Unity.InternalAPIEditorBridge.001</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.2D.Path.Editor.csproj">
       <Project>{04B5B3CC-3DCF-05C8-3E7B-AF0B114E3AC6}</Project>
       <Name>Unity.2D.Path.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.VectorGraphics.csproj">
-      <Project>{1B1642DF-C4C1-B553-E848-979DE1126FBE}</Project>
-      <Name>Unity.VectorGraphics</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.2D.SpriteShape.Editor.csproj">
-      <Project>{E40C76D5-2128-927A-B6CB-531C17083066}</Project>
-      <Name>Unity.2D.SpriteShape.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Rider.Editor.csproj">
       <Project>{2A37C41A-0EFC-313C-86AC-37A664C4EF23}</Project>
@@ -804,33 +793,45 @@
       <Project>{7B9E9EF3-7820-C547-2136-1229553859D0}</Project>
       <Name>IngameDebugConsole.Runtime</Name>
     </ProjectReference>
-    <ProjectReference Include="Unity.2D.SpriteShape.Runtime.csproj">
-      <Project>{F1B57085-A66A-5284-FAB9-28693A605495}</Project>
-      <Name>Unity.2D.SpriteShape.Runtime</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.2D.Common.Editor.csproj">
-      <Project>{9A853DB8-531C-6F3A-F09E-5A1C9B3A5796}</Project>
-      <Name>Unity.2D.Common.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.InternalAPIEditorBridge.001.csproj">
-      <Project>{A3062A72-9314-9A9C-CA28-DD65F4CC715F}</Project>
-      <Name>Unity.InternalAPIEditorBridge.001</Name>
-    </ProjectReference>
     <ProjectReference Include="Unity.Mathematics.csproj">
       <Project>{B32A5410-168B-6842-9B1B-5C0CF0926AF7}</Project>
       <Name>Unity.Mathematics</Name>
     </ProjectReference>
-    <ProjectReference Include="UnityEngine.Advertisements.csproj">
-      <Project>{8367452D-774A-784B-0B7C-9A084EA939DA}</Project>
-      <Name>UnityEngine.Advertisements</Name>
+    <ProjectReference Include="Unity.Timeline.Editor.csproj">
+      <Project>{8ACD971E-96B4-6333-1BA8-1BF654FCEC68}</Project>
+      <Name>Unity.Timeline.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.VectorGraphics.Editor.csproj">
+      <Project>{4DA92177-630D-3375-D9A9-EF19D6319678}</Project>
+      <Name>Unity.VectorGraphics.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Mathematics.Editor.csproj">
+      <Project>{62FB581D-BC4C-C5C4-25F8-BBD9BC888031}</Project>
+      <Name>Unity.Mathematics.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.Monetization.csproj">
       <Project>{46F49D51-4EB3-C89F-857F-44E10B0A3FDD}</Project>
       <Name>UnityEngine.Monetization</Name>
     </ProjectReference>
+    <ProjectReference Include="Unity.2D.Common.Runtime.csproj">
+      <Project>{DF4BC0E5-080E-5338-BFAA-2E317165BA21}</Project>
+      <Name>Unity.2D.Common.Runtime</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.2D.SpriteShape.Editor.csproj">
+      <Project>{E40C76D5-2128-927A-B6CB-531C17083066}</Project>
+      <Name>Unity.2D.SpriteShape.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.2D.Common.Editor.csproj">
+      <Project>{9A853DB8-531C-6F3A-F09E-5A1C9B3A5796}</Project>
+      <Name>Unity.2D.Common.Editor</Name>
+    </ProjectReference>
     <ProjectReference Include="UnityEngine.Advertisements.Editor.csproj">
       <Project>{26D7164E-D5D2-E562-9EB7-5532F80573DC}</Project>
       <Name>UnityEngine.Advertisements.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.2D.SpriteShape.Runtime.csproj">
+      <Project>{F1B57085-A66A-5284-FAB9-28693A605495}</Project>
+      <Name>Unity.2D.SpriteShape.Runtime</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

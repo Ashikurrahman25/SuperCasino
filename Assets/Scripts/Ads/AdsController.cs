@@ -9,7 +9,7 @@ public class AdsController : MonoBehaviour
 
     private void Start()
     {
-        StartCoroutine(ShowBannerWhenInitialized());
+        //StartCoroutine(ShowBannerWhenInitialized());
     }
 
     public void ShowInterstitialAd()

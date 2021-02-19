@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 using UnityEngine.Serialization;
 using UnityEngine.UI;
@@ -14,9 +15,13 @@ public class Switch : MonoBehaviour
     
     [FormerlySerializedAs("_isOn")] [SerializeField] private bool isOn = false;
 
-    private Button _button;
+    public Button _button;
     private Slider _slider;
-    
+
+    public Color onColor;
+    public Color offColor;
+    public TextMeshProUGUI notificationText;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -35,6 +40,17 @@ public class Switch : MonoBehaviour
         StartCoroutine(ActiveSwitchSlider());
     }
 
+
+    public void OnClickSwitchButton(bool on)
+    {
+        if (!on) isOn = true;
+        else isOn = false;
+
+        _button.enabled = false;
+
+        StartCoroutine(ActiveSwitchSlider());
+    }
+
     IEnumerator ActiveSwitchSlider()
     {
         float endValue = 0;
@@ -43,6 +59,13 @@ public class Switch : MonoBehaviour
         {
             endValue = 1;
             handle = switchOn;
+            notificationText.color = onColor;
+            notificationText.text = "ON";
+        }
+        else
+        {
+            notificationText.color = offColor;
+            notificationText.text = "OFF";
         }
   
         while (_slider.value != endValue)

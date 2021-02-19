@@ -48,6 +48,9 @@ public class ShopManager : MonoBehaviour
     [HideInInspector] public bool onBG;
     [HideInInspector] public bool onPowerup;
 
+    public Transform contain;
+    public GameObject prefab;
+
     private void Awake()
     {
         if (instance != null) Destroy(instance);
@@ -66,13 +69,68 @@ public class ShopManager : MonoBehaviour
     public void Start()
     {
         productManager = ProductManager.instance;
-        OnBallButton();
+        //OnBallButton();
 
-        UpdatePowerup();
+        //UpdatePowerup();
         UpdateCoin(0, false);
+
+        SpawnBallItems();
        
     }
 
+
+    public void SpawnBallItems()
+    {
+        for (int i = 0; i < productManager.allLists.ballSkins.Length; i++)
+        {
+            GameObject item = Instantiate(prefab, contain);
+
+            if(productManager.allLists.ballSkins[i].isBought)
+            {
+                if (productManager.allLists.ballSkins[i].isSelected)
+                {
+                   item.GetComponent<ItemView>().SetDetail(productManager.allLists.ballSkins[i].productName,
+                    "Selected", productManager.ballSprites[i]);
+                    item.GetComponent<ItemView>().ChangeStatus(true);
+                }
+                else
+                {
+                    item.GetComponent<ItemView>().SetDetail(productManager.allLists.ballSkins[i].productName,
+                    "Select", productManager.ballSprites[i]);
+                    item.GetComponent<ItemView>().ChangeStatus(false);
+                }
+
+            }
+            else
+            {
+               
+
+                item.GetComponent<ItemView>().SetDetail(productManager.allLists.ballSkins[i].productName,
+               productManager.allLists.ballSkins[i].productPrice.ToString("00"), productManager.ballSprites[i]);
+            }
+            
+        }
+    }
+
+    //public void SpawnBallItems()
+    //{
+    //    for (int i = 0; i < productManager.allLists.ballSkins.Length; i++)
+    //    {
+    //        GameObject item = Instantiate(prefab, contain);
+    //        item.GetComponent<ItemView>().SetDetail(productManager.allLists.ballSkins[i].productName,
+    //            productManager.allLists.ballSkins[i].productPrice, productManager.ballSprites[i]);
+    //    }
+    //}
+
+    //public void SpawnBallItems()
+    //{
+    //    for (int i = 0; i < productManager.allLists.ballSkins.Length; i++)
+    //    {
+    //        GameObject item = Instantiate(prefab, contain);
+    //        item.GetComponent<ItemView>().SetDetail(productManager.allLists.ballSkins[i].productName,
+    //            productManager.allLists.ballSkins[i].productPrice, productManager.ballSprites[i]);
+    //    }
+    //}
 
     public void OnButtonClick(int index)
     {
@@ -155,10 +213,10 @@ public class ShopManager : MonoBehaviour
            
             if (productManager.ballSprites[i] != null)
             {
-                Texture2D tex = productManager.ballSprites[i];
-                Sprite sp = Sprite.Create(tex, new Rect(0.0f, 0.0f, tex.width, tex.height), new Vector2(0.5f, 0.5f), 100.0f);
-                productIcon.sprite = sp;
-                go.transform.GetChild(0).GetComponent<Image>().sprite = sp;
+                //Texture2D tex = productManager.ballSprites[i];
+                //Sprite sp = Sprite.Create(tex, new Rect(0.0f, 0.0f, tex.width, tex.height), new Vector2(0.5f, 0.5f), 100.0f);
+                //productIcon.sprite = sp;
+                //go.transform.GetChild(0).GetComponent<Image>().sprite = sp;
             }
 
 
@@ -171,8 +229,8 @@ public class ShopManager : MonoBehaviour
 
         if (productManager.ballSprites[GlobalData.selectedBall] != null)
         {
-            Texture2D tex = productManager.ballSprites[GlobalData.selectedBall];
-            productIcon.sprite = Sprite.Create(tex, new Rect(0.0f, 0.0f, tex.width, tex.height), new Vector2(0.5f, 0.5f), 100.0f);
+            //Texture2D tex = productManager.ballSprites[GlobalData.selectedBall];
+            //productIcon.sprite = Sprite.Create(tex, new Rect(0.0f, 0.0f, tex.width, tex.height), new Vector2(0.5f, 0.5f), 100.0f);
         }
     }
 
@@ -307,7 +365,7 @@ public class ShopManager : MonoBehaviour
                         GlobalData.doubleCount++;
 
                     UpdateCoin(productManager.allLists.powerUps[selectIndex].productPrice, false);
-                    UpdatePowerup();
+                    //UpdatePowerup();
                 }
                
             }
