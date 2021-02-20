@@ -406,7 +406,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &65964107
 Transform:
   m_ObjectHideFlags: 0
@@ -2323,7 +2323,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 1, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 397.30832}
-  m_SizeDelta: {x: -1665.2075, y: 75.49}
+  m_SizeDelta: {x: -1666.3856, y: 75.49}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &570529833
 MonoBehaviour:
@@ -3258,7 +3258,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.58431375, g: 0.58431375, b: 0.58431375, a: 0.4117647}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.78431374}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -15867,8 +15867,6 @@ MonoBehaviour:
   speedCount: {fileID: 531867404}
   slowCount: {fileID: 285964808}
   doubleCount: {fileID: 363372083}
-  minTimeToEnablePowerup: 10
-  elapsedTime: 0
   doingPowerup: 0
   canUsePower: 0
   freeze: 0
@@ -16240,6 +16238,11 @@ MonoBehaviour:
   - {fileID: 9037592943522350961, guid: 3c4b7873ed53a36488e72821beaf9b68, type: 3}
   - {fileID: 8548641590133117381, guid: 4e8075ae16b8bbd41895701031b721ae, type: 3}
   - {fileID: 5942750071444846725, guid: 4081fcc4aa069204981bfced058b7bb5, type: 3}
+  - {fileID: 5498414383651456860, guid: c06b294ec01daca4e952b8faa187e539, type: 3}
+  - {fileID: 7434017174590667426, guid: b6a7a859865200f48aee0aac521d5249, type: 3}
+  - {fileID: 7708808708585031355, guid: 459b0eb93ccb21247add33665574419f, type: 3}
+  - {fileID: 1976145397717099141, guid: 539fe0760f2438b49afb8450af71a626, type: 3}
+  - {fileID: 3990516330499799899, guid: 9664971fc95d430479b3f10fb82abe5e, type: 3}
   Direction: 1
   SpawnedPlate: []
   waitTime: 2
@@ -16434,6 +16437,7 @@ MonoBehaviour:
   GameOverPanel: {fileID: 1795158870}
   isArcadeMode: 0
   menuShown: 0
+  isGameOver: 0
   scoreText: {fileID: 144157400}
   highScoreText: {fileID: 95280442}
 --- !u!114 &1740098542

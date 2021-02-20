@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.Advertisements;
 using UnityEngine.UI;
 
-[RequireComponent(typeof(Button))]
+
 public class RewardedAdsButton : MonoBehaviour, IUnityAdsListener
 {
 
@@ -14,18 +14,15 @@ public class RewardedAdsButton : MonoBehaviour, IUnityAdsListener
     private string gameId = "4016433";
 #endif
 
-    Button myButton;
-    public string mySurfacingId = "rewardedVideo";
+    
+    public int rewardAmount;
 
     void Start()
     {
-        myButton = GetComponent<Button>();
+ 
 
         // Set interactivity to be dependent on the Ad Unit or legacy Placement’s status:
-        myButton.interactable = Advertisement.IsReady(mySurfacingId);
-
-        // Map the ShowRewardedVideo function to the button’s click listener:
-        if (myButton) myButton.onClick.AddListener(ShowRewardedVideo);
+      
 
         // Initialize the Ads listener and service:
         Advertisement.AddListener(this);
@@ -33,19 +30,16 @@ public class RewardedAdsButton : MonoBehaviour, IUnityAdsListener
     }
 
     // Implement a function for showing a rewarded video ad:
-    void ShowRewardedVideo()
-    {
-        Advertisement.Show(mySurfacingId);
-    }
+
 
     // Implement IUnityAdsListener interface methods:
     public void OnUnityAdsReady(string surfacingId)
     {
         // If the ready Ad Unit or legacy Placement is rewarded, activate the button: 
-        if (surfacingId == mySurfacingId)
-        {
-            myButton.interactable = true;
-        }
+        //if (surfacingId == mySurfacingId)
+        //{
+           
+        //}
     }
 
     public void OnUnityAdsDidFinish(string surfacingId, ShowResult showResult)
@@ -54,7 +48,8 @@ public class RewardedAdsButton : MonoBehaviour, IUnityAdsListener
         if (showResult == ShowResult.Finished)
         {
             // Reward the user for watching the ad to completion.
-            ShopManager.instance.UpdateCoin(50,true);
+            ShopManager.instance.UpdateCoin(rewardAmount,true);
+            ShopManager.instance.failedPanel.SetActive(false);
         }
         else if (showResult == ShowResult.Skipped)
         {

@@ -1742,10 +1742,15 @@ MonoBehaviour:
   ScoredObj: []
   scoreManager: {fileID: 0}
   powerUpEnabled: 0
-  powerUpLength: 15
+  powerUpLength: 5
   elapsedTime: 0
   powerupsController: {fileID: 0}
   scoreToAdd: 1
+  isBomb: 0
+  isSlow: 0
+  isFast: 0
+  isFreeze: 0
+  isDouble: 0
 --- !u!54 &275280167226772666
 Rigidbody:
   m_ObjectHideFlags: 0

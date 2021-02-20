@@ -7,10 +7,8 @@ public class GlobalData
     public static int selectedBall;
     public static int selectedBG;
 
-    public static int freezeCount;
-    public static int speedCount;
-    public static int slowCount;
-    public static int doubleCount;
+    public static int megaBomb;
+    public static int bomb;
 }
 
 

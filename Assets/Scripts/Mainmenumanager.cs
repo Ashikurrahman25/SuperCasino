@@ -29,8 +29,12 @@ public class Mainmenumanager : MonoBehaviour
         settingsPanel.SetActive(!settingsPanel.activeSelf);    
     }
 
+
     private void Start()
     {
+
+        Debug.Log(ProductManager.instance.allLists.powerUps.Length);
+
         if (PlayerPrefs.GetInt("playcount", 0) == 0)
         {
             firstTimePlay++;
@@ -40,13 +44,12 @@ public class Mainmenumanager : MonoBehaviour
         }
         else
         {
-            Debug.Log("Not First Time");
             ProductManager.instance.LoadList();
         }
 
-        Score.text = "HighScore: " + PlayerPrefs.GetInt("highscore").ToString();
+        Score.text = "HighScore: " + PlayerPrefs.GetInt("highscore").ToString("00");
         vibrate = GetComponent<VibrationMusicControll>();
-
+        Debug.Log(ProductManager.instance.allLists.powerUps.Length);
     }
 
     public void ArcadeMode()  

@@ -24,6 +24,12 @@ public class PointPlate : MonoBehaviour
 
     public int scoreToAdd;
 
+    public bool isBomb;
+    public bool isSlow;
+    public bool isFast;
+    public bool isFreeze;
+    public bool isDouble;
+
     private void Start()
     {
         Speed = normalSpeed;
@@ -34,6 +40,12 @@ public class PointPlate : MonoBehaviour
     }
     void Update()
     {
+
+        if (powerupsController.doingPowerup)
+        {
+            if (isSlow || isFast || isFreeze || isDouble)
+                Destroy(gameObject);
+        }
 
         if (Vector3.Distance(iniPos,transform.position)>25)
         {
@@ -95,7 +107,7 @@ public class PointPlate : MonoBehaviour
 
         else if (powerUpEnabled)
         {
-            if (elapsedTime <= powerUpLength) elapsedTime += Time.deltaTime;
+            if ( elapsedTime <= powerUpLength) elapsedTime += Time.deltaTime;
             else
             {
                 elapsedTime = 0;
@@ -110,13 +122,46 @@ public class PointPlate : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.CompareTag("Ball") && !isBroken)
+        if (other.CompareTag("Ball"))
         {
-            isBroken = true;
-            ScoringPos = other.transform.position;
-            Break();
+            if (!isBomb && !isFast && !isFreeze && !isSlow && !isDouble)
+            {
+                if (!isBroken)
+                {
+                    isBroken = true;
+                    ScoringPos = other.transform.position;
+                    Break();
+                }
+            }
+            else if(isBomb)
+            {
+                FindObjectOfType<WinningManager>().HandleWin();
+                FindObjectOfType<WinningManager>().isGameOver = true;
+            }
+            else if(isFast)
+            {
+                powerupsController.EnableSpeed();
+                Debug.Log("Should Enable fast");
+            }
+            else if (isSlow)
+            {
+                powerupsController.EnableSlow();
+                Debug.Log("Should Enable slow");
+            }
+            else if (isFreeze)
+            {
+                powerupsController.EnableFreeze();
+                Debug.Log("Should Enable freeze");
+            }
+            else if (isDouble)
+            {
+                powerupsController.EnableDouble();
+                Debug.Log("Should Enable double");
+            }
+
+
         }
-      
+        
     }
 
 

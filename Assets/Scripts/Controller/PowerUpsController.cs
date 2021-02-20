@@ -19,8 +19,7 @@ public class PowerUpsController : MonoBehaviour
     public TextMeshProUGUI slowCount;
     public TextMeshProUGUI doubleCount;
 
-    public float minTimeToEnablePowerup;
-    [HideInInspector] public float elapsedTime;
+
 
     [HideInInspector] public bool doingPowerup;
     [HideInInspector] public bool canUsePower;
@@ -30,36 +29,8 @@ public class PowerUpsController : MonoBehaviour
     [HideInInspector] public bool doublePoints;
 
 
-    private void Start()
-    {
-        UpdatePowerUpCount();
-    }
-
-    private void Update()
-    {
-        if (!doingPowerup)
-        {
-            if (elapsedTime <= minTimeToEnablePowerup)
-            {
-                elapsedTime += Time.deltaTime;
-            }
-            else
-            {
-                if (!canUsePower)
-                {
-                    canUsePower = true;
-                    elapsedTime = 0;
-                    EnableDisablePower(true);
-
-                    Debug.Log("Enabling powerups");
-                }
-            }
-        }
-    }
-
     public void EnableFreeze()
     {
-        GlobalData.freezeCount--;
         StartPowerUp();
         freeze = true;
         Debug.Log("Doing freeze....");
@@ -67,7 +38,6 @@ public class PowerUpsController : MonoBehaviour
 
     public void EnableSpeed()
     {
-        GlobalData.speedCount--;
         StartPowerUp();
         speedUp = true;
         Debug.Log("Doing speeding....");
@@ -75,7 +45,6 @@ public class PowerUpsController : MonoBehaviour
 
     public void EnableSlow()
     {
-        GlobalData.slowCount--;
         StartPowerUp();
         slowDown = true;
         Debug.Log("Doing slowing....");
@@ -83,7 +52,6 @@ public class PowerUpsController : MonoBehaviour
 
     public void EnableDouble()
     {
-        GlobalData.doubleCount--;
         StartPowerUp();
         doublePoints = true;
         Debug.Log("Doing Double Points....");
@@ -91,8 +59,6 @@ public class PowerUpsController : MonoBehaviour
 
     void StartPowerUp()
     {
-        UpdatePowerUpCount();
-        EnableDisablePower(false);
         doingPowerup = true;
         canUsePower = false;
     }
@@ -105,43 +71,5 @@ public class PowerUpsController : MonoBehaviour
         speedUp = false;
         slowDown = false;
         doublePoints = false;
-    }
-
-    public void UpdatePowerUpCount()
-    {
-        freezeCount.text = GlobalData.freezeCount.ToString();
-        speedCount.text = GlobalData.speedCount.ToString();
-        slowCount.text = GlobalData.slowCount.ToString();
-        doubleCount.text = GlobalData.doubleCount.ToString();
-
-        PlayerPrefs.SetInt("freeze", GlobalData.freezeCount);
-        PlayerPrefs.SetInt("speed", GlobalData.speedCount);
-        PlayerPrefs.SetInt("slow", GlobalData.slowCount);
-        PlayerPrefs.SetInt("double", GlobalData.doubleCount);
-    }
-
-    void EnableDisablePower(bool status)
-    {
-        if(status)
-        {
-            if (GlobalData.freezeCount > 0)
-                freezeButton.interactable = true;
-
-            if (GlobalData.speedCount > 0)
-                speedButton.interactable = true;
-
-            if (GlobalData.slowCount > 0)
-                slowButton.interactable = true;
-
-            if (GlobalData.doubleCount > 0)
-                doubleButton.interactable = true;
-        }
-        else
-        {
-            freezeButton.interactable = false;
-            speedButton.interactable = false;
-            slowButton.interactable = false;
-            doubleButton.interactable = false;
-        }
     }
 }

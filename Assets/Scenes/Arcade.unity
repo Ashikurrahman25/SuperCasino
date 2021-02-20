@@ -3347,7 +3347,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.58431375, g: 0.58431375, b: 0.58431375, a: 0.4117647}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.78431374}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -17377,6 +17377,7 @@ MonoBehaviour:
   GameOverPanel: {fileID: 1795158870}
   isArcadeMode: 1
   menuShown: 0
+  isGameOver: 0
   scoreText: {fileID: 144157400}
   highScoreText: {fileID: 95280442}
 --- !u!1 &1745485080

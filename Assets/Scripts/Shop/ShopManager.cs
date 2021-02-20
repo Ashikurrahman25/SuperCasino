@@ -15,51 +15,26 @@ public class ShopManager : MonoBehaviour
 
     [Space]
     [Header("UI texts for showing details")]
-    public TextMeshProUGUI productTitle;
-    public TextMeshProUGUI productPrice;
     public TextMeshProUGUI coinCount;
-    public TextMeshProUGUI freezeCount;
-    public TextMeshProUGUI speedCount;
-    public TextMeshProUGUI slowCount;
-    public TextMeshProUGUI doubleCount;
+    public TextMeshProUGUI megaBombCount;
+    public TextMeshProUGUI bombCount;
 
-    [Space]
-    [Header("Buy/sell button")]
-    public Image[] allButtons;
-    public Sprite activateSprite;
-    public Sprite deactivateSprite;
 
-    [Space]
-    [Header("Prefabs and panels")]
-    public GameObject productPrefab;
-    public GameObject infoPanel;
-    public GameObject clickedButton;
-    public GameObject buyButtons;
-    public GameObject buySellPanel;
-    public GameObject coinBuyingPanel;
-    public Transform productContainer;
-    public Button buyButton;
-    public Image productIcon;
 
-    [Space]
-    [Header("Booleans for managing sates")]
-    [HideInInspector] public bool onPrizeChamber;
-    [HideInInspector] public bool onBall;
-    [HideInInspector] public bool onBG;
-    [HideInInspector] public bool onPowerup;
-
-    public Transform contain;
+    public Transform ballContainer;
+    public Transform BGContainer;
+    public Transform powerContainer;
     public GameObject prefab;
+
+    public GameObject failedPanel;
 
     private void Awake()
     {
         if (instance != null) Destroy(instance);
         else instance = this;
 
-        GlobalData.freezeCount = PlayerPrefs.GetInt("freeze", 0);
-        GlobalData.speedCount = PlayerPrefs.GetInt("speed", 0);
-        GlobalData.slowCount = PlayerPrefs.GetInt("slow", 0);
-        GlobalData.doubleCount = PlayerPrefs.GetInt("double", 0);
+        GlobalData.bomb = PlayerPrefs.GetInt("bomb", 0);
+        GlobalData.megaBomb = PlayerPrefs.GetInt("megaBomb", 0);
 
         coins = PlayerPrefs.GetInt("coins", 0);
         GlobalData.selectedBall = PlayerPrefs.GetInt("selectedball",0);
@@ -69,13 +44,13 @@ public class ShopManager : MonoBehaviour
     public void Start()
     {
         productManager = ProductManager.instance;
-        //OnBallButton();
 
-        //UpdatePowerup();
+        UpdatePowerup();
         UpdateCoin(0, false);
 
         SpawnBallItems();
-       
+        SpawnBGItems();
+        SpawnPowerItems();
     }
 
 
@@ -83,15 +58,16 @@ public class ShopManager : MonoBehaviour
     {
         for (int i = 0; i < productManager.allLists.ballSkins.Length; i++)
         {
-            GameObject item = Instantiate(prefab, contain);
+            GameObject item = Instantiate(prefab, ballContainer);
+            item.GetComponent<ItemView>().isBall = true;
 
-            if(productManager.allLists.ballSkins[i].isBought)
+            if (productManager.allLists.ballSkins[i].isBought)
             {
                 if (productManager.allLists.ballSkins[i].isSelected)
                 {
                    item.GetComponent<ItemView>().SetDetail(productManager.allLists.ballSkins[i].productName,
                     "Selected", productManager.ballSprites[i]);
-                    item.GetComponent<ItemView>().ChangeStatus(true);
+                    item.GetComponent<ItemView>().ChangeStatus(true);   
                 }
                 else
                 {
@@ -99,307 +75,71 @@ public class ShopManager : MonoBehaviour
                     "Select", productManager.ballSprites[i]);
                     item.GetComponent<ItemView>().ChangeStatus(false);
                 }
+                item.GetComponent<ItemView>().isBought = true;
 
             }
             else
-            {
-               
-
+            {              
                 item.GetComponent<ItemView>().SetDetail(productManager.allLists.ballSkins[i].productName,
-               productManager.allLists.ballSkins[i].productPrice.ToString("00"), productManager.ballSprites[i]);
+                productManager.allLists.ballSkins[i].productPrice.ToString("00"), productManager.ballSprites[i]);
             }
             
         }
     }
 
-    //public void SpawnBallItems()
-    //{
-    //    for (int i = 0; i < productManager.allLists.ballSkins.Length; i++)
-    //    {
-    //        GameObject item = Instantiate(prefab, contain);
-    //        item.GetComponent<ItemView>().SetDetail(productManager.allLists.ballSkins[i].productName,
-    //            productManager.allLists.ballSkins[i].productPrice, productManager.ballSprites[i]);
-    //    }
-    //}
-
-    //public void SpawnBallItems()
-    //{
-    //    for (int i = 0; i < productManager.allLists.ballSkins.Length; i++)
-    //    {
-    //        GameObject item = Instantiate(prefab, contain);
-    //        item.GetComponent<ItemView>().SetDetail(productManager.allLists.ballSkins[i].productName,
-    //            productManager.allLists.ballSkins[i].productPrice, productManager.ballSprites[i]);
-    //    }
-    //}
-
-    public void OnButtonClick(int index)
+    public void SpawnBGItems()
     {
-        for (int i = 0; i < allButtons.Length; i++)
+        for (int i = 0; i < productManager.allLists.backgrounds.Length; i++)
         {
-            allButtons[i].sprite = deactivateSprite;
-        }
+            GameObject item = Instantiate(prefab, BGContainer);
+            item.GetComponent<ItemView>().isBG = true;
 
-        allButtons[index].sprite = activateSprite;
-        productContainer.gameObject.KillAllChild();
-
-        if (!infoPanel.activeSelf)
-            infoPanel.SetActive(true);
-
-        if (!buyButtons.activeSelf)
-            buyButtons.SetActive(true);
-
-        if (index == 0)
-        {
-            coinBuyingPanel.SetActive(false);
-            buySellPanel.SetActive(true);
-
-            OnBallButton();
-            onPrizeChamber = false;
-        }
-        else if(index == 1)
-        {
-            buyButtons.SetActive(false);
-
-            coinBuyingPanel.SetActive(false);
-            buySellPanel.SetActive(true);
-
-            for (int i = 0; i < productManager.allLists.achievedPrizes.Count; i++)
+            if (productManager.allLists.backgrounds[i].isBought)
             {
-                GameObject go = Instantiate(productPrefab, productContainer);
-
-                if (productManager.prizeSprites[productManager.allLists.achievedPrizes[i].iconIndex] != null)
+                if (productManager.allLists.backgrounds[i].isSelected)
                 {
-                    Sprite sp = productManager.prizeSprites[productManager.allLists.achievedPrizes[i].iconIndex];
-                    productIcon.sprite = sp;
-                    go.transform.GetChild(0).GetComponent<Image>().sprite = sp;
+                    item.GetComponent<ItemView>().SetDetail(productManager.allLists.backgrounds[i].productName,
+                     "Selected", productManager.backgroundSprites[i]);
+                    item.GetComponent<ItemView>().ChangeStatus(true);
                 }
-            }
+                else
+                {
+                    item.GetComponent<ItemView>().SetDetail(productManager.allLists.backgrounds[i].productName,
+                    "Select", productManager.backgroundSprites[i]);
+                    item.GetComponent<ItemView>().ChangeStatus(false);  
+                }
 
-            if(productManager.allLists.achievedPrizes.Count > 0)
-            {
-                productIcon.sprite = productManager.prizeSprites[productManager.allLists.achievedPrizes[0].iconIndex];
-                productTitle.text = productManager.allLists.achievedPrizes[0].prizeName;
-                productPrice.text = productManager.allLists.achievedPrizes[0].sellPrice.ToString("00");
+                item.GetComponent<ItemView>().isBought = true;
+
             }
             else
             {
-                infoPanel.SetActive(false);
+                item.GetComponent<ItemView>().SetDetail(productManager.allLists.ballSkins[i].productName,
+                productManager.allLists.backgrounds[i].productPrice.ToString("00"), productManager.backgroundSprites[i]);
             }
 
-            onPrizeChamber = true;
-            onBall = false;
-            buyButton.GetComponentInChildren<Text>().text = "Sell";
-        }
-        else
-        {
-            coinBuyingPanel.SetActive(true);
-            buySellPanel.SetActive(false);
-            onPrizeChamber = false;
-            onBall = false;
-        }
-
-    }
-
-    public void OnBallButton()
-    {
-        productContainer.gameObject.KillAllChild();
-        ResetAll();
-
-        onBall = true;
-
-        for (int i = 0; i < productManager.allLists.ballSkins.Length; i++)
-        {
-            GameObject go = Instantiate(productPrefab, productContainer);
-           
-            if (productManager.ballSprites[i] != null)
-            {
-                //Texture2D tex = productManager.ballSprites[i];
-                //Sprite sp = Sprite.Create(tex, new Rect(0.0f, 0.0f, tex.width, tex.height), new Vector2(0.5f, 0.5f), 100.0f);
-                //productIcon.sprite = sp;
-                //go.transform.GetChild(0).GetComponent<Image>().sprite = sp;
-            }
-
-
-        }
-
-        productTitle.text = productManager.allLists.ballSkins[GlobalData.selectedBall].productName;
-        productPrice.text = "Owned";
-        buyButton.GetComponentInChildren<Text>().text = "Selected";
-
-
-        if (productManager.ballSprites[GlobalData.selectedBall] != null)
-        {
-            //Texture2D tex = productManager.ballSprites[GlobalData.selectedBall];
-            //productIcon.sprite = Sprite.Create(tex, new Rect(0.0f, 0.0f, tex.width, tex.height), new Vector2(0.5f, 0.5f), 100.0f);
         }
     }
 
-    public void OnBackGroundButton()
+    public void SpawnPowerItems()
     {
-        productContainer.gameObject.KillAllChild();
-        ResetAll();
-
-        onBG = true;
-
-        for (int i = 0; i < productManager.allLists.backgrounds.Length; i++)
-        {
-            GameObject go = Instantiate(productPrefab, productContainer);
-
-            if (productManager.backgroundSprites[i] != null)
-            {
-                Sprite sp = productManager.backgroundSprites[i];
-                productIcon.sprite = sp;
-                go.transform.GetChild(0).GetComponent<Image>().sprite = sp;
-            }
-        }
-
-        productTitle.text = productManager.allLists.backgrounds[GlobalData.selectedBG].productName;
-        productPrice.text = "Owned";
-        buyButton.GetComponentInChildren<Text>().text = "Selected";
-
-        if (productManager.backgroundSprites[GlobalData.selectedBG] != null)
-            productIcon.sprite = productManager.backgroundSprites[GlobalData.selectedBG];
-    }
-
-    public void OnPowerUpButton()
-    {
-        productContainer.gameObject.KillAllChild();
-        ResetAll();
-
-        onPowerup = true;
-
         for (int i = 0; i < productManager.allLists.powerUps.Length; i++)
         {
-            GameObject go = Instantiate(productPrefab, productContainer);
-            if (productManager.powerUpSprites[i] != null)
-            {
-                Sprite sp = productManager.powerUpSprites[i];
-                productIcon.sprite = sp;
-                go.transform.GetChild(0).GetComponent<Image>().sprite = sp;
-            }
+            GameObject item = Instantiate(prefab, powerContainer);
+            item.GetComponent<ItemView>().isPowerUp = true;
+
+            item.GetComponent<ItemView>().SetDetail(productManager.allLists.powerUps[i].productName,
+            productManager.allLists.powerUps[i].productPrice.ToString("00"), productManager.powerUpSprites[i]);
         }
-
-        productTitle.text = productManager.allLists.powerUps[0].productName;
-        productPrice.text = productManager.allLists.powerUps[0].productPrice.ToString("00");
-        buyButton.GetComponentInChildren<Text>().text = "Buy";
     }
-
-
-    public void OnBuyButton()
-    {
-        if (!onPrizeChamber)
-        {
-            if (onBall)
-            {
-                if (productManager.allLists.ballSkins[selectIndex].isBought)
-                {
-                    buyButton.GetComponentInChildren<Text>().text = "Selected";
-                    GlobalData.selectedBall = selectIndex;
-                    PlayerPrefs.SetInt("selectedball", GlobalData.selectedBall);
-
-                    for (int i = 0; i < productManager.allLists.ballSkins.Length; i++)
-                    {
-                        productManager.allLists.ballSkins[i].isSelected = false;
-                    }
-
-                    productManager.allLists.ballSkins[selectIndex].isSelected = true;
-                }
-                else
-                {
-                    if(coins >= productManager.allLists.ballSkins[selectIndex].productPrice)
-                    {
-
-                        productManager.allLists.ballSkins[selectIndex].isBought = true;
-                        buyButton.GetComponentInChildren<Text>().text = "Select";
-                        productPrice.text = "Owned";
-                        UpdateCoin(productManager.allLists.ballSkins[selectIndex].productPrice, false);
-                    }
-                    else
-                    {
-                        Debug.Log("Not Enough Coins!");
-                    }
-                }
-            }
-            else if (onBG)
-            {
-                if (productManager.allLists.backgrounds[selectIndex].isBought)
-                {
-                    buyButton.GetComponentInChildren<Text>().text = "Selected";
-                    GlobalData.selectedBG = selectIndex;
-                    PlayerPrefs.SetInt("selectedBG", GlobalData.selectedBG);
-
-                    for (int i = 0; i < productManager.allLists.backgrounds.Length; i++)
-                    {
-                        productManager.allLists.backgrounds[i].isSelected = false;
-                    }
-
-                    productManager.allLists.backgrounds[selectIndex].isSelected = true;
-                }
-                else
-                {
-                    if (coins >= productManager.allLists.backgrounds[selectIndex].productPrice)
-                    {                       
-                        productManager.allLists.backgrounds[selectIndex].isBought = true;
-                        buyButton.GetComponentInChildren<Text>().text = "Select";
-                        productPrice.text = "Owned";
-                        UpdateCoin(productManager.allLists.backgrounds[selectIndex].productPrice, false);
-                    }
-                    else
-                    {
-                        Debug.Log("Not Enough Coins!");
-                    }
-                }
-            }
-
-            else if(onPowerup)
-            {
-                if(coins >= productManager.allLists.powerUps[selectIndex].productPrice)
-                {
-                    if (selectIndex == 0)
-                        GlobalData.freezeCount++;
-                    else if (selectIndex == 1)
-                        GlobalData.speedCount++;
-                    else if (selectIndex == 2)
-                        GlobalData.slowCount++;
-                    else if (selectIndex == 3)
-                        GlobalData.doubleCount++;
-
-                    UpdateCoin(productManager.allLists.powerUps[selectIndex].productPrice, false);
-                    //UpdatePowerup();
-                }
-               
-            }
-        }
-        else if(onPrizeChamber)
-        {
-            UpdateCoin(productManager.allLists.achievedPrizes[selectIndex].sellPrice, true);
-            Destroy(clickedButton);
-            productManager.allLists.achievedPrizes.RemoveAt(selectIndex);
-            infoPanel.SetActive(false);
-        }
-
-        SaveSystem.Save(productManager.allLists);
-    }
-
-
-    public void ResetAll()
-    {
-        onBall = false;
-        onPowerup = false;
-        onBG = false;
-    }
-
     public void UpdatePowerup()
     {
-        freezeCount.text = GlobalData.freezeCount.ToString("00");
-        speedCount.text = GlobalData.speedCount.ToString("00");
-        slowCount.text = GlobalData.slowCount.ToString("00");
-        doubleCount.text = GlobalData.doubleCount.ToString("00");
+        bombCount.text = GlobalData.bomb.ToString("00");
+        megaBombCount.text = GlobalData.megaBomb.ToString("00");
 
-        PlayerPrefs.SetInt("freeze", GlobalData.freezeCount);
-        PlayerPrefs.SetInt("speed", GlobalData.speedCount);
-        PlayerPrefs.SetInt("slow", GlobalData.slowCount);
-        PlayerPrefs.SetInt("double", GlobalData.doubleCount);
+
+        PlayerPrefs.SetInt("bomb", GlobalData.bomb);
+        PlayerPrefs.SetInt("megaBomb", GlobalData.megaBomb);
     }
 
     public void UpdateCoin(int coinToAdd, bool add)
@@ -413,9 +153,8 @@ public class ShopManager : MonoBehaviour
         PlayerPrefs.SetInt("coins", coins);
     }
 
-    public void AddCoin()
+    public void ActivateDeactivatePanel(GameObject panel)
     {
-        UpdateCoin(100, true);
+        panel.SetActive(!panel.activeSelf);
     }
-
 }

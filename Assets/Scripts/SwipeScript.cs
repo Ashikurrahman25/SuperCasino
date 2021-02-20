@@ -17,16 +17,19 @@ public class SwipeScript : MonoBehaviour
 	float throwForceInZ = 50f;
 
 	public bool Thrown;
-	Rigidbody rb;
+	Rigidbody rb;   
+    WinningManager winningManager;
 
 	void Start()
 	{
-		
+        winningManager = FindObjectOfType<WinningManager>();
 		rb = GetComponent<Rigidbody> ();
 	}
 
 
 	void Update () {
+
+        if (winningManager.isGameOver) return;
 
         #region Mobile  
         if (Input.touchCount > 0 && Input.GetTouch(0).phase == TouchPhase.Began)

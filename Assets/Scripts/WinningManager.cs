@@ -12,6 +12,7 @@ public class WinningManager : MonoBehaviour
 
     [SerializeField] bool isArcadeMode;
     [SerializeField] bool menuShown;
+    [SerializeField] public bool isGameOver;
 
     [SerializeField] TextMeshProUGUI scoreText;
     [SerializeField] TextMeshProUGUI highScoreText;
@@ -44,11 +45,11 @@ public class WinningManager : MonoBehaviour
         prizeController.claimed = false;
         ShowScoring();
         GameOverPanel.SetActive(true);
-        prizeController.SelectRandomPrize(scoreManager.Score);
+
+        if(isArcadeMode)
+            prizeController.SelectRandomPrize(scoreManager.Score);
 
         menuShown = true;
-
-        Debug.Log("LIKS");
     }
 
     public void ShowScoring()

@@ -9,6 +9,7 @@ public class PlateSpawner : MonoBehaviour
     public List<GameObject> SpawnedPlate;
     public float waitTime = 2;
     public PowerUpsController powerUpsController;
+
     
     float wait;
     public bool powerEnabled;
@@ -24,6 +25,8 @@ public class PlateSpawner : MonoBehaviour
     {
         if (powerUpsController.doingPowerup)
         {
+
+
             if (!powerEnabled)
             {
                 if (powerUpsController.freeze)

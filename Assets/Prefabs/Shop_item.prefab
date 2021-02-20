@@ -456,6 +456,9 @@ MonoBehaviour:
   normalIcon: {fileID: 21300000, guid: 7591c1f32881049698156899c6829574, type: 3}
   selectedColor: {r: 1, g: 1, b: 1, a: 1}
   normalColor: {r: 0.3882353, g: 0.6509804, b: 0.76862746, a: 1}
+  isBall: 0
+  isBG: 0
+  isPowerUp: 0
 --- !u!1 &7154559916268332477
 GameObject:
   m_ObjectHideFlags: 0
@@ -734,7 +737,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 7154559916791449843}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 3380517460202068087}
+        m_TargetAssemblyTypeName: ItemView, Assembly-CSharp
+        m_MethodName: OnClick
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &7154559916791449805
 MonoBehaviour:
   m_ObjectHideFlags: 0
