@@ -18001,7 +18001,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   surfacingId: 1654
-  mySurfacingId: rewardedVideo
+  fiftyCoins: rewardedVideo
+  hundredsCoins: 100Coins
   rewardAmount: 100
 --- !u!1 &1773239071
 GameObject:

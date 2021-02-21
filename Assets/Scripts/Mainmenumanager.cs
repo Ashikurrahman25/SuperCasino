@@ -35,9 +35,7 @@ public class Mainmenumanager : MonoBehaviour
 
     private void Start()
     {
-
-        Debug.Log(ProductManager.instance.allLists.powerUps.Length);
-
+      
         if (PlayerPrefs.GetInt("playcount", 0) == 0)
         {
             firstTimePlay++;
@@ -47,12 +45,24 @@ public class Mainmenumanager : MonoBehaviour
         }
         else
         {
-            ProductManager.instance.LoadList();
+            int powerUps = PlayerPrefs.GetInt("total_powerups", 0);
+            int balls = PlayerPrefs.GetInt("total_balls", 0);
+            int bg = PlayerPrefs.GetInt("total_bg", 0);
+
+            if(powerUps != ProductManager.instance.allLists.powerUps.Length
+               || balls != ProductManager.instance.allLists.ballSkins.Length
+               || bg != ProductManager.instance.allLists.backgrounds.Length)
+            {
+                ProductManager.instance.SaveLists();
+            }
+            else
+            {
+                ProductManager.instance.LoadList();
+            }
         }
 
         Score.text = "HighScore: " + PlayerPrefs.GetInt("highscore").ToString("00");
         vibrate = GetComponent<VibrationMusicControll>();
-        Debug.Log(ProductManager.instance.allLists.powerUps.Length);
     }
 
     public void ArcadeMode()  

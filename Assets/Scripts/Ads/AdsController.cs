@@ -6,14 +6,19 @@ using UnityEngine.Advertisements;
 public class AdsController : MonoBehaviour, IUnityAdsListener
 {
     public string surfacingId = "BannerAds";
-    public string mySurfacingId = "rewardedVideo";
+    public string fiftyCoins = "rewardedVideo";
+    public string hundredsCoins = "100Coins";
     public int rewardAmount;
 
 
-    private void Start()
+    void OnEnable()
     {
         Advertisement.AddListener(this);
+    }
 
+    void OnDisable()
+    {
+        Advertisement.RemoveListener(this);
     }
 
     public void ShowInterstitialAd()
@@ -30,7 +35,11 @@ public class AdsController : MonoBehaviour, IUnityAdsListener
 
     public void ShowRewardedVideo(int reward)
     {
-        Advertisement.Show(mySurfacingId);
+        //if (reward == 50)
+            Advertisement.Show(fiftyCoins);
+        //else if (reward == 100)
+        //    Advertisement.Show(hundredsCoins);
+
         rewardAmount = reward;
     }
 
@@ -42,6 +51,8 @@ public class AdsController : MonoBehaviour, IUnityAdsListener
             // Reward the user for watching the ad to completion.
             ShopManager.instance.UpdateCoin(rewardAmount, true);
             ShopManager.instance.failedPanel.SetActive(false);
+
+            Debug.Log($"Add Coins {rewardAmount}");
         }
         else if (showResult == ShowResult.Skipped)
         {

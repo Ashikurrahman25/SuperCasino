@@ -11,9 +11,6 @@ public class SwipeScript : MonoBehaviour
 	
 
 	[SerializeField]
-	float throwForceInXandY = 1f;
-
-	[SerializeField]
 	float throwForceInZ = 50f;
 
 	public bool Thrown;

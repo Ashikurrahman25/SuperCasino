@@ -100,7 +100,6 @@
     <Compile Include="Assets\Modern UI Pack\Scripts\HamburgerPanelButton.cs" />
     <Compile Include="Assets\LeanTween\Framework\LeanSmooth.cs" />
     <Compile Include="Assets\Scripts\BallSpawner.cs" />
-    <Compile Include="Assets\Scripts\Ads\RewardedAdsButton.cs" />
     <Compile Include="Assets\Modern UI Pack\Scripts\LaunchURL.cs" />
     <Compile Include="Assets\Scripts\Ads\AdsController.cs" />
     <Compile Include="Assets\Scripts\VibrationMusicControll.cs" />
@@ -115,6 +114,7 @@
     <Compile Include="Assets\Modern UI Pack\Scripts\CustomInputField.cs" />
     <Compile Include="Assets\Simple Scroll-Snap\Examples\Example 5 (Dynamic Content)\Scripts\DynamicContentController.cs" />
     <Compile Include="Assets\Scripts\Shop\ShopManager.cs" />
+    <Compile Include="Assets\Scripts\Views\GiftButtonView.cs" />
     <Compile Include="Assets\Simple Scroll-Snap\Scripts\Runtime\TransitionEffect.cs" />
     <Compile Include="Assets\Scripts\Vibrator.cs" />
     <Compile Include="Assets\Scripts\Shop\BackgroundManager.cs" />
@@ -131,7 +131,6 @@
     <Compile Include="Assets\GUI Kit Mono Round\_Scripts\Rotate.cs" />
     <Compile Include="Assets\Scripts\Music.cs" />
     <Compile Include="Assets\Scripts\Shop\SaveSystem.cs" />
-    <Compile Include="Assets\Scripts\Views\GiftButtonView.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />

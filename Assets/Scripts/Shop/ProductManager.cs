@@ -16,14 +16,19 @@ public class ProductManager : MonoBehaviour
 
     private void Awake()
     {
-        if (instance != null) Destroy(instance);
-        else instance = this;
+        if (instance == null) instance = this; 
+        else Destroy(gameObject);
         DontDestroyOnLoad(this);
     }
 
     public void SaveLists()
     {
         SaveSystem.Save(allLists);
+
+        PlayerPrefs.SetInt("total_powerups", allLists.powerUps.Length);
+        PlayerPrefs.SetInt("total_balls", allLists.ballSkins.Length);
+        PlayerPrefs.SetInt("total_bg", allLists.backgrounds.Length);
+
         Debug.Log("Saved List");
     }
 
