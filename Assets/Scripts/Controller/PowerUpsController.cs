@@ -6,28 +6,49 @@ using UnityEngine.UI;
 
 public class PowerUpsController : MonoBehaviour
 {
-    public Button freezeButton;
-    public Button speedButton;
-    public Button slowButton;
-    public Button doubleButton;
+
 
     public Sprite activateSprite;
     public Sprite deactivateSprite;
 
-    public TextMeshProUGUI freezeCount;
-    public TextMeshProUGUI speedCount;
-    public TextMeshProUGUI slowCount;
-    public TextMeshProUGUI doubleCount;
+    public TextMeshProUGUI bombCount;
+    public TextMeshProUGUI megaBombCount;
 
 
 
     [HideInInspector] public bool doingPowerup;
-    [HideInInspector] public bool canUsePower;
+     public bool stopPowerup;
     [HideInInspector] public bool freeze;
     [HideInInspector] public bool speedUp;
     [HideInInspector] public bool slowDown;
     [HideInInspector] public bool doublePoints;
 
+    public float powerUpLength;
+    public float elaspedTime;
+
+    PointPlate[] _plates;
+
+
+    private void Start()
+    {
+        bombCount.text = PlayerPrefs.GetInt("bomb", 0).ToString("00");
+        megaBombCount.text = PlayerPrefs.GetInt("megaBomb", 0).ToString("00");
+    }
+
+    private void Update()
+    {
+        if (doingPowerup)
+        {
+            if (elaspedTime <= powerUpLength) elaspedTime += Time.deltaTime;
+            else
+            {
+                doingPowerup = false;
+                elaspedTime = 0;
+                EndPowerUp();
+            }
+        }
+       
+    }
 
     public void EnableFreeze()
     {
@@ -60,16 +81,63 @@ public class PowerUpsController : MonoBehaviour
     void StartPowerUp()
     {
         doingPowerup = true;
-        canUsePower = false;
+        stopPowerup = false;
     }
 
     public void EndPowerUp()
     {
         doingPowerup = false;
-
+        stopPowerup = true;
         freeze = false;
         speedUp = false;
         slowDown = false;
         doublePoints = false;
+    }
+
+    public void DoMegaBomb()
+    {
+        int count = PlayerPrefs.GetInt("megaBomb", 0);
+        if (count == 0) return;
+
+        _plates = FindObjectsOfType<PointPlate>();
+        if (_plates.Length != 0)
+        {
+            for (int i = 0; i < _plates.Length; i++)
+            {
+                if (!_plates[i].isBomb && !_plates[i].isFreeze && !_plates[i].isFast && !_plates[i].isDouble && !_plates[i].isSlow)
+                {
+                   _plates[i].Break();
+                }
+
+            }
+        }
+        count--;
+        megaBombCount.text = count.ToString("00");
+        PlayerPrefs.SetInt("megaBomb", count);
+    }
+
+    public void DoBomb()
+    {
+        int count = PlayerPrefs.GetInt("bomb", 0);
+        if (count == 0) return;
+
+        _plates = FindObjectsOfType<PointPlate>();
+
+        if (_plates.Length != 0)
+        {
+            for (int i = 0; i < _plates.Length; i++)
+            {
+                if(!_plates[i].isBomb && !_plates[i].isFreeze &&!_plates[i].isFast && !_plates[i].isDouble && !_plates[i].isSlow)
+                {
+                    if (_plates[i].isTop)
+                        _plates[i].Break();
+                }
+                
+            }
+        }
+        count--;
+
+        bombCount.text = count.ToString("00");
+        PlayerPrefs.SetInt("bomb", count);
     }
 }

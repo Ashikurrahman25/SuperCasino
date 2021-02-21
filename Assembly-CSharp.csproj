@@ -66,6 +66,7 @@
     <Compile Include="Assets\Scripts\Controller\PrizeController.cs" />
     <Compile Include="Assets\LeanTween\Framework\LeanTweenExt.cs" />
     <Compile Include="Assets\GUI Kit Mono Round\_Scripts\Switch.cs" />
+    <Compile Include="Assets\Scripts\Views\ItemView.cs" />
     <Compile Include="Assets\LifeCountManager.cs" />
     <Compile Include="Assets\Modern UI Pack\Scripts\DemoManager.cs" />
     <Compile Include="Assets\LeanTween\Framework\LTSeq.cs" />
@@ -130,7 +131,7 @@
     <Compile Include="Assets\GUI Kit Mono Round\_Scripts\Rotate.cs" />
     <Compile Include="Assets\Scripts\Music.cs" />
     <Compile Include="Assets\Scripts\Shop\SaveSystem.cs" />
-    <Compile Include="Assets\Scripts\Views\ItemView.cs" />
+    <Compile Include="Assets\Scripts\Views\GiftButtonView.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />

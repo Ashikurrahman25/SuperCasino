@@ -7,12 +7,11 @@ using UnityEngine.UI;
 
 public class Mainmenumanager : MonoBehaviour
 {
-    public Animator Anim;
-    bool isHidden = false;
     public TextMeshProUGUI Score;
     public GameObject ModeSelectionPanel;
 
     public GameObject settingsPanel;
+    public GameObject noIetm;
 
 
     public ShopManager shopManager;
@@ -22,6 +21,10 @@ public class Mainmenumanager : MonoBehaviour
 
     public VibrationMusicControll vibrate;
 
+
+    public GameObject giftContainer;
+    public GameObject giftPanel;
+    public GameObject giftPrefab;
     
 
     public void ShowHideSettings()
@@ -82,22 +85,6 @@ public class Mainmenumanager : MonoBehaviour
         Application.Quit();
     }
 
-    public void ScoreShowHide()
-    {
-        
-        if (isHidden)
-        {
-            Anim.Play("Show");
-            isHidden = false;
-            return;
-        }
-        else
-        {
-            Anim.Play("Hide");
-            isHidden = true;
-        }
-    }
-
     public void ShowShopPanel(GameObject panelToActivate)
     {
         for (int i = 0; i < shopPanels.Length; i++)
@@ -111,5 +98,30 @@ public class Mainmenumanager : MonoBehaviour
     public void HideShopPanel(GameObject panelToHide)
     {
         panelToHide.SetActive(false);
+    }
+
+    public void GoToPrize()
+    {
+        giftPanel.SetActive(true);
+        giftContainer.KillAllChild();
+
+        if(ProductManager.instance.allLists.achievedPrizes.Count != 0)
+        {
+            for (int i = 0; i < ProductManager.instance.allLists.achievedPrizes.Count; i++)
+            {
+                GameObject gift = Instantiate(giftPrefab, giftContainer.transform);
+                gift.GetComponent<GiftButtonView>().SetDetails(ProductManager.instance.prizeSprites[ProductManager.instance.allLists.achievedPrizes[i].iconIndex], ProductManager.instance.allLists.achievedPrizes[i].sellPrice);
+            }
+        }
+        else
+        {
+            ShowItem();
+
+        }
+    }
+
+    public void ShowItem()
+    {
+        noIetm.SetActive(true);
     }
 }

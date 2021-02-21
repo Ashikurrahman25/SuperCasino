@@ -29,7 +29,10 @@ public class PointPlate : MonoBehaviour
     public bool isFast;
     public bool isFreeze;
     public bool isDouble;
-
+    LifeCountManager lifeManager;
+    public Renderer m_renderer;
+    public bool isVisible;
+    public bool isTop;
     private void Start()
     {
         Speed = normalSpeed;
@@ -37,9 +40,16 @@ public class PointPlate : MonoBehaviour
         scoreManager = FindObjectOfType<ScoreManager>();
         powerupsController = FindObjectOfType<PowerUpsController>();
         iniPos = transform.position;
+        lifeManager = FindObjectOfType<LifeCountManager>();
+        m_renderer = GetComponentInChildren<Renderer>();
+
     }
     void Update()
     {
+        if (m_renderer.isVisible)
+            isVisible = true;
+        else
+            isVisible = false;
 
         if (powerupsController.doingPowerup)
         {
@@ -101,22 +111,13 @@ public class PointPlate : MonoBehaviour
                 powerUpEnabled = true;
 
             }
-
-
         }
 
-        else if (powerUpEnabled)
+        else if (powerUpEnabled && powerupsController.stopPowerup)
         {
-            if ( elapsedTime <= powerUpLength) elapsedTime += Time.deltaTime;
-            else
-            {
-                elapsedTime = 0;
-                powerUpEnabled = false;
-                Speed = normalSpeed;
-                scoreManager.doubleScore = false;
-                powerupsController.EndPowerUp();
-            }
-
+            Speed = normalSpeed;
+            scoreManager.doubleScore = false;
+            powerUpEnabled = false;
         }
     }
 
@@ -135,8 +136,9 @@ public class PointPlate : MonoBehaviour
             }
             else if(isBomb)
             {
-                FindObjectOfType<WinningManager>().HandleWin();
-                FindObjectOfType<WinningManager>().isGameOver = true;
+                Destroy(gameObject);
+                lifeManager.HandleLifeDecrease();
+
             }
             else if(isFast)
             {

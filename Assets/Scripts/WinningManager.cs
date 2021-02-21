@@ -58,6 +58,7 @@ public class WinningManager : MonoBehaviour
         highScoreText.text = $"High Score: {PlayerPrefs.GetInt("highscore",0)}";
     }
 
+
     public void OnRetry()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);

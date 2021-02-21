@@ -53,4 +53,14 @@ public class PrizeController : MonoBehaviour
         claimed = true;
         Debug.Log("Prize claimed");
     }
+
+    public void InstantSell()
+    {
+        prizePanel.SetActive(false);
+        int coins = PlayerPrefs.GetInt("coins", 0);
+
+        coins += prizeToClaim.sellPrice;
+        PlayerPrefs.SetInt("coins", coins);
+    }
+
 }

@@ -5,11 +5,17 @@ using UnityEngine;
 public class PlateSpawner : MonoBehaviour
 {
     public GameObject[] plates;
+    public GameObject[] powerUps;
+    float minTimeToSpawnPower;
+    float timer;
+    public float minWaitTime;
+    public float maxWaitTime;
+    public bool spawnPowerUp;
     public float Direction;
     public List<GameObject> SpawnedPlate;
     public float waitTime = 2;
     public PowerUpsController powerUpsController;
-
+    public bool isTop;
     
     float wait;
     public bool powerEnabled;
@@ -17,6 +23,7 @@ public class PlateSpawner : MonoBehaviour
     {
         powerUpsController = FindObjectOfType<PowerUpsController>();
         SpawnPlate();
+        minTimeToSpawnPower = Random.Range(minWaitTime,maxWaitTime);
 
     }
 
@@ -25,13 +32,12 @@ public class PlateSpawner : MonoBehaviour
     {
         if (powerUpsController.doingPowerup)
         {
-
-
             if (!powerEnabled)
             {
                 if (powerUpsController.freeze)
                 {
-                    //powerEnabled = true;
+                    powerEnabled = true;
+                    waitTime = 2;
                     return;
                 }
 
@@ -58,23 +64,53 @@ public class PlateSpawner : MonoBehaviour
                 powerEnabled = false;
             }
         }
-       
 
-        if (wait<=0)
+        if (!spawnPowerUp)
         {
-            SpawnPlate();
+            if (timer <= minTimeToSpawnPower) timer += Time.deltaTime;
+            else
+            {
+                spawnPowerUp = true;
+            }
         }
-        else
+
+        if (!powerUpsController.freeze)
         {
-            wait -= Time.deltaTime;
+            if (!spawnPowerUp)
+            {
+                if (wait <= 0)
+                {
+                    SpawnPlate();
+                }
+                else
+                {
+                    wait -= Time.deltaTime;
+                }
+            }
+            else
+            {
+                SpawnPlate();
+            }
+          
         }
+       
     }
 
     public void SpawnPlate()
     {
         wait = waitTime;
-        GameObject plate = Instantiate(plates[Random.Range(0, plates.Length)], transform.position, Quaternion.identity);
-        SpawnedPlate.Add(plate);
-        SpawnedPlate[SpawnedPlate.Count - 1].GetComponent<PointPlate>().Dir = Direction;
+        GameObject plate = null;
+        
+        if (!spawnPowerUp)
+         plate = Instantiate(plates[Random.Range(0, plates.Length)], transform.position, Quaternion.identity);
+        else
+        {
+            plate = Instantiate(powerUps[Random.Range(0, powerUps.Length)], transform.position, Quaternion.identity);
+            spawnPowerUp = false;
+            timer = 0;
+            minTimeToSpawnPower = Random.Range(minWaitTime, maxWaitTime);
+        }
+        plate.GetComponent<PointPlate>().isTop = isTop;
+        plate.GetComponent<PointPlate>().Dir = Direction;
     }
 }
