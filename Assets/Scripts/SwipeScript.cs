@@ -17,10 +17,13 @@ public class SwipeScript : MonoBehaviour
 	Rigidbody rb;   
     WinningManager winningManager;
 
+    AudioSource audioS;
+
 	void Start()
 	{
         winningManager = FindObjectOfType<WinningManager>();
 		rb = GetComponent<Rigidbody> ();
+        audioS = GetComponent<AudioSource>();
 	}
 
 
@@ -31,19 +34,12 @@ public class SwipeScript : MonoBehaviour
         #region Mobile  
         if (Input.touchCount > 0 && Input.GetTouch(0).phase == TouchPhase.Began)
         {
-
-
-           
             startPos = Input.GetTouch(0).position;
         }
 
 
         if (Input.touchCount > 0 && Input.GetTouch(0).phase == TouchPhase.Ended && !Thrown)
         {
-
-
-         
-
 
             endPos = Input.GetTouch(0).position;
 
@@ -55,7 +51,8 @@ public class SwipeScript : MonoBehaviour
                 Speed = new Vector2(direction.x, Mathf.Clamp(direction.y, -500, 300)) * (-1);
                 rb.isKinematic = false;
                 rb.AddForce(Speed.x, Speed.y * 1.1f, throwForceInZ * Speed.y * 0.5f);
-
+                Debug.Log("PLAY THROW AUDIO");
+                audioS.Play();
                 Thrown = true;
                 StartCoroutine(FindObjectOfType<BallSpawner>().SpawnNewBall(0.4f));
                 Destroy(gameObject, 3f);
@@ -91,7 +88,8 @@ public class SwipeScript : MonoBehaviour
                 Speed = new Vector2(direction.x, Mathf.Clamp(direction.y, -500, 300)) * (-1);
                 rb.isKinematic = false;
                 rb.AddForce(Speed.x, Speed.y * 1.1f, throwForceInZ * Speed.y * 0.5f);
-
+                Debug.Log("PLAY THROW AUDIO");
+                audioS.Play();
                 Thrown = true;
                 StartCoroutine(FindObjectOfType<BallSpawner>().SpawnNewBall(0.4f));
                 Destroy(gameObject, 3f);

@@ -50,6 +50,7 @@ public class WinningManager : MonoBehaviour
             prizeController.SelectRandomPrize(scoreManager.Score);
 
         menuShown = true;
+        isGameOver = true;
     }
 
     public void ShowScoring()
@@ -61,11 +62,13 @@ public class WinningManager : MonoBehaviour
 
     public void OnRetry()
     {
+        AudioController.audioController.PlayButtonAudio();
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
 
     public void OnMenu()
     {
+        AudioController.audioController.PlayButtonAudio();
         SceneManager.LoadScene("Main Menu");
     }
 }

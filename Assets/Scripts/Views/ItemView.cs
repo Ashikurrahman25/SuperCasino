@@ -56,7 +56,7 @@ public class ItemView : MonoBehaviour
     {
         int coin = PlayerPrefs.GetInt("coins", 0);
         int buttonIndex = transform.GetSiblingIndex();
-
+        AudioController.audioController.PlayButtonAudio();
         Product product = new Product();
 
         if (isBall)
@@ -70,7 +70,8 @@ public class ItemView : MonoBehaviour
                     productManager.allLists.ballSkins[buttonIndex].isBought = true;
                     isBought = true;
                     itemPrice.text = "Select";
-                    coinIcon.SetActive(false);                  
+                    coinIcon.SetActive(false);
+                    AudioController.audioController.BuyAudio();
                 }
                 else
                 {
@@ -102,6 +103,7 @@ public class ItemView : MonoBehaviour
                     isBought = true;
                     itemPrice.text = "Select";
                     coinIcon.SetActive(false);
+                    AudioController.audioController.BuyAudio();
                 }
                 else
                 {
@@ -132,6 +134,7 @@ public class ItemView : MonoBehaviour
                     GlobalData.megaBomb++;
 
                 ShopManager.instance.UpdatePowerup();
+                AudioController.audioController.BuyAudio();
             }
             else
             {
@@ -162,7 +165,7 @@ public class ItemView : MonoBehaviour
         {
             productManager.allLists.backgrounds[index].isSelected = true;
             GlobalData.selectedBG = index;
-            PlayerPrefs.SetInt("selectedBG", GlobalData.selectedBall);
+            PlayerPrefs.SetInt("selectedBG", GlobalData.selectedBG);
         }
 
         productManager.SaveLists();

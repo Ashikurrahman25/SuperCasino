@@ -42,6 +42,7 @@ public class PrizeController : MonoBehaviour
         prizePrice.text = prizeToClaim.sellPrice.ToString();
         prizeImage.sprite = ProductManager.instance.prizeSprites[prizeToClaim.iconIndex];
         Debug.Log("Prize Set up");
+        AudioController.audioController.PlayPrize();
     }
 
     public void ClaimPrize()
@@ -51,6 +52,7 @@ public class PrizeController : MonoBehaviour
         SaveSystem.Save(ProductManager.instance.allLists);
         prizeShown = false;
         claimed = true;
+        AudioController.audioController.PlayButtonAudio();
         Debug.Log("Prize claimed");
     }
 

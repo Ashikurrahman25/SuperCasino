@@ -23,11 +23,12 @@ public class Switch : MonoBehaviour
     public TextMeshProUGUI notificationText;
 
     // Start is called before the first frame update
-    void Start()
+    void Awake()
     {
         _button = GetComponent<Button>();
         _button.onClick.AddListener(OnClickSwitchButton);
         _slider = transform.GetChild(0).GetComponent<Slider>();
+
     }
 
     private void OnClickSwitchButton()

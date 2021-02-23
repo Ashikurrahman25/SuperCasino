@@ -3,6 +3,7 @@ ScriptsOnlyBuild:
     Assembly-CSharp.dll:
     - AdsController
     - AdsInitializer
+    - AudioController
     - BackgroundManager
     - Ball
     - BallSpawner
@@ -129,6 +130,10 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 81
       Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
     - Class: 89
       Script: {instanceID: 0}
     - Class: 91
@@ -184,13 +189,13 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 3320}
     - Class: 114
-      Script: {instanceID: 3464}
+      Script: {instanceID: 3462}
     - Class: 114
-      Script: {instanceID: 3534}
+      Script: {instanceID: 3532}
     - Class: 114
-      Script: {instanceID: 3590}
+      Script: {instanceID: 3588}
     - Class: 114
-      Script: {instanceID: 3740}
+      Script: {instanceID: 3738}
     - Class: 114
       Script: {instanceID: 4298}
     - Class: 114
@@ -198,9 +203,7 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 4782}
     - Class: 114
-      Script: {instanceID: 86570}
-    - Class: 114
-      Script: {instanceID: 86574}
+      Script: {instanceID: 328442}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -249,6 +252,10 @@ ScriptsOnlyBuild:
     - Class: 74
       Script: {instanceID: 0}
     - Class: 81
+      Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
       Script: {instanceID: 0}
     - Class: 89
       Script: {instanceID: 0}
@@ -343,23 +350,25 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 3382}
     - Class: 114
-      Script: {instanceID: 3436}
+      Script: {instanceID: 3434}
+    - Class: 114
+      Script: {instanceID: 3440}
     - Class: 114
       Script: {instanceID: 3442}
     - Class: 114
-      Script: {instanceID: 3444}
+      Script: {instanceID: 3492}
     - Class: 114
-      Script: {instanceID: 3494}
+      Script: {instanceID: 3894}
     - Class: 114
-      Script: {instanceID: 3896}
+      Script: {instanceID: 3918}
     - Class: 114
-      Script: {instanceID: 3920}
+      Script: {instanceID: 3950}
     - Class: 114
-      Script: {instanceID: 3952}
+      Script: {instanceID: 4018}
     - Class: 114
-      Script: {instanceID: 4020}
+      Script: {instanceID: 4036}
     - Class: 114
-      Script: {instanceID: 4038}
+      Script: {instanceID: 4056}
     - Class: 114
       Script: {instanceID: 4132}
     - Class: 114
@@ -381,7 +390,7 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 4770}
     - Class: 114
-      Script: {instanceID: 96822}
+      Script: {instanceID: 325150}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -428,6 +437,10 @@ ScriptsOnlyBuild:
     - Class: 74
       Script: {instanceID: 0}
     - Class: 81
+      Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
       Script: {instanceID: 0}
     - Class: 89
       Script: {instanceID: 0}
@@ -486,13 +499,13 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 3382}
     - Class: 114
-      Script: {instanceID: 3464}
+      Script: {instanceID: 3462}
     - Class: 114
-      Script: {instanceID: 3534}
+      Script: {instanceID: 3532}
     - Class: 114
-      Script: {instanceID: 3590}
+      Script: {instanceID: 3588}
     - Class: 114
-      Script: {instanceID: 3740}
+      Script: {instanceID: 3738}
     - Class: 114
       Script: {instanceID: 4298}
     - Class: 114
@@ -500,9 +513,9 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 4782}
     - Class: 114
-      Script: {instanceID: 86570}
+      Script: {instanceID: 328442}
     - Class: 114
-      Script: {instanceID: 86574}
+      Script: {instanceID: 485716}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -764,7 +777,7 @@ ScriptsOnlyBuild:
     className: RawImage
   - hash:
       serializedVersion: 2
-      Hash: e147da831fec2e003270b3a87dde58ad
+      Hash: 43e97127995cb9571fffa86aa756e950
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: SwipeScript
@@ -1052,12 +1065,6 @@ ScriptsOnlyBuild:
     className: Outline
   - hash:
       serializedVersion: 2
-      Hash: 8cdc58d8f4a99a10f671807d993ef627
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: RewardedAdsButton
-  - hash:
-      serializedVersion: 2
       Hash: c3d3430df9e3ea95e3e3d587961390fb
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
@@ -1070,13 +1077,13 @@ ScriptsOnlyBuild:
     className: LaunchURL
   - hash:
       serializedVersion: 2
-      Hash: 004c8d040b8b5a00cdc0fb5a9d7a0b66
+      Hash: 74ca4a2001daae4093f24130cf76491b
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: AdsController
   - hash:
       serializedVersion: 2
-      Hash: 34c4cb60a086c31121f822e3b2f771d1
+      Hash: d9efaee38d729f84c95e9db7441d69c1
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: VibrationMusicControll
@@ -1184,7 +1191,7 @@ ScriptsOnlyBuild:
     className: RemoteTestResultSender
   - hash:
       serializedVersion: 2
-      Hash: d985f373509c4dd717ec6cc41872d3c5
+      Hash: e88435e7b55867f0bf6083faf16ced70
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: PointPlate
@@ -1272,6 +1279,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
     className: TMP_ColorGradient
+  - hash:
+      serializedVersion: 2
+      Hash: 9dfca7e46efd271e206afae99a7ac8df
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: GiftButtonView
   - hash:
       serializedVersion: 2
       Hash: 908b3077da284d11de0450423ca1808e
@@ -1430,10 +1443,10 @@ ScriptsOnlyBuild:
     className: SaveSystem
   - hash:
       serializedVersion: 2
-      Hash: 9dfca7e46efd271e206afae99a7ac8df
+      Hash: 9e130d05cae4318a538536bf954b6bac
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
-    className: GiftButtonView
+    className: AudioController
   platform: 13
   scenePathNames:
   - Assets/Scenes/Main Menu.unity

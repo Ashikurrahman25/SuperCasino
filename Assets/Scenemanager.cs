@@ -8,6 +8,7 @@ public class Scenemanager : MonoBehaviour
    
     public void LoadMenu()
     {
+        AudioController.audioController.PlayButtonAudio();
         SceneManager.LoadScene("Main Menu");
     }
 }

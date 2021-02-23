@@ -9276,12 +9276,20 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -4213864889391364930, guid: 96efb1e113a114748962f65e74255315, type: 3}
-      propertyPath: m_Sprite
-      value: 
+      propertyPath: m_Size.x
+      value: 20.48
       objectReference: {fileID: 0}
     - target: {fileID: -4213864889391364930, guid: 96efb1e113a114748962f65e74255315, type: 3}
+      propertyPath: m_Size.y
+      value: 15.36
+      objectReference: {fileID: 0}
+    - target: {fileID: -4213864889391364930, guid: 96efb1e113a114748962f65e74255315, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 1c58e554cf0384fea94cb30760fc5913, type: 3}
+    - target: {fileID: -4213864889391364930, guid: 96efb1e113a114748962f65e74255315, type: 3}
       propertyPath: m_WasSpriteAssigned
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8720055017254990180, guid: 96efb1e113a114748962f65e74255315, type: 3}
       propertyPath: m_Name
@@ -14876,6 +14884,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4285385688883614858, guid: e92b273c4f851fc44bca65244ced7bd0, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 7243324766535440047, guid: e92b273c4f851fc44bca65244ced7bd0, type: 3}
 --- !u!1 &1561042688
@@ -15000,8 +15012,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 31a30013c397e2e458a0157527658173, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bombButton: {fileID: 0}
-  megaBombButton: {fileID: 0}
   activateSprite: {fileID: 21300000, guid: ed22d65d65a3d1e47b553060f55366a5, type: 3}
   deactivateSprite: {fileID: 21300000, guid: 19abeaa90f7737149bb98ba89b9e8ce9, type: 3}
   bombCount: {fileID: 541937668}

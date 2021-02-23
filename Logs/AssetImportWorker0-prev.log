@@ -15,11 +15,11 @@ F:/Projects/Client/BD/SuperCasino
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-51755
+59847
 Successfully changed project path to: F:/Projects/Client/BD/SuperCasino
 F:/Projects/Client/BD/SuperCasino
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 59.16 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 57.06 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.2.1f1 (270dd8c3da1c)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.2.1f1/Editor/Data/Resources/UnitySubsystems
@@ -35,165 +35,1175 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.2.1f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.2.1f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.2.1f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56084
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56004
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.1f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001453 seconds.
+Registered in 0.001253 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 55.19 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 53.86 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.807 seconds
+- Completed reload, in  0.808 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.000954 seconds.
+Registered in 0.001022 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 58.38 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 58.11 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.756 seconds
+- Completed reload, in  0.744 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 0.84 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.80 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1648 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 85.4 MB.
 System memory in use after: 85.5 MB.
 
 Unloading 27 unused Assets to reduce memory usage. Loaded Objects now: 2075.
-Total: 1.719000 ms (FindLiveObjects: 0.203700 ms CreateObjectMapping: 0.046500 ms MarkObjects: 1.414300 ms  DeleteObjects: 0.053600 ms)
+Total: 2.494000 ms (FindLiveObjects: 0.209600 ms CreateObjectMapping: 0.039300 ms MarkObjects: 2.157400 ms  DeleteObjects: 0.086600 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/Prefabs/Gift_Item 1.prefab
-  artifactKey: Guid(c0128124b35e7444db6e6f2b1c16ed46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Gift_Item 1.prefab using Guid(c0128124b35e7444db6e6f2b1c16ed46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76b56ae47fffd945aa0d7b9025724507') in 0.113954 seconds
-  Import took 0.117268 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000884 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.80 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.650 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.81 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1621 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 83.9 MB.
-System memory in use after: 84.0 MB.
-
-Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 2077.
-Total: 1.742800 ms (FindLiveObjects: 0.187900 ms CreateObjectMapping: 0.033300 ms MarkObjects: 1.499700 ms  DeleteObjects: 0.021200 ms)
+  path: Assets/GUI Kit Mono Round/_PSD/09_Mission.psd
+  artifactKey: Guid(b6d5a5cb5632a49858141e897f12ea79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit Mono Round/_PSD/09_Mission.psd using Guid(b6d5a5cb5632a49858141e897f12ea79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd054e592c45d9aa8e87c3bd951b32aa') in 0.219175 seconds
+  Import took 0.222063 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 286.178346 seconds.
+  Time since last request: 0.036618 seconds.
+  path: Assets/GUI Kit Mono Round/_PSD/14_Message.psd
+  artifactKey: Guid(27993a9eb42d24786bf51b18a9e2d136) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit Mono Round/_PSD/14_Message.psd using Guid(27993a9eb42d24786bf51b18a9e2d136) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc7a634da16f41341641f0ab967bb76f') in 0.071682 seconds
+  Import took 0.074562 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.218160 seconds.
+  path: Assets/GUI Kit Mono Round/_PSD/15_Ranking.psd
+  artifactKey: Guid(9b64c2d1f85d44de7b0f6fedc2f24d8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit Mono Round/_PSD/15_Ranking.psd using Guid(9b64c2d1f85d44de7b0f6fedc2f24d8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ad0af45c4fab2ffb7fec07297ee02b6') in 0.062003 seconds
+  Import took 0.065538 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002773 seconds.
+  path: Assets/GUI Kit Mono Round/_PSD/15_Ranking.psd
+  artifactKey: Guid(9b64c2d1f85d44de7b0f6fedc2f24d8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit Mono Round/_PSD/15_Ranking.psd using Guid(9b64c2d1f85d44de7b0f6fedc2f24d8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ad0af45c4fab2ffb7fec07297ee02b6') in 0.047620 seconds
+  Import took 0.050214 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.269963 seconds.
+  path: Assets/GUI Kit Mono Round/_PSD/16_Settings.psd
+  artifactKey: Guid(75a7aa80f3cb344e6975864cf948d1be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit Mono Round/_PSD/16_Settings.psd using Guid(75a7aa80f3cb344e6975864cf948d1be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c0042b7b5015ae32c429bc0990a5e13') in 0.079941 seconds
+  Import took 0.082750 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.252251 seconds.
+  path: Assets/GUI Kit Mono Round/_PSD/17_Language.psd
+  artifactKey: Guid(ba3876dde612f4b79b26e8faa2456c89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit Mono Round/_PSD/17_Language.psd using Guid(ba3876dde612f4b79b26e8faa2456c89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6a1875c903d99c0c77de8a332b2a806') in 0.247590 seconds
+  Import took 0.250482 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000188 seconds.
+  path: Assets/GUI Kit Mono Round/_PSD/18_Icons.psd
+  artifactKey: Guid(c25828edd30304ff18c67d8be3f40dc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit Mono Round/_PSD/18_Icons.psd using Guid(c25828edd30304ff18c67d8be3f40dc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ccd2b95695df947b18910dbf1a7a47cb') in 0.107734 seconds
+  Import took 0.110517 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.045499 seconds.
+  path: Assets/GUI Kit Mono Round/_PSD/19_Components.psd
+  artifactKey: Guid(be9fcc9b529074f569b473933d38960e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit Mono Round/_PSD/19_Components.psd using Guid(be9fcc9b529074f569b473933d38960e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d77e83be3d7f48692cfd34c3a478ed6') in 0.112020 seconds
+  Import took 0.114813 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002603 seconds.
+  path: Assets/GUI Kit Mono Round/_PSD/19_Components.psd
+  artifactKey: Guid(be9fcc9b529074f569b473933d38960e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit Mono Round/_PSD/19_Components.psd using Guid(be9fcc9b529074f569b473933d38960e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d77e83be3d7f48692cfd34c3a478ed6') in 0.014910 seconds
+  Import took 0.017379 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 23.644182 seconds.
+  path: Assets/GUI Kit Mono Round/_PNG/19_Function_Button/Button_Icon/btn_icon_rocket.png
+  artifactKey: Guid(009c76d17c3144410ad22826741e7f4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit Mono Round/_PNG/19_Function_Button/Button_Icon/btn_icon_rocket.png using Guid(009c76d17c3144410ad22826741e7f4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7bc50495f51f8519b49e577bea60d9e1') in 0.064957 seconds
+  Import took 0.067752 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000154 seconds.
+  path: Assets/GUI Kit Mono Round/_PNG/19_Function_Button/Button_Icon/btn_icon_search.png
+  artifactKey: Guid(cf483f499db1a4734a8d73a72430f288) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit Mono Round/_PNG/19_Function_Button/Button_Icon/btn_icon_search.png using Guid(cf483f499db1a4734a8d73a72430f288) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e4b82ced5c4f2f29305d67628803eed') in 0.037645 seconds
+  Import took 0.040039 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000164 seconds.
+  path: Assets/GUI Kit Mono Round/_PNG/19_Function_Button/Button_Icon/btn_icon_sign_minus.png
+  artifactKey: Guid(73683caf1eecf4f65a3874ff3beab40d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit Mono Round/_PNG/19_Function_Button/Button_Icon/btn_icon_sign_minus.png using Guid(73683caf1eecf4f65a3874ff3beab40d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4cc80edfc61d8f4347a328217bb0217') in 0.058728 seconds
+  Import took 0.061160 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000184 seconds.
+  path: Assets/GUI Kit Mono Round/_PNG/19_Function_Button/Button_Icon/btn_icon_target.png
+  artifactKey: Guid(dc44631ba3fed443398d9a061c68fdac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit Mono Round/_PNG/19_Function_Button/Button_Icon/btn_icon_target.png using Guid(dc44631ba3fed443398d9a061c68fdac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '149a4b981deea7a80542acf6390ab6f7') in 0.029222 seconds
+  Import took 0.031581 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000158 seconds.
+  path: Assets/GUI Kit Mono Round/_PNG/19_Function_Button/Button_Icon/btn_icon_unlock.png
+  artifactKey: Guid(a2de3d167831049ed92cc56e22371aa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit Mono Round/_PNG/19_Function_Button/Button_Icon/btn_icon_unlock.png using Guid(a2de3d167831049ed92cc56e22371aa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd17d55f202bdd311406c1b40ffe712e9') in 0.041342 seconds
+  Import took 0.043709 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000175 seconds.
+  path: Assets/GUI Kit Mono Round/_PNG/19_Function_Button/Button_Icon/btn_icon_tag.png
+  artifactKey: Guid(97768a9dfa88f4d7a9a3195846786c60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit Mono Round/_PNG/19_Function_Button/Button_Icon/btn_icon_tag.png using Guid(97768a9dfa88f4d7a9a3195846786c60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99c3e1c5779edf3627683af3f8703310') in 0.044868 seconds
+  Import took 0.047263 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000178 seconds.
+  path: Assets/GUI Kit Mono Round/_PNG/19_Function_Button/Button_Icon/btn_icon_world.png
+  artifactKey: Guid(6bc139f0307704d178d74276491ebed2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit Mono Round/_PNG/19_Function_Button/Button_Icon/btn_icon_world.png using Guid(6bc139f0307704d178d74276491ebed2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee604c496a605f92095408dd8660fa6b') in 0.044594 seconds
+  Import took 0.047023 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000166 seconds.
+  path: Assets/GUI Kit Mono Round/_PNG/19_Function_Button/Button_Line/line_Black/btn_line_black_arrow_down.png
+  artifactKey: Guid(104bb953ee4ae4894b78f2ac178b294e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit Mono Round/_PNG/19_Function_Button/Button_Line/line_Black/btn_line_black_arrow_down.png using Guid(104bb953ee4ae4894b78f2ac178b294e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e29f3ffb4fbc74158a8fb9f76065cf7f') in 0.041212 seconds
+  Import took 0.043644 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000172 seconds.
+  path: Assets/GUI Kit Mono Round/_PNG/19_Function_Button/Button_Line/line_Black/btn_line_black_control_next.png
+  artifactKey: Guid(78f45be79ab704d3ca848675e3b3c9be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit Mono Round/_PNG/19_Function_Button/Button_Line/line_Black/btn_line_black_control_next.png using Guid(78f45be79ab704d3ca848675e3b3c9be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '659dee4105a974d55eec53d0687d8e4e') in 0.031675 seconds
+  Import took 0.034094 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000164 seconds.
+  path: Assets/GUI Kit Mono Round/_PNG/19_Function_Button/Button_Line/line_Black/btn_line_black_audio.png
+  artifactKey: Guid(bfc9bb140fd414850b198d47182dfef2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit Mono Round/_PNG/19_Function_Button/Button_Line/line_Black/btn_line_black_audio.png using Guid(bfc9bb140fd414850b198d47182dfef2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50c6f1eedfbec8b4bd094b0aad6bcfff') in 0.025932 seconds
+  Import took 0.028352 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000154 seconds.
+  path: Assets/GUI Kit Mono Round/_PNG/19_Function_Button/Button_Line/line_Black/btn_line_black_block.png
+  artifactKey: Guid(d735c307c0db243e9a6503f3febb1afd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit Mono Round/_PNG/19_Function_Button/Button_Line/line_Black/btn_line_black_block.png using Guid(d735c307c0db243e9a6503f3febb1afd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb6234f33019651e5a1ba4cca57961e7') in 0.030566 seconds
+  Import took 0.032964 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000170 seconds.
+  path: Assets/GUI Kit Mono Round/_PNG/19_Function_Button/Button_Line/line_Black/btn_line_black_direction_down.png
+  artifactKey: Guid(4d77c0b7d366e44e692c43d7b0bfac54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit Mono Round/_PNG/19_Function_Button/Button_Line/line_Black/btn_line_black_direction_down.png using Guid(4d77c0b7d366e44e692c43d7b0bfac54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1d73256f86fe5b63c6b99128cdee2e0') in 0.047235 seconds
+  Import took 0.049663 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000199 seconds.
+  path: Assets/GUI Kit Mono Round/_PNG/19_Function_Button/Button_Line/line_Black/btn_line_black_apple.png
+  artifactKey: Guid(00be58fbc222c41bf97fc3c407636085) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit Mono Round/_PNG/19_Function_Button/Button_Line/line_Black/btn_line_black_apple.png using Guid(00be58fbc222c41bf97fc3c407636085) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4cb2ddf004aaa4760a2f48fed3e40a36') in 0.022113 seconds
+  Import took 0.025361 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000162 seconds.
+  path: Assets/GUI Kit Mono Round/_PNG/19_Function_Button/Button_Line/line_Black/btn_line_black_compass.png
+  artifactKey: Guid(2a16526fe17ba4e02a5e45710139a552) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit Mono Round/_PNG/19_Function_Button/Button_Line/line_Black/btn_line_black_compass.png using Guid(2a16526fe17ba4e02a5e45710139a552) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0136e0dd238d1405bc0e905f5a8071b9') in 0.041324 seconds
+  Import took 0.044055 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000182 seconds.
+  path: Assets/GUI Kit Mono Round/_PNG/19_Function_Button/Button_Line/line_Black/btn_line_black_cloud.png
+  artifactKey: Guid(fc11b144fc37a4573a7d3b353ddde56e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit Mono Round/_PNG/19_Function_Button/Button_Line/line_Black/btn_line_black_cloud.png using Guid(fc11b144fc37a4573a7d3b353ddde56e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2dd00fe9ec4ec6acc1209240d312ff58') in 0.038284 seconds
+  Import took 0.040745 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000163 seconds.
+  path: Assets/GUI Kit Mono Round/_PNG/19_Function_Button/Button_Line/line_Black/btn_line_black_date.png
+  artifactKey: Guid(663cc0a337be14fb2a004306675ee52d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit Mono Round/_PNG/19_Function_Button/Button_Line/line_Black/btn_line_black_date.png using Guid(663cc0a337be14fb2a004306675ee52d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e315dfff976ba8501f01a6a53914e05') in 0.315174 seconds
+  Import took 0.317514 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000177 seconds.
+  path: Assets/GUI Kit Mono Round/_PNG/19_Function_Button/Button_Line/line_Black/btn_line_black_attachment.png
+  artifactKey: Guid(572c523bad1984bd4be689612551228a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit Mono Round/_PNG/19_Function_Button/Button_Line/line_Black/btn_line_black_attachment.png using Guid(572c523bad1984bd4be689612551228a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73f467644ce1436c7c8af86a559438a0') in 0.041147 seconds
+  Import took 0.043550 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000176 seconds.
+  path: Assets/GUI Kit Mono Round/_PNG/19_Function_Button/Button_Icon/btn_icon_woman.png
+  artifactKey: Guid(a6500e9ae242d432d9b6955adece6bb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit Mono Round/_PNG/19_Function_Button/Button_Icon/btn_icon_woman.png using Guid(a6500e9ae242d432d9b6955adece6bb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a84069083d6046ffd364b4c6bcce53ad') in 0.024140 seconds
+  Import took 0.026555 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000169 seconds.
+  path: Assets/GUI Kit Mono Round/_PNG/19_Function_Button/Button_Line/line_Black/btn_line_black_alarm.png
+  artifactKey: Guid(53f4deba6f9ad4d05917b12cfb21739f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit Mono Round/_PNG/19_Function_Button/Button_Line/line_Black/btn_line_black_alarm.png using Guid(53f4deba6f9ad4d05917b12cfb21739f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82d077bd6d594761d310b4b726f168cc') in 0.029577 seconds
+  Import took 0.035890 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000145 seconds.
+  path: Assets/GUI Kit Mono Round/_PNG/19_Function_Button/Button_Icon/btn_icon_sign_plus.png
+  artifactKey: Guid(ca53e7cb60ebc4d7b8e1c336f33614d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit Mono Round/_PNG/19_Function_Button/Button_Icon/btn_icon_sign_plus.png using Guid(ca53e7cb60ebc4d7b8e1c336f33614d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae6f9b7337114e820c3a578997d2b303') in 0.034342 seconds
+  Import took 0.036851 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000162 seconds.
+  path: Assets/GUI Kit Mono Round/_PNG/19_Function_Button/Button_Icon/btn_icon_ufo.png
+  artifactKey: Guid(af392f24d870a4f48b81cf55a563f4d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit Mono Round/_PNG/19_Function_Button/Button_Icon/btn_icon_ufo.png using Guid(af392f24d870a4f48b81cf55a563f4d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb62e43c1329b3d67f8e19cbdfa0e4ee') in 0.036000 seconds
+  Import took 0.038395 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000172 seconds.
+  path: Assets/GUI Kit Mono Round/_PNG/19_Function_Button/Button_Icon/btn_icon_won.png
+  artifactKey: Guid(cd8a3a623679242d3bcdd071d8a1b077) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit Mono Round/_PNG/19_Function_Button/Button_Icon/btn_icon_won.png using Guid(cd8a3a623679242d3bcdd071d8a1b077) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ac5491aa94f62d43bf4d443b453b4a1') in 0.020137 seconds
+  Import took 0.022489 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000148 seconds.
+  path: Assets/GUI Kit Mono Round/_PNG/19_Function_Button/Button_Icon/btn_icon_screen_reduce.png
+  artifactKey: Guid(1e8cd872cb93c42a7a10c7be0b1bbda6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit Mono Round/_PNG/19_Function_Button/Button_Icon/btn_icon_screen_reduce.png using Guid(1e8cd872cb93c42a7a10c7be0b1bbda6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc8b7e51e91f32dd1c88d3eb1a228a6b') in 0.040609 seconds
+  Import took 0.042992 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000168 seconds.
+  path: Assets/GUI Kit Mono Round/_PNG/19_Function_Button/Button_Icon/btn_icon_wing.png
+  artifactKey: Guid(f04d1e98716fe4d70b3086df7a150023) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit Mono Round/_PNG/19_Function_Button/Button_Icon/btn_icon_wing.png using Guid(f04d1e98716fe4d70b3086df7a150023) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12147e3f5ccc2b06a798c25acc35b95b') in 0.049359 seconds
+  Import took 0.051741 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000156 seconds.
+  path: Assets/GUI Kit Mono Round/_PNG/19_Function_Button/Button_Line/line_Black/btn_line_black_battle.png
+  artifactKey: Guid(a570ab51cba4d4a0f81d65e2c1e6104b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit Mono Round/_PNG/19_Function_Button/Button_Line/line_Black/btn_line_black_battle.png using Guid(a570ab51cba4d4a0f81d65e2c1e6104b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8df79e1a7c6ccd80c921575273f29378') in 0.031515 seconds
+  Import took 0.033932 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000146 seconds.
+  path: Assets/GUI Kit Mono Round/_PNG/19_Function_Button/Button_Line/line_Black/btn_line_black_camera.png
+  artifactKey: Guid(e6ed08d0502b34aeba60d6a8e5366eea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit Mono Round/_PNG/19_Function_Button/Button_Line/line_Black/btn_line_black_camera.png using Guid(e6ed08d0502b34aeba60d6a8e5366eea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5959e4198891b9dda7e158aeb5f0a083') in 0.029885 seconds
+  Import took 0.032340 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000167 seconds.
+  path: Assets/GUI Kit Mono Round/_PNG/19_Function_Button/Button_Line/line_Black/btn_line_black_delete.png
+  artifactKey: Guid(b3af7b4b6c06b4106b2012cb9c431303) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit Mono Round/_PNG/19_Function_Button/Button_Line/line_Black/btn_line_black_delete.png using Guid(b3af7b4b6c06b4106b2012cb9c431303) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b03af1ac0cff47ae8f7f9d1cfadfee4') in 0.033168 seconds
+  Import took 0.035590 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000168 seconds.
+  path: Assets/GUI Kit Mono Round/_PNG/19_Function_Button/Button_Line/line_Black/btn_line_black_bag.png
+  artifactKey: Guid(d0e983a20d6324eea870272cb23dbd47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit Mono Round/_PNG/19_Function_Button/Button_Line/line_Black/btn_line_black_bag.png using Guid(d0e983a20d6324eea870272cb23dbd47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a3b44e452f595319f386feaa232e5ea') in 0.031475 seconds
+  Import took 0.033838 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000177 seconds.
+  path: Assets/GUI Kit Mono Round/_PNG/19_Function_Button/Button_Line/line_Black/btn_line_black_arrow_line_down.png
+  artifactKey: Guid(01fef01c3dfa2404293d98d31485ec02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit Mono Round/_PNG/19_Function_Button/Button_Line/line_Black/btn_line_black_arrow_line_down.png using Guid(01fef01c3dfa2404293d98d31485ec02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e55f76cbfa03bc49081e0db0899bb1e6') in 0.024481 seconds
+  Import took 0.026891 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000165 seconds.
+  path: Assets/GUI Kit Mono Round/_PNG/19_Function_Button/Button_Line/line_Black/btn_line_black_caution.png
+  artifactKey: Guid(9064f194509924a36ad5cf22cf34a646) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit Mono Round/_PNG/19_Function_Button/Button_Line/line_Black/btn_line_black_caution.png using Guid(9064f194509924a36ad5cf22cf34a646) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '729ab08a41d43fe53380b7b6989258e1') in 0.028140 seconds
+  Import took 0.030520 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000173 seconds.
+  path: Assets/GUI Kit Mono Round/_PNG/19_Function_Button/Button_Line/line_Black/btn_line_black_direction_right.png
+  artifactKey: Guid(167409b83760b45d48468c48ec2f424f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit Mono Round/_PNG/19_Function_Button/Button_Line/line_Black/btn_line_black_direction_right.png using Guid(167409b83760b45d48468c48ec2f424f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81b77bb77b619865184ab5b3178163da') in 0.028237 seconds
+  Import took 0.030623 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000153 seconds.
+  path: Assets/GUI Kit Mono Round/_PNG/19_Function_Button/Button_Line/line_Black/btn_line_black_call_reject.png
+  artifactKey: Guid(49d2c792bf9b540d99889f3bd93dfce6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit Mono Round/_PNG/19_Function_Button/Button_Line/line_Black/btn_line_black_call_reject.png using Guid(49d2c792bf9b540d99889f3bd93dfce6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34da1022008218ada7eff28b1595e00f') in 0.027775 seconds
+  Import took 0.030187 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000160 seconds.
+  path: Assets/GUI Kit Mono Round/_PNG/19_Function_Button/Button_Line/line_Black/btn_line_black_arrow_line_next.png
+  artifactKey: Guid(779d920c466b945f1a157748a4e4ab5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit Mono Round/_PNG/19_Function_Button/Button_Line/line_Black/btn_line_black_arrow_line_next.png using Guid(779d920c466b945f1a157748a4e4ab5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '157705cea3a39ba0fb391188eb9a22e8') in 0.041251 seconds
+  Import took 0.043688 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000179 seconds.
+  path: Assets/GUI Kit Mono Round/_PNG/19_Function_Button/Button_Icon/btn_icon_sword.png
+  artifactKey: Guid(d77facca1c0a94b2389b6617d005dcae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit Mono Round/_PNG/19_Function_Button/Button_Icon/btn_icon_sword.png using Guid(d77facca1c0a94b2389b6617d005dcae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3324bcfeced180cae2f6d6a8ca654c45') in 0.024741 seconds
+  Import took 0.027138 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000189 seconds.
+  path: Assets/GUI Kit Mono Round/_PNG/19_Function_Button/Button_Icon/btn_icon_youtube.png
+  artifactKey: Guid(1985192ca19bc4aac85c158781b3b133) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit Mono Round/_PNG/19_Function_Button/Button_Icon/btn_icon_youtube.png using Guid(1985192ca19bc4aac85c158781b3b133) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06a88094ec445ec9ebd96ad52f5db1f6') in 0.038609 seconds
+  Import took 0.041034 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000172 seconds.
+  path: Assets/GUI Kit Mono Round/_PNG/19_Function_Button/Button_Line/line_Black/btn_line_black_computer.png
+  artifactKey: Guid(9f5fc1cdcf75447159c0fc1c9e87c6bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit Mono Round/_PNG/19_Function_Button/Button_Line/line_Black/btn_line_black_computer.png using Guid(9f5fc1cdcf75447159c0fc1c9e87c6bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eef923dabc07f274a77ae64edc229196') in 0.039439 seconds
+  Import took 0.041809 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000204 seconds.
+  path: Assets/GUI Kit Mono Round/_PNG/19_Function_Button/Button_Line/line_Black/btn_line_black_direction_left.png
+  artifactKey: Guid(a715d12da3e05455f9f6a598f549d244) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit Mono Round/_PNG/19_Function_Button/Button_Line/line_Black/btn_line_black_direction_left.png using Guid(a715d12da3e05455f9f6a598f549d244) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b8325406c8ddf46496f97478779c452') in 0.038101 seconds
+  Import took 0.040663 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000175 seconds.
+  path: Assets/GUI Kit Mono Round/_PNG/19_Function_Button/Button_Icon/btn_icon_screen_expand.png
+  artifactKey: Guid(4f0e5a881ecbb451a948aaf279910416) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit Mono Round/_PNG/19_Function_Button/Button_Icon/btn_icon_screen_expand.png using Guid(4f0e5a881ecbb451a948aaf279910416) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46794b00fa675b10119753cb91ffb621') in 0.026800 seconds
+  Import took 0.029210 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000161 seconds.
+  path: Assets/GUI Kit Mono Round/_PNG/19_Function_Button/Button_Icon/btn_icon_twitter.png
+  artifactKey: Guid(b315981dcec3f45298d74c3da0031bf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit Mono Round/_PNG/19_Function_Button/Button_Icon/btn_icon_twitter.png using Guid(b315981dcec3f45298d74c3da0031bf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e88453afa4f4e877848da3aedd32c45') in 0.039633 seconds
+  Import took 0.042073 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000150 seconds.
+  path: Assets/GUI Kit Mono Round/_PNG/19_Function_Button/Button_Line/line_Black/btn_line_black_call.png
+  artifactKey: Guid(4f418a867730f413b9149121853b6d4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit Mono Round/_PNG/19_Function_Button/Button_Line/line_Black/btn_line_black_call.png using Guid(4f418a867730f413b9149121853b6d4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '477c52e6d048b088c546904f09072d49') in 0.037202 seconds
+  Import took 0.039543 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000161 seconds.
+  path: Assets/GUI Kit Mono Round/_PNG/19_Function_Button/Button_Icon/btn_icon_send.png
+  artifactKey: Guid(4f7072726b6834fec9193067fa37798c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit Mono Round/_PNG/19_Function_Button/Button_Icon/btn_icon_send.png using Guid(4f7072726b6834fec9193067fa37798c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e554f263fbd6cf382b8ad85baed465da') in 0.030796 seconds
+  Import took 0.033185 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000184 seconds.
+  path: Assets/GUI Kit Mono Round/_PNG/19_Function_Button/Button_Line/line_Black/btn_line_black_cny.png
+  artifactKey: Guid(4d0231800e72c42a5a96e21d8f4e74c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit Mono Round/_PNG/19_Function_Button/Button_Line/line_Black/btn_line_black_cny.png using Guid(4d0231800e72c42a5a96e21d8f4e74c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5075a5ca94b830486ca92c34c741d5ae') in 0.047699 seconds
+  Import took 0.050206 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000176 seconds.
+  path: Assets/GUI Kit Mono Round/_PNG/19_Function_Button/Button_Icon/btn_icon_text.png
+  artifactKey: Guid(ca27a9c16568e47b4b399db1190ba6ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit Mono Round/_PNG/19_Function_Button/Button_Icon/btn_icon_text.png using Guid(ca27a9c16568e47b4b399db1190ba6ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6c11169118d0a6d4276c1105d21b7d7') in 0.167175 seconds
+  Import took 0.169489 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000173 seconds.
+  path: Assets/GUI Kit Mono Round/_PNG/19_Function_Button/Button_Line/line_Black/btn_line_black_cart.png
+  artifactKey: Guid(125e62c3d6a9c452fab93fb52df5f626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit Mono Round/_PNG/19_Function_Button/Button_Line/line_Black/btn_line_black_cart.png using Guid(125e62c3d6a9c452fab93fb52df5f626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '769038449dcd00a01ae6d32565c47a75') in 0.039080 seconds
+  Import took 0.041402 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.182570 seconds.
+  path: Assets/GUI Kit Mono Round/_PNG/19_Function_Button/Button_Icon/btn_icon_pinterest.png
+  artifactKey: Guid(97d55d44707f848bcb304d338577ebe4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit Mono Round/_PNG/19_Function_Button/Button_Icon/btn_icon_pinterest.png using Guid(97d55d44707f848bcb304d338577ebe4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '890ca9e98743133ede47f363dbdf3a95') in 0.032068 seconds
+  Import took 0.034934 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000181 seconds.
+  path: Assets/GUI Kit Mono Round/_PNG/19_Function_Button/Button_Icon/btn_icon_planet.png
+  artifactKey: Guid(c732840cbf352497ea8b1e36d226450f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit Mono Round/_PNG/19_Function_Button/Button_Icon/btn_icon_planet.png using Guid(c732840cbf352497ea8b1e36d226450f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1dc08ada903a311492a0f8b0ac7a2d7') in 0.040795 seconds
+  Import took 0.043584 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000177 seconds.
+  path: Assets/GUI Kit Mono Round/_PNG/19_Function_Button/Button_Icon/btn_icon_read.png
+  artifactKey: Guid(84cd4d487eb3e4059a861079c97b811d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit Mono Round/_PNG/19_Function_Button/Button_Icon/btn_icon_read.png using Guid(84cd4d487eb3e4059a861079c97b811d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '204c73014d5b13a79ef79170066a2f7e') in 0.026560 seconds
+  Import took 0.028912 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000156 seconds.
+  path: Assets/GUI Kit Mono Round/_PNG/19_Function_Button/Button_Icon/btn_icon_potion.png
+  artifactKey: Guid(4120f02bb7e494497b9238dc75e46cee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit Mono Round/_PNG/19_Function_Button/Button_Icon/btn_icon_potion.png using Guid(4120f02bb7e494497b9238dc75e46cee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1eb2889a39a635f51208fd49d8bb595') in 0.039175 seconds
+  Import took 0.041557 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.156405 seconds.
+  path: Assets/GUI Kit Mono Round/_PNG/19_Function_Button/Button_Line/line_Black/btn_line_black_download.png
+  artifactKey: Guid(a30a4cce3593f417cb77316905518c36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit Mono Round/_PNG/19_Function_Button/Button_Line/line_Black/btn_line_black_download.png using Guid(a30a4cce3593f417cb77316905518c36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbaa4ed3fa02f9dd83f55f22fbe10082') in 0.041019 seconds
+  Import took 0.043857 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000185 seconds.
+  path: Assets/GUI Kit Mono Round/_PNG/19_Function_Button/Button_Line/line_Black/btn_line_black_drawer.png
+  artifactKey: Guid(274f3e9b6f082474ab4d99ecc668e52c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit Mono Round/_PNG/19_Function_Button/Button_Line/line_Black/btn_line_black_drawer.png using Guid(274f3e9b6f082474ab4d99ecc668e52c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e27dd094708caeda750a847fc4641211') in 0.027832 seconds
+  Import took 0.030326 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000162 seconds.
+  path: Assets/GUI Kit Mono Round/_PNG/19_Function_Button/Button_Line/line_Black/btn_line_black_email_read.png
+  artifactKey: Guid(863a8e3c69e9c4d8ba0357774b1846f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit Mono Round/_PNG/19_Function_Button/Button_Line/line_Black/btn_line_black_email_read.png using Guid(863a8e3c69e9c4d8ba0357774b1846f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3c9662ef9d73e2d8289fcc71d66c473') in 0.029888 seconds
+  Import took 0.032367 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000160 seconds.
+  path: Assets/GUI Kit Mono Round/_PNG/19_Function_Button/Button_Line/line_Black/btn_line_black_email.png
+  artifactKey: Guid(0c0a825fc5d62400bb97ca7d694425c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit Mono Round/_PNG/19_Function_Button/Button_Line/line_Black/btn_line_black_email.png using Guid(0c0a825fc5d62400bb97ca7d694425c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd63bfd25584655d22936eafcd11e3d00') in 0.043804 seconds
+  Import took 0.046139 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000172 seconds.
+  path: Assets/GUI Kit Mono Round/_PNG/19_Function_Button/Button_Line/line_Black/btn_line_black_emoji.png
+  artifactKey: Guid(e164756a9d9a54ee4ba63dcbea8b76e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit Mono Round/_PNG/19_Function_Button/Button_Line/line_Black/btn_line_black_emoji.png using Guid(e164756a9d9a54ee4ba63dcbea8b76e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '567c9c0b8e0e734b90d4ddcb0e891437') in 0.039256 seconds
+  Import took 0.041754 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.034375 seconds.
+  path: Assets/GUI Kit Mono Round/_PNG/19_Function_Button/Button_Line/line_Black/btn_line_black_file.png
+  artifactKey: Guid(349e60e23c91c47c29f2d68de8c8015c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit Mono Round/_PNG/19_Function_Button/Button_Line/line_Black/btn_line_black_file.png using Guid(349e60e23c91c47c29f2d68de8c8015c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84a5a9bf7cdaa45d8f337a59efe38175') in 0.056613 seconds
+  Import took 0.059487 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000147 seconds.
+  path: Assets/GUI Kit Mono Round/_PNG/19_Function_Button/Button_Line/line_Black/btn_line_black_link.png
+  artifactKey: Guid(d2c509b4a30d44d29a2e4a7de6f07934) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit Mono Round/_PNG/19_Function_Button/Button_Line/line_Black/btn_line_black_link.png using Guid(d2c509b4a30d44d29a2e4a7de6f07934) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3327c7b06d14fb60910f7a71db115af') in 0.043285 seconds
+  Import took 0.045739 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000162 seconds.
+  path: Assets/GUI Kit Mono Round/_PNG/19_Function_Button/Button_Line/line_Black/btn_line_black_money.png
+  artifactKey: Guid(6f1c21a7d8d80498db9c6ef778a80374) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit Mono Round/_PNG/19_Function_Button/Button_Line/line_Black/btn_line_black_money.png using Guid(6f1c21a7d8d80498db9c6ef778a80374) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16f4c9c42645cb1e1a05cf68cca1cdd9') in 0.069431 seconds
+  Import took 0.071821 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000169 seconds.
+  path: Assets/GUI Kit Mono Round/_PNG/19_Function_Button/Button_Line/line_Black/btn_line_black_potion.png
+  artifactKey: Guid(bb7de4ee8cd9245a59b2245d8265482d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit Mono Round/_PNG/19_Function_Button/Button_Line/line_Black/btn_line_black_potion.png using Guid(bb7de4ee8cd9245a59b2245d8265482d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b21e25e4043947358de2cf55e0329fef') in 0.039391 seconds
+  Import took 0.041842 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000170 seconds.
+  path: Assets/GUI Kit Mono Round/_PNG/19_Function_Button/Button_Line/line_Black/btn_line_black_won.png
+  artifactKey: Guid(0b928a8827c2b41e6869f8605cebdfab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit Mono Round/_PNG/19_Function_Button/Button_Line/line_Black/btn_line_black_won.png using Guid(0b928a8827c2b41e6869f8605cebdfab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5660518c2063f5346c443cc77e5828f6') in 0.037402 seconds
+  Import took 0.040093 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000161 seconds.
+  path: Assets/GUI Kit Mono Round/_PNG/19_Function_Button/Button_Line/line_Black/btn_line_black_refresh.png
+  artifactKey: Guid(62f8a163a816243068cb7031354c44da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit Mono Round/_PNG/19_Function_Button/Button_Line/line_Black/btn_line_black_refresh.png using Guid(62f8a163a816243068cb7031354c44da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88456ae7874c3ecddc619ef5ded79034') in 0.053311 seconds
+  Import took 0.055784 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000166 seconds.
+  path: Assets/GUI Kit Mono Round/_PNG/19_Function_Button/Button_Line/line_Black/btn_line_black_treasure.png
+  artifactKey: Guid(067b5fea9300d474a92d0371bf073062) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit Mono Round/_PNG/19_Function_Button/Button_Line/line_Black/btn_line_black_treasure.png using Guid(067b5fea9300d474a92d0371bf073062) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb9e4478f3161e761c5fc9c92f676f8e') in 0.037858 seconds
+  Import took 0.040473 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000169 seconds.
+  path: Assets/GUI Kit Mono Round/_PNG/19_Function_Button/Button_Line/line_Black/btn_line_black_mobile.png
+  artifactKey: Guid(fc4f769c345524e8ea1bbebc6868305d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit Mono Round/_PNG/19_Function_Button/Button_Line/line_Black/btn_line_black_mobile.png using Guid(fc4f769c345524e8ea1bbebc6868305d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e4ec0be8f2b93b20ff3f23c05bc0996') in 0.339365 seconds
+  Import took 0.341768 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000147 seconds.
+  path: Assets/GUI Kit Mono Round/_PNG/19_Function_Button/Button_Line/line_Blue/btn_line_blue_flag.png
+  artifactKey: Guid(1e6faa66e9b994bc99843a6fbeccd076) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit Mono Round/_PNG/19_Function_Button/Button_Line/line_Blue/btn_line_blue_flag.png using Guid(1e6faa66e9b994bc99843a6fbeccd076) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94fb4597d025f34f309b84cb6c4d7991') in 0.038626 seconds
+  Import took 0.041093 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000160 seconds.
+  path: Assets/GUI Kit Mono Round/_PNG/19_Function_Button/Button_Line/line_Blue/btn_line_blue_filter.png
+  artifactKey: Guid(9177fc8157e114a5c8d665df66a6eb66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit Mono Round/_PNG/19_Function_Button/Button_Line/line_Blue/btn_line_blue_filter.png using Guid(9177fc8157e114a5c8d665df66a6eb66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4bf8b8e5a843ebd685e1c0e324601a38') in 0.042301 seconds
+  Import took 0.044860 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000158 seconds.
+  path: Assets/GUI Kit Mono Round/_PNG/19_Function_Button/Button_Line/line_Blue/btn_line_blue_music_2.png
+  artifactKey: Guid(cb089e847c1f74654b9e3c6c4364464e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit Mono Round/_PNG/19_Function_Button/Button_Line/line_Blue/btn_line_blue_music_2.png using Guid(cb089e847c1f74654b9e3c6c4364464e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e00a4103e1eeeebbe513ecc1f3810f7') in 0.065970 seconds
+  Import took 0.103183 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000163 seconds.
+  path: Assets/GUI Kit Mono Round/_PNG/19_Function_Button/Button_Line/line_Blue/btn_line_blue_pinterest.png
+  artifactKey: Guid(0f0f1f55665a74f129ea08a2c0e42d4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit Mono Round/_PNG/19_Function_Button/Button_Line/line_Blue/btn_line_blue_pinterest.png using Guid(0f0f1f55665a74f129ea08a2c0e42d4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d20a63c6508e77e540c2ce228bc1fa4') in 0.048834 seconds
+  Import took 0.051386 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000189 seconds.
+  path: Assets/GUI Kit Mono Round/_PNG/19_Function_Button/Button_Line/line_Blue/btn_line_blue_shield.png
+  artifactKey: Guid(8df4d47e761614b6e88e2f6624a11979) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit Mono Round/_PNG/19_Function_Button/Button_Line/line_Blue/btn_line_blue_shield.png using Guid(8df4d47e761614b6e88e2f6624a11979) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9242aa77fc6a599a5ef0f8494f75eac5') in 0.029654 seconds
+  Import took 0.032250 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000182 seconds.
+  path: Assets/GUI Kit Mono Round/_PNG/19_Function_Button/Button_Line/line_Blue/btn_line_blue_menu_circle.png
+  artifactKey: Guid(4b6c0424fff034861a83a9f58c161f0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit Mono Round/_PNG/19_Function_Button/Button_Line/line_Blue/btn_line_blue_menu_circle.png using Guid(4b6c0424fff034861a83a9f58c161f0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1192f894467d8acbee8388157ede0ed1') in 0.039243 seconds
+  Import took 0.041776 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000175 seconds.
+  path: Assets/GUI Kit Mono Round/_PNG/19_Function_Button/Button_Line/line_Blue/btn_line_blue_more.png
+  artifactKey: Guid(b3743be8dc9454c60afa5f6bfc07de01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit Mono Round/_PNG/19_Function_Button/Button_Line/line_Blue/btn_line_blue_more.png using Guid(b3743be8dc9454c60afa5f6bfc07de01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c0a84e5b8b25fdfd3e5f0e615c3cd80') in 0.052337 seconds
+  Import took 0.054735 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000184 seconds.
+  path: Assets/GUI Kit Mono Round/_PNG/19_Function_Button/Button_Line/line_Black/btn_line_black_refund.png
+  artifactKey: Guid(d9773b23772c94a198f7da13c86c397a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit Mono Round/_PNG/19_Function_Button/Button_Line/line_Black/btn_line_black_refund.png using Guid(d9773b23772c94a198f7da13c86c397a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db979d596ee6163e330785319db97b2a') in 0.032900 seconds
+  Import took 0.035321 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000149 seconds.
+  path: Assets/GUI Kit Mono Round/_PNG/19_Function_Button/Button_Line/line_Blue/btn_line_blue_info.png
+  artifactKey: Guid(4abb30e701439409d90abef3ca2791aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit Mono Round/_PNG/19_Function_Button/Button_Line/line_Blue/btn_line_blue_info.png using Guid(4abb30e701439409d90abef3ca2791aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5edd9d2191742ce25c89c8ad78570840') in 0.030382 seconds
+  Import took 0.032784 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000156 seconds.
+  path: Assets/GUI Kit Mono Round/_PNG/19_Function_Button/Button_Line/line_Blue/btn_line_blue_menu_list.png
+  artifactKey: Guid(097a89b34b96a45b8a55b2ef6d5ea029) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit Mono Round/_PNG/19_Function_Button/Button_Line/line_Blue/btn_line_blue_menu_list.png using Guid(097a89b34b96a45b8a55b2ef6d5ea029) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e47926e1a18d032a63da6d628b0f11b6') in 0.038605 seconds
+  Import took 0.040994 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000158 seconds.
+  path: Assets/GUI Kit Mono Round/_PNG/19_Function_Button/Button_Line/line_Black/btn_line_black_search.png
+  artifactKey: Guid(6f9d92f2cd19948949c873f6664bdf7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit Mono Round/_PNG/19_Function_Button/Button_Line/line_Black/btn_line_black_search.png using Guid(6f9d92f2cd19948949c873f6664bdf7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75f35f6a5c7622f0d770adccbf57f888') in 0.025877 seconds
+  Import took 0.028450 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000151 seconds.
+  path: Assets/GUI Kit Mono Round/_PNG/19_Function_Button/Button_Line/line_Blue/btn_line_blue_share.png
+  artifactKey: Guid(2a1bcf2fd11494648a9b48bf9d847be9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit Mono Round/_PNG/19_Function_Button/Button_Line/line_Blue/btn_line_blue_share.png using Guid(2a1bcf2fd11494648a9b48bf9d847be9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55360b8df9b81d5d6975e956396db3f4') in 0.028178 seconds
+  Import took 0.030567 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000164 seconds.
+  path: Assets/GUI Kit Mono Round/_PNG/19_Function_Button/Button_Line/line_Blue/btn_line_blue_menu_square.png
+  artifactKey: Guid(a0da51ad1a77247b1a40558b38d24e6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit Mono Round/_PNG/19_Function_Button/Button_Line/line_Blue/btn_line_blue_menu_square.png using Guid(a0da51ad1a77247b1a40558b38d24e6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '822a12203745ecddbd8c33b50604bc81') in 0.033944 seconds
+  Import took 0.036337 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000166 seconds.
+  path: Assets/GUI Kit Mono Round/_PNG/19_Function_Button/Button_Line/line_Blue/btn_line_blue_pen.png
+  artifactKey: Guid(a77ce02f50f40482dbb9bf27f56760ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit Mono Round/_PNG/19_Function_Button/Button_Line/line_Blue/btn_line_blue_pen.png using Guid(a77ce02f50f40482dbb9bf27f56760ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd49184b6a9f09916e70f943db9b7743') in 0.040004 seconds
+  Import took 0.042566 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000165 seconds.
+  path: Assets/GUI Kit Mono Round/_PNG/19_Function_Button/Button_Line/line_Blue/btn_line_blue_medal_1.png
+  artifactKey: Guid(779919e2c33f44df495008a7c0a376e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit Mono Round/_PNG/19_Function_Button/Button_Line/line_Blue/btn_line_blue_medal_1.png using Guid(779919e2c33f44df495008a7c0a376e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c3bb4dfda5278324c980b52469088ce') in 0.032485 seconds
+  Import took 0.035017 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000187 seconds.
+  path: Assets/GUI Kit Mono Round/_PNG/19_Function_Button/Button_Line/line_Blue/btn_line_blue_star.png
+  artifactKey: Guid(541542408d00f46ff97af93ce9d8b168) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit Mono Round/_PNG/19_Function_Button/Button_Line/line_Blue/btn_line_blue_star.png using Guid(541542408d00f46ff97af93ce9d8b168) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29e621b239778b3e0d856e9738ea856a') in 0.065609 seconds
+  Import took 0.068516 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000167 seconds.
+  path: Assets/GUI Kit Mono Round/_PNG/19_Function_Button/Button_Line/line_Blue/btn_line_blue_refresh.png
+  artifactKey: Guid(84232fa465a2a4348ad4b0daa6e56c3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit Mono Round/_PNG/19_Function_Button/Button_Line/line_Blue/btn_line_blue_refresh.png using Guid(84232fa465a2a4348ad4b0daa6e56c3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8fb523df5113a47aea0a9d8ea581c317') in 0.038735 seconds
+  Import took 0.041070 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000166 seconds.
+  path: Assets/GUI Kit Mono Round/_PNG/19_Function_Button/Button_Line/line_Black/btn_line_black_setting_1.png
+  artifactKey: Guid(c9e0fd5e25d1a41eeaf937d53b208ad8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit Mono Round/_PNG/19_Function_Button/Button_Line/line_Black/btn_line_black_setting_1.png using Guid(c9e0fd5e25d1a41eeaf937d53b208ad8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1a1f3b2c9c7014b711402e09c706cb8') in 0.045272 seconds
+  Import took 0.047668 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000166 seconds.
+  path: Assets/GUI Kit Mono Round/_PNG/19_Function_Button/Button_Line/line_Blue/btn_line_blue_skype.png
+  artifactKey: Guid(73ee5e50cf7c44e92800d08c0c63d2fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit Mono Round/_PNG/19_Function_Button/Button_Line/line_Blue/btn_line_blue_skype.png using Guid(73ee5e50cf7c44e92800d08c0c63d2fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11942e0493588ab4e6b427623b7c3ea7') in 0.042650 seconds
+  Import took 0.045036 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000182 seconds.
+  path: Assets/GUI Kit Mono Round/_PNG/19_Function_Button/Button_Line/line_Blue/btn_line_blue_folder.png
+  artifactKey: Guid(3f0968a242cf440d1bfc318734f19968) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit Mono Round/_PNG/19_Function_Button/Button_Line/line_Blue/btn_line_blue_folder.png using Guid(3f0968a242cf440d1bfc318734f19968) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '671fe04f9c706cdf87ad5b878d69a652') in 0.037166 seconds
+  Import took 0.039537 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000177 seconds.
+  path: Assets/GUI Kit Mono Round/_PNG/19_Function_Button/Button_Line/line_Blue/btn_line_blue_setting_2.png
+  artifactKey: Guid(7754efc566b0c4b1b9cfc47caf77aae8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit Mono Round/_PNG/19_Function_Button/Button_Line/line_Blue/btn_line_blue_setting_2.png using Guid(7754efc566b0c4b1b9cfc47caf77aae8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c151b12105f760ac2587a1f888d47e0e') in 0.031693 seconds
+  Import took 0.034179 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000199 seconds.
+  path: Assets/GUI Kit Mono Round/_PNG/19_Function_Button/Button_Line/line_Black/btn_line_black_fire.png
+  artifactKey: Guid(7dbce52ba59064fbf86b3cdb5e3e474d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit Mono Round/_PNG/19_Function_Button/Button_Line/line_Black/btn_line_black_fire.png using Guid(7dbce52ba59064fbf86b3cdb5e3e474d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c8738cec0be15ac4fd668efccf3d8e9') in 0.052197 seconds
+  Import took 0.055317 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000173 seconds.
+  path: Assets/GUI Kit Mono Round/_PNG/19_Function_Button/Button_Line/line_Blue/btn_line_blue_pick.png
+  artifactKey: Guid(ebbe8fa3915484ccf9e2217eb4abb928) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit Mono Round/_PNG/19_Function_Button/Button_Line/line_Blue/btn_line_blue_pick.png using Guid(ebbe8fa3915484ccf9e2217eb4abb928) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b5d3bddbbe160b746e1c1c0af0befee') in 0.031194 seconds
+  Import took 0.033791 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000178 seconds.
+  path: Assets/GUI Kit Mono Round/_PNG/19_Function_Button/Button_Line/line_Black/btn_line_black_filter.png
+  artifactKey: Guid(62817bb3caf4a4db184a723dd74b4341) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit Mono Round/_PNG/19_Function_Button/Button_Line/line_Black/btn_line_black_filter.png using Guid(62817bb3caf4a4db184a723dd74b4341) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99ba1148e5ac2cf9b48257d332fa9347') in 0.064666 seconds
+  Import took 0.067070 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000164 seconds.
+  path: Assets/GUI Kit Mono Round/_PNG/19_Function_Button/Button_Line/line_Blue/btn_line_blue_reset.png
+  artifactKey: Guid(d3e1c58cd5ec84ee89c0a0e4941c2952) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit Mono Round/_PNG/19_Function_Button/Button_Line/line_Blue/btn_line_blue_reset.png using Guid(d3e1c58cd5ec84ee89c0a0e4941c2952) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'daf2f0c9296acd7efc50aa75f6db0f0c') in 0.035151 seconds
+  Import took 0.037545 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000189 seconds.
+  path: Assets/GUI Kit Mono Round/_PNG/19_Function_Button/Button_Line/line_Black/btn_line_black_info.png
+  artifactKey: Guid(f35952be5ba4b4013925031fe95d776f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit Mono Round/_PNG/19_Function_Button/Button_Line/line_Black/btn_line_black_info.png using Guid(f35952be5ba4b4013925031fe95d776f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2cbe31c8316b575c004582bf1b55d276') in 0.050919 seconds
+  Import took 0.053467 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000167 seconds.
+  path: Assets/GUI Kit Mono Round/_PNG/19_Function_Button/Button_Line/line_Black/btn_line_black_target.png
+  artifactKey: Guid(067778812a9034eaa97f976f80359b5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit Mono Round/_PNG/19_Function_Button/Button_Line/line_Black/btn_line_black_target.png using Guid(067778812a9034eaa97f976f80359b5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b651a16f7f77fd76a9a9ecf3d69cb416') in 0.055239 seconds
+  Import took 0.057702 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000161 seconds.
+  path: Assets/GUI Kit Mono Round/_PNG/19_Function_Button/Button_Line/line_Black/btn_line_black_instagram.png
+  artifactKey: Guid(36c0e9cddcf1a4afeb259f0484c230e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit Mono Round/_PNG/19_Function_Button/Button_Line/line_Black/btn_line_black_instagram.png using Guid(36c0e9cddcf1a4afeb259f0484c230e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ca83ccca6d8f34d36a20bfd4e1e55b3') in 0.052685 seconds
+  Import took 0.055369 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000165 seconds.
+  path: Assets/GUI Kit Mono Round/_PNG/19_Function_Button/Button_Line/line_Black/btn_line_black_list.png
+  artifactKey: Guid(e66c66250e2544a1598fcaf721f652f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit Mono Round/_PNG/19_Function_Button/Button_Line/line_Black/btn_line_black_list.png using Guid(e66c66250e2544a1598fcaf721f652f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04f61293cd647322072735854da2a963') in 0.072747 seconds
+  Import took 0.075169 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000161 seconds.
+  path: Assets/GUI Kit Mono Round/_PNG/19_Function_Button/Button_Line/line_Black/btn_line_black_music_1.png
+  artifactKey: Guid(60b0aa660bcc94ff08667a85dee5b46e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit Mono Round/_PNG/19_Function_Button/Button_Line/line_Black/btn_line_black_music_1.png using Guid(60b0aa660bcc94ff08667a85dee5b46e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db2447185893d6c5ca97f0b9e1ac1b93') in 0.042536 seconds
+  Import took 0.044902 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000165 seconds.
+  path: Assets/GUI Kit Mono Round/_PNG/19_Function_Button/Button_Line/line_Black/btn_line_black_life.png
+  artifactKey: Guid(99002939da98b40dd9a57d2b8af79cbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit Mono Round/_PNG/19_Function_Button/Button_Line/line_Black/btn_line_black_life.png using Guid(99002939da98b40dd9a57d2b8af79cbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f47ed1219c7d3c9f05a0f4b3a39b1b56') in 0.028993 seconds
+  Import took 0.031381 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000193 seconds.
+  path: Assets/GUI Kit Mono Round/_PNG/19_Function_Button/Button_Line/line_Black/btn_line_black_minimize.png
+  artifactKey: Guid(b2b103776df2a4f6d9ee967f2960e573) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit Mono Round/_PNG/19_Function_Button/Button_Line/line_Black/btn_line_black_minimize.png using Guid(b2b103776df2a4f6d9ee967f2960e573) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e99c0350cafb6b46afe3293d6e0cc065') in 0.027860 seconds
+  Import took 0.030614 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000174 seconds.
+  path: Assets/GUI Kit Mono Round/_PNG/19_Function_Button/Button_Line/line_Blue/btn_line_blue_refund.png
+  artifactKey: Guid(e99305d4043c044f2bbae9c0ace1349c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit Mono Round/_PNG/19_Function_Button/Button_Line/line_Blue/btn_line_blue_refund.png using Guid(e99305d4043c044f2bbae9c0ace1349c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed6b7942d17e2eece1e009223b48d422') in 0.031403 seconds
+  Import took 0.033922 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000170 seconds.
+  path: Assets/GUI Kit Mono Round/_PNG/19_Function_Button/Button_Line/line_Blue/btn_line_blue_sword.png
+  artifactKey: Guid(00d5c02f44ad74b4fb1a1f07cbcb52ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit Mono Round/_PNG/19_Function_Button/Button_Line/line_Blue/btn_line_blue_sword.png using Guid(00d5c02f44ad74b4fb1a1f07cbcb52ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a682907aeeb71e20972c0bca686cbf9') in 0.037857 seconds
+  Import took 0.040362 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000166 seconds.
+  path: Assets/GUI Kit Mono Round/_PNG/19_Function_Button/Button_Line/line_Blue/btn_line_blue_instagram.png
+  artifactKey: Guid(1dbcb1a2e389541939dd481dffb5469e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit Mono Round/_PNG/19_Function_Button/Button_Line/line_Blue/btn_line_blue_instagram.png using Guid(1dbcb1a2e389541939dd481dffb5469e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1dd75fb31a3adf2fd1bb2fab97beb094') in 0.032063 seconds
+  Import took 0.034544 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000170 seconds.
+  path: Assets/GUI Kit Mono Round/_PNG/19_Function_Button/Button_Line/line_Blue/btn_line_blue_medal_2.png
+  artifactKey: Guid(3eb76b5313484426ea9af3053df0caa6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit Mono Round/_PNG/19_Function_Button/Button_Line/line_Blue/btn_line_blue_medal_2.png using Guid(3eb76b5313484426ea9af3053df0caa6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be0c5fddcb17e5afe4a8878ad23d3cca') in 0.036934 seconds
+  Import took 0.039493 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000168 seconds.
+  path: Assets/GUI Kit Mono Round/_PNG/19_Function_Button/Button_Line/line_Blue/btn_line_blue_rocket.png
+  artifactKey: Guid(3a9db83ccf99a47e38e2d34d1a1655f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit Mono Round/_PNG/19_Function_Button/Button_Line/line_Blue/btn_line_blue_rocket.png using Guid(3a9db83ccf99a47e38e2d34d1a1655f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82a3f18a373a892cf6edd627948f7ff5') in 0.026225 seconds
+  Import took 0.028762 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000160 seconds.
+  path: Assets/GUI Kit Mono Round/_PNG/19_Function_Button/Button_Line/line_Blue/btn_line_blue_note.png
+  artifactKey: Guid(2c4382c3afb1c435394890f0098ef4c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit Mono Round/_PNG/19_Function_Button/Button_Line/line_Blue/btn_line_blue_note.png using Guid(2c4382c3afb1c435394890f0098ef4c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '140620e17a05491e3cccb586e9ee7b45') in 0.028797 seconds
+  Import took 0.031192 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000171 seconds.
+  path: Assets/GUI Kit Mono Round/_PNG/19_Function_Button/Button_Line/line_Blue/btn_line_blue_notification_off.png
+  artifactKey: Guid(b42b4d3fa72724a768ba90de6b67486d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit Mono Round/_PNG/19_Function_Button/Button_Line/line_Blue/btn_line_blue_notification_off.png using Guid(b42b4d3fa72724a768ba90de6b67486d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdc374cae1ce0dc8abc4de315f5a5a5c') in 0.025778 seconds
+  Import took 0.028307 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000150 seconds.
+  path: Assets/GUI Kit Mono Round/_PNG/19_Function_Button/Button_Line/line_Blue/btn_line_blue_pencil.png
+  artifactKey: Guid(008fb18aa2a5d47b788570bc0de40d5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit Mono Round/_PNG/19_Function_Button/Button_Line/line_Blue/btn_line_blue_pencil.png using Guid(008fb18aa2a5d47b788570bc0de40d5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ecd9bec554f27cb3ee818e1d3e86c1be') in 0.026012 seconds
+  Import took 0.028436 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000178 seconds.
+  path: Assets/GUI Kit Mono Round/_PNG/19_Function_Button/Button_Line/line_Blue/btn_line_blue_jewel_1.png
+  artifactKey: Guid(81d87ee3d699042e8b9499955086b4e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit Mono Round/_PNG/19_Function_Button/Button_Line/line_Blue/btn_line_blue_jewel_1.png using Guid(81d87ee3d699042e8b9499955086b4e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '481d70563d6f4e26364264519cbe3c66') in 0.022567 seconds
+  Import took 0.025423 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000145 seconds.
+  path: Assets/GUI Kit Mono Round/_PNG/19_Function_Button/Button_Line/line_Blue/btn_line_blue_mypage.png
+  artifactKey: Guid(0ac034fecc7834302a79b133322426fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit Mono Round/_PNG/19_Function_Button/Button_Line/line_Blue/btn_line_blue_mypage.png using Guid(0ac034fecc7834302a79b133322426fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8bb3f2324489dedc69edb645738b4001') in 0.031822 seconds
+  Import took 0.034361 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000194 seconds.
+  path: Assets/GUI Kit Mono Round/_PNG/19_Function_Button/Button_Line/line_Blue/btn_line_blue_notification_on.png
+  artifactKey: Guid(a5a66448f4b8e4b3385617d8684d91e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit Mono Round/_PNG/19_Function_Button/Button_Line/line_Blue/btn_line_blue_notification_on.png using Guid(a5a66448f4b8e4b3385617d8684d91e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '948ae9a3cbad9baa8786ecbd89a0ccdb') in 0.027546 seconds
+  Import took 0.030451 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000167 seconds.
+  path: Assets/GUI Kit Mono Round/_PNG/19_Function_Button/Button_Line/line_Blue/btn_line_blue_sound_off.png
+  artifactKey: Guid(10e52da85340f47899106aa55a8b7133) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit Mono Round/_PNG/19_Function_Button/Button_Line/line_Blue/btn_line_blue_sound_off.png using Guid(10e52da85340f47899106aa55a8b7133) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b96f6efd3d518f63a9dfc46a50f222e') in 0.034764 seconds
+  Import took 0.037118 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000164 seconds.
+  path: Assets/GUI Kit Mono Round/_PNG/19_Function_Button/Button_Line/line_Black/btn_line_black_youtube.png
+  artifactKey: Guid(f2c6061404b8f407f8bc355a2e1aa51c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit Mono Round/_PNG/19_Function_Button/Button_Line/line_Black/btn_line_black_youtube.png using Guid(f2c6061404b8f407f8bc355a2e1aa51c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7293666219853c4ad29e7d96a567473') in 0.033121 seconds
+  Import took 0.035514 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000166 seconds.
+  path: Assets/GUI Kit Mono Round/_PNG/19_Function_Button/Button_Line/line_Blue/btn_line_blue_money.png
+  artifactKey: Guid(e10563066e171454bbb8c371225f1329) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit Mono Round/_PNG/19_Function_Button/Button_Line/line_Blue/btn_line_blue_money.png using Guid(e10563066e171454bbb8c371225f1329) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a9fa15ffce516adbd19dfd31893013d') in 0.034879 seconds
+  Import took 0.037309 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000203 seconds.
+  path: Assets/GUI Kit Mono Round/_PNG/19_Function_Button/Button_Line/line_Black/btn_line_black_screen_reduce.png
+  artifactKey: Guid(f2ae4abcf0c374a7898e8a6453aa468a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit Mono Round/_PNG/19_Function_Button/Button_Line/line_Black/btn_line_black_screen_reduce.png using Guid(f2ae4abcf0c374a7898e8a6453aa468a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1872a67af1eaffb58361b49eeca2f524') in 0.277922 seconds
+  Import took 0.280689 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000167 seconds.
+  path: Assets/GUI Kit Mono Round/_PNG/19_Function_Button/Button_Line/line_Black/btn_line_black_flag.png
+  artifactKey: Guid(224ff902627774e809da85f48747f4e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit Mono Round/_PNG/19_Function_Button/Button_Line/line_Black/btn_line_black_flag.png using Guid(224ff902627774e809da85f48747f4e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '269480ca0eb55ddcea67333cc0b1576f') in 0.125639 seconds
+  Import took 0.128014 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000156 seconds.
+  path: Assets/GUI Kit Mono Round/_PNG/19_Function_Button/Button_Line/line_Blue/btn_line_blue_music_1.png
+  artifactKey: Guid(16ed866191a9a4757a38f40b2b3f7352) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit Mono Round/_PNG/19_Function_Button/Button_Line/line_Blue/btn_line_blue_music_1.png using Guid(16ed866191a9a4757a38f40b2b3f7352) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f641fe8f914df3a48ce11adcfb4df05') in 0.027958 seconds
+  Import took 0.030377 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000168 seconds.
+  path: Assets/GUI Kit Mono Round/_PNG/19_Function_Button/Button_Line/line_Blue/btn_line_blue_key.png
+  artifactKey: Guid(ef69009822f2a4bb0b54e349ea0fb627) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit Mono Round/_PNG/19_Function_Button/Button_Line/line_Blue/btn_line_blue_key.png using Guid(ef69009822f2a4bb0b54e349ea0fb627) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a763a5d0e8e0303889c45951187ba186') in 0.030937 seconds
+  Import took 0.033373 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000163 seconds.
+  path: Assets/GUI Kit Mono Round/_PNG/19_Function_Button/Button_Line/line_Blue/btn_line_blue_googleplay.png
+  artifactKey: Guid(0b530ec247400487bb3efa6ce072daf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit Mono Round/_PNG/19_Function_Button/Button_Line/line_Blue/btn_line_blue_googleplay.png using Guid(0b530ec247400487bb3efa6ce072daf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '579897035c405a1b44d536bacebc967a') in 0.056999 seconds
+  Import took 0.059402 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000166 seconds.
+  path: Assets/GUI Kit Mono Round/_PNG/19_Function_Button/Button_Line/line_Black/btn_line_black_world.png
+  artifactKey: Guid(5dfcbd6f6dea743f28896e7881dd122a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit Mono Round/_PNG/19_Function_Button/Button_Line/line_Black/btn_line_black_world.png using Guid(5dfcbd6f6dea743f28896e7881dd122a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b523fe4a88c6a19db0e2c35edc0fd51') in 0.027281 seconds
+  Import took 0.029693 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000158 seconds.
+  path: Assets/GUI Kit Mono Round/_PNG/19_Function_Button/Button_Line/line_Blue/btn_line_blue_globe.png
+  artifactKey: Guid(a8c1bd42207a0423799352a83a928051) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit Mono Round/_PNG/19_Function_Button/Button_Line/line_Blue/btn_line_blue_globe.png using Guid(a8c1bd42207a0423799352a83a928051) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d5859d032fcb6b26dcbae03cd50b0a6') in 0.067176 seconds
+  Import took 0.069592 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000177 seconds.
+  path: Assets/GUI Kit Mono Round/_PNG/19_Function_Button/Button_Line/line_Blue/btn_line_blue_sound_on.png
+  artifactKey: Guid(3d47d1f2f350c4810ac8efd127e90e6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit Mono Round/_PNG/19_Function_Button/Button_Line/line_Blue/btn_line_blue_sound_on.png using Guid(3d47d1f2f350c4810ac8efd127e90e6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6033ffcbd58794c4653d9be863d605d3') in 0.054823 seconds
+  Import took 0.057270 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000175 seconds.
+  path: Assets/GUI Kit Mono Round/_PNG/19_Function_Button/Button_Line/line_Black/btn_line_black_text.png
+  artifactKey: Guid(000df639599914a77ae4e5899968c47c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit Mono Round/_PNG/19_Function_Button/Button_Line/line_Black/btn_line_black_text.png using Guid(000df639599914a77ae4e5899968c47c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0df51d6052db05bcfa273719e334159b') in 0.046553 seconds
+  Import took 0.048977 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000218 seconds.
+  path: Assets/GUI Kit Mono Round/_PNG/19_Function_Button/Button_Line/line_Blue/btn_line_blue_group.png
+  artifactKey: Guid(d116b3779dabd4e79ad260bc3125aae8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit Mono Round/_PNG/19_Function_Button/Button_Line/line_Blue/btn_line_blue_group.png using Guid(d116b3779dabd4e79ad260bc3125aae8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77f8bffb2ad926d229720d1117ceb0f2') in 0.032163 seconds
+  Import took 0.034951 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000167 seconds.
+  path: Assets/GUI Kit Mono Round/_PNG/19_Function_Button/Button_Line/line_Black/btn_line_black_more.png
+  artifactKey: Guid(d9d13b78ca15449d999e4696b1b1dff9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit Mono Round/_PNG/19_Function_Button/Button_Line/line_Black/btn_line_black_more.png using Guid(d9d13b78ca15449d999e4696b1b1dff9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd12fcca3b8558f4794a87d371aceefa') in 0.022906 seconds
+  Import took 0.025301 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000159 seconds.
+  path: Assets/GUI Kit Mono Round/_PNG/19_Function_Button/Button_Line/line_Black/btn_line_black_read.png
+  artifactKey: Guid(2b42462d39d054315a8bb6ec1ea4acd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit Mono Round/_PNG/19_Function_Button/Button_Line/line_Black/btn_line_black_read.png using Guid(2b42462d39d054315a8bb6ec1ea4acd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c75d88e00e498a1c77932d1cba38808e') in 0.037089 seconds
+  Import took 0.039560 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000175 seconds.
+  path: Assets/GUI Kit Mono Round/_PNG/19_Function_Button/Button_Line/line_Blue/btn_line_blue_fire.png
+  artifactKey: Guid(8f88a02e786e94aa885b5af377cea18f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit Mono Round/_PNG/19_Function_Button/Button_Line/line_Blue/btn_line_blue_fire.png using Guid(8f88a02e786e94aa885b5af377cea18f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6437223067c117984fa71342d596934b') in 0.027254 seconds
+  Import took 0.029700 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000167 seconds.
+  path: Assets/GUI Kit Mono Round/_PNG/19_Function_Button/Button_Line/line_Blue/btn_line_blue_go_down.png
+  artifactKey: Guid(087e2fca684f749a182432dd6413fc54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit Mono Round/_PNG/19_Function_Button/Button_Line/line_Blue/btn_line_blue_go_down.png using Guid(087e2fca684f749a182432dd6413fc54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51693ec36cbcf472e61a7cb2b0f42bd0') in 0.025221 seconds
+  Import took 0.027647 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000161 seconds.
+  path: Assets/GUI Kit Mono Round/_PNG/19_Function_Button/Button_Line/line_Blue/btn_line_blue_gift.png
+  artifactKey: Guid(e8d97fbf415e84e5995db99734fb4a52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit Mono Round/_PNG/19_Function_Button/Button_Line/line_Blue/btn_line_blue_gift.png using Guid(e8d97fbf415e84e5995db99734fb4a52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '673dba3a179e89154d2062ac18a9029b') in 0.025845 seconds
+  Import took 0.028242 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000159 seconds.
+  path: Assets/GUI Kit Mono Round/_PNG/19_Function_Button/Button_Line/line_Blue/btn_line_blue_notice.png
+  artifactKey: Guid(90a04c109215c43a3bd2e6098b6eaccd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit Mono Round/_PNG/19_Function_Button/Button_Line/line_Blue/btn_line_blue_notice.png using Guid(90a04c109215c43a3bd2e6098b6eaccd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '938041f52b2c06d01e2f99c3278426a6') in 0.063265 seconds
+  Import took 0.065753 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000167 seconds.
+  path: Assets/GUI Kit Mono Round/_PNG/19_Function_Button/Button_Line/line_Blue/btn_line_blue_setting_3.png
+  artifactKey: Guid(4a141987d5a2f4857b7f65d69a8a2ba0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit Mono Round/_PNG/19_Function_Button/Button_Line/line_Blue/btn_line_blue_setting_3.png using Guid(4a141987d5a2f4857b7f65d69a8a2ba0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a421d8524acea9c368b8d379fc4dc44f') in 0.036724 seconds
+  Import took 0.039474 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000181 seconds.
+  path: Assets/GUI Kit Mono Round/_PNG/19_Function_Button/Button_Line/line_Black/btn_line_black_like.png
+  artifactKey: Guid(b823f5cfb9a6a4aea84f1b132c0f4464) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit Mono Round/_PNG/19_Function_Button/Button_Line/line_Black/btn_line_black_like.png using Guid(b823f5cfb9a6a4aea84f1b132c0f4464) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6b3bbae4cc1a4355753f368bf8a3d46') in 0.038282 seconds
+  Import took 0.040944 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000170 seconds.
+  path: Assets/GUI Kit Mono Round/_PNG/19_Function_Button/Button_Line/line_Black/btn_line_black_jewel_1.png
+  artifactKey: Guid(dcdea0700b37149f290c62ed4ec74660) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit Mono Round/_PNG/19_Function_Button/Button_Line/line_Black/btn_line_black_jewel_1.png using Guid(dcdea0700b37149f290c62ed4ec74660) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc59e1b219775e8744873f7e9df26314') in 0.044316 seconds
+  Import took 0.046781 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000174 seconds.
+  path: Assets/GUI Kit Mono Round/_PNG/19_Function_Button/Button_Line/line_Black/btn_line_black_send.png
+  artifactKey: Guid(30f0bb643d699472b847a0932c6d59c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit Mono Round/_PNG/19_Function_Button/Button_Line/line_Black/btn_line_black_send.png using Guid(30f0bb643d699472b847a0932c6d59c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd47f19fb9a17c17e9d2503c3ef706ebd') in 0.027055 seconds
+  Import took 0.029428 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000160 seconds.
+  path: Assets/GUI Kit Mono Round/_PNG/19_Function_Button/Button_Line/line_Blue/btn_line_blue_restore.png
+  artifactKey: Guid(f531696b43fb048e4966bb1a48e23e05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit Mono Round/_PNG/19_Function_Button/Button_Line/line_Blue/btn_line_blue_restore.png using Guid(f531696b43fb048e4966bb1a48e23e05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1697d0934de7f42f4ea8f1d45100e57') in 0.039456 seconds
+  Import took 0.041859 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000160 seconds.
+  path: Assets/GUI Kit Mono Round/_PNG/19_Function_Button/Button_Line/line_Blue/btn_line_blue_jewel_2.png
+  artifactKey: Guid(040f621d4c2a34a77b2795743aadd408) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit Mono Round/_PNG/19_Function_Button/Button_Line/line_Blue/btn_line_blue_jewel_2.png using Guid(040f621d4c2a34a77b2795743aadd408) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7738527301a29dd5086811215e1b9cc5') in 0.029863 seconds
+  Import took 0.032263 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 215.212478 seconds.
+  path: Assets/512 px/Carnival.png
+  artifactKey: Guid(d6c1e469f40c1bb4fba3eb2c68772abe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/512 px/Carnival.png using Guid(d6c1e469f40c1bb4fba3eb2c68772abe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07c594963e377e69f0561d7371c7fcc4') in 0.028671 seconds
+  Import took 0.031926 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.962322 seconds.
+  path: Assets/512 px/Carnival.png
+  artifactKey: Guid(d6c1e469f40c1bb4fba3eb2c68772abe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/512 px/Carnival.png using Guid(d6c1e469f40c1bb4fba3eb2c68772abe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e5c25d2e6533a126a6b58d3207638a1') in 0.016404 seconds
+  Import took 0.019245 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 58.864840 seconds.
   path: Assets/Scenes/Arcade.unity
   artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Arcade.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d752203631f70f1b8ae26d2c5d1fd9a') in 0.022800 seconds
-  Import took 0.025777 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.677848 seconds.
-  path: Assets/Scenes/Three Lives.unity
-  artifactKey: Guid(1f058823520e3d64ba04edd59907f57f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Three Lives.unity using Guid(1f058823520e3d64ba04edd59907f57f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc2c02ede6d010e32942ffd8f7f0ff1f') in 0.005977 seconds
-  Import took 0.008745 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 16.342653 seconds.
-  path: Assets/Scenes/Main Menu.unity
-  artifactKey: Guid(264ed997b8361c641a1faeaef043857b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Main Menu.unity using Guid(264ed997b8361c641a1faeaef043857b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd68fd652678889a88a7098642c11054f') in 0.006094 seconds
-  Import took 0.009142 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 115.654938 seconds.
-  path: Assets/Prefabs/Gift_Item.prefab
-  artifactKey: Guid(c0128124b35e7444db6e6f2b1c16ed46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Gift_Item.prefab using Guid(c0128124b35e7444db6e6f2b1c16ed46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0891b58aaa1a362b0c9737e3fa405f4') in 0.178467 seconds
-  Import took 0.181540 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 30.750506 seconds.
-  path: Assets/Scripts/Views/GiftButtonView.cs
-  artifactKey: Guid(5979bbad0e457d443b0b9291a0aed9b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Views/GiftButtonView.cs using Guid(5979bbad0e457d443b0b9291a0aed9b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '054b5a2c36d2d818b2d6de7cb69a220c') in 0.009762 seconds
-  Import took 0.012834 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.003527 seconds.
-  path: Assets/Scripts/Views/GiftButtonView.cs
-  artifactKey: Guid(5979bbad0e457d443b0b9291a0aed9b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Views/GiftButtonView.cs using Guid(5979bbad0e457d443b0b9291a0aed9b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '054b5a2c36d2d818b2d6de7cb69a220c') in 0.002236 seconds
-  Import took 0.005153 seconds .
+Start importing Assets/Scenes/Arcade.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2309e595dc41e579f8bf8b516add9f4') in 0.005732 seconds
+  Import took 0.008607 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.000847 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.87 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.683 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.84 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1623 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 84.2 MB.
-System memory in use after: 84.3 MB.
-
-Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 2080.
-Total: 1.915300 ms (FindLiveObjects: 0.218600 ms CreateObjectMapping: 0.038700 ms MarkObjects: 1.634800 ms  DeleteObjects: 0.022100 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 12.847998 seconds.
-  path: Assets/Scripts/Views/ItemView.cs
-  artifactKey: Guid(070e6a556ffb4a94cb7e2ce23234e2ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Views/ItemView.cs using Guid(070e6a556ffb4a94cb7e2ce23234e2ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ea101992c7012c7d68bce6417bfcae4') in 0.007907 seconds
-  Import took 0.010755 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.019524 seconds.
-  path: Assets/Scripts/Views/ItemView.cs
-  artifactKey: Guid(070e6a556ffb4a94cb7e2ce23234e2ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Views/ItemView.cs using Guid(070e6a556ffb4a94cb7e2ce23234e2ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ea101992c7012c7d68bce6417bfcae4') in 0.001998 seconds
-  Import took 0.004741 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000937 seconds.
+Registered in 0.000810 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0.80 ms, found 0 plugins.
@@ -202,500 +1212,141 @@ Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.667 seconds
+- Completed reload, in  0.654 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.81 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1623 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 84.6 MB.
-System memory in use after: 84.7 MB.
-
-Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 2082.
-Total: 1.654200 ms (FindLiveObjects: 0.194500 ms CreateObjectMapping: 0.035000 ms MarkObjects: 1.407400 ms  DeleteObjects: 0.016300 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 168.099870 seconds.
-  path: Assets/Scripts/Views/GiftButtonView.cs
-  artifactKey: Guid(5979bbad0e457d443b0b9291a0aed9b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Views/GiftButtonView.cs using Guid(5979bbad0e457d443b0b9291a0aed9b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f2aa31b57dc50cee2b6bf967fb5ca1f') in 0.004627 seconds
-  Import took 0.007710 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000880 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.83 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.676 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.80 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1623 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 84.9 MB.
-System memory in use after: 85.0 MB.
-
-Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 2084.
-Total: 1.650500 ms (FindLiveObjects: 0.208300 ms CreateObjectMapping: 0.036300 ms MarkObjects: 1.386700 ms  DeleteObjects: 0.018200 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001338 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.80 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.676 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.81 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1623 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 85.2 MB.
-System memory in use after: 85.3 MB.
-
-Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 2086.
-Total: 1.661300 ms (FindLiveObjects: 0.193300 ms CreateObjectMapping: 0.035700 ms MarkObjects: 1.415300 ms  DeleteObjects: 0.016200 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000840 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.79 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.674 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.82 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1623 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 85.2 MB.
-System memory in use after: 85.4 MB.
-
-Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 2088.
-Total: 1.636900 ms (FindLiveObjects: 0.199300 ms CreateObjectMapping: 0.036700 ms MarkObjects: 1.384700 ms  DeleteObjects: 0.015400 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 482.473729 seconds.
-  path: Assets/Prefabs/Gift_Item.prefab
-  artifactKey: Guid(c0128124b35e7444db6e6f2b1c16ed46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Gift_Item.prefab using Guid(c0128124b35e7444db6e6f2b1c16ed46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56df24aab1aa89acdf42939bf0fddc84') in 0.081065 seconds
-  Import took 0.084271 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000913 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.80 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.703 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.06 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1623 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 84.8 MB.
-System memory in use after: 84.9 MB.
-
-Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 2090.
-Total: 1.687900 ms (FindLiveObjects: 0.186800 ms CreateObjectMapping: 0.032800 ms MarkObjects: 1.447100 ms  DeleteObjects: 0.020300 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000779 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.93 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.696 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.82 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1623 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 85.1 MB.
-System memory in use after: 85.2 MB.
-
-Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 2092.
-Total: 1.837700 ms (FindLiveObjects: 0.265500 ms CreateObjectMapping: 0.037600 ms MarkObjects: 1.509600 ms  DeleteObjects: 0.024000 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001050 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.81 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.718 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.84 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1623 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 85.3 MB.
-System memory in use after: 85.4 MB.
-
-Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 2094.
-Total: 1.909300 ms (FindLiveObjects: 0.198200 ms CreateObjectMapping: 0.039800 ms MarkObjects: 1.644300 ms  DeleteObjects: 0.026000 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 464.366383 seconds.
-  path: Assets/Prefabs/Gift_Item.prefab
-  artifactKey: Guid(c0128124b35e7444db6e6f2b1c16ed46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Gift_Item.prefab using Guid(c0128124b35e7444db6e6f2b1c16ed46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42485b8ff82df5f59e1b9440077ca333') in 0.084622 seconds
-  Import took 0.088013 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.048040 seconds.
-  path: Assets/Prefabs/Gift_Item.prefab
-  artifactKey: Guid(c0128124b35e7444db6e6f2b1c16ed46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Gift_Item.prefab using Guid(c0128124b35e7444db6e6f2b1c16ed46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42485b8ff82df5f59e1b9440077ca333') in 0.030765 seconds
-  Import took 0.034480 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000874 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.83 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.698 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.81 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1623 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 84.7 MB.
-System memory in use after: 84.8 MB.
-
-Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 2096.
-Total: 1.637900 ms (FindLiveObjects: 0.200500 ms CreateObjectMapping: 0.036900 ms MarkObjects: 1.384700 ms  DeleteObjects: 0.015000 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001160 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.89 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.786 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.87 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1623 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 85.0 MB.
-System memory in use after: 85.1 MB.
-
-Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 2098.
-Total: 1.695700 ms (FindLiveObjects: 0.210300 ms CreateObjectMapping: 0.036200 ms MarkObjects: 1.431700 ms  DeleteObjects: 0.015600 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 104.431974 seconds.
-  path: Assets/Prefabs/Gift_Item.prefab
-  artifactKey: Guid(c0128124b35e7444db6e6f2b1c16ed46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Gift_Item.prefab using Guid(c0128124b35e7444db6e6f2b1c16ed46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71bde58a2c133331f4db460288e44be8') in 0.078505 seconds
-  Import took 0.083157 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 11.438841 seconds.
-  path: Assets/Prefabs/Gift_Item.prefab
-  artifactKey: Guid(c0128124b35e7444db6e6f2b1c16ed46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Gift_Item.prefab using Guid(c0128124b35e7444db6e6f2b1c16ed46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '444ecd4434df1475f2ebbf9c5d07252b') in 0.030507 seconds
-  Import took 0.034689 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001088 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.84 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.806 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.88 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1623 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 85.3 MB.
-System memory in use after: 85.4 MB.
-
-Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 2100.
-Total: 1.781000 ms (FindLiveObjects: 0.315500 ms CreateObjectMapping: 0.087400 ms MarkObjects: 1.359000 ms  DeleteObjects: 0.018100 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000831 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.82 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.705 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.81 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1623 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 85.3 MB.
-System memory in use after: 85.4 MB.
-
-Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 2102.
-Total: 1.646100 ms (FindLiveObjects: 0.205500 ms CreateObjectMapping: 0.043200 ms MarkObjects: 1.379600 ms  DeleteObjects: 0.016900 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 131.155410 seconds.
-  path: Assets/Prefabs/Gift_Item.prefab
-  artifactKey: Guid(c0128124b35e7444db6e6f2b1c16ed46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Gift_Item.prefab using Guid(c0128124b35e7444db6e6f2b1c16ed46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b7ccd69dee9c829a182ddb5d3384807') in 0.084504 seconds
-  Import took 0.088230 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.667057 seconds.
-  path: Assets/Prefabs/Gift_Item.prefab
-  artifactKey: Guid(c0128124b35e7444db6e6f2b1c16ed46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Gift_Item.prefab using Guid(c0128124b35e7444db6e6f2b1c16ed46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b7ccd69dee9c829a182ddb5d3384807') in 0.026929 seconds
-  Import took 0.030057 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000902 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0.86 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.749 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.84 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1623 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 84.9 MB.
-System memory in use after: 85.0 MB.
+Unloading 1621 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 86.9 MB.
+System memory in use after: 87.0 MB.
 
-Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 2104.
-Total: 1.634800 ms (FindLiveObjects: 0.211700 ms CreateObjectMapping: 0.036100 ms MarkObjects: 1.369900 ms  DeleteObjects: 0.016000 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000742 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.79 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.703 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.81 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1623 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 85.2 MB.
-System memory in use after: 85.3 MB.
-
-Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 2106.
-Total: 1.733400 ms (FindLiveObjects: 0.190800 ms CreateObjectMapping: 0.035300 ms MarkObjects: 1.488200 ms  DeleteObjects: 0.018200 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000914 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.82 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.728 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.81 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1623 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 85.3 MB.
-System memory in use after: 85.4 MB.
-
-Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 2108.
-Total: 1.596200 ms (FindLiveObjects: 0.192500 ms CreateObjectMapping: 0.034600 ms MarkObjects: 1.351200 ms  DeleteObjects: 0.016900 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001142 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.83 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.740 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.85 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1623 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 84.8 MB.
-System memory in use after: 84.9 MB.
-
-Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 2110.
-Total: 1.651600 ms (FindLiveObjects: 0.203500 ms CreateObjectMapping: 0.039600 ms MarkObjects: 1.393000 ms  DeleteObjects: 0.014600 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000888 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.78 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.730 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.15 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1623 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 85.1 MB.
-System memory in use after: 85.2 MB.
-
-Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 2112.
-Total: 1.632500 ms (FindLiveObjects: 0.191700 ms CreateObjectMapping: 0.035100 ms MarkObjects: 1.388100 ms  DeleteObjects: 0.016500 ms)
+Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 2127.
+Total: 1.798300 ms (FindLiveObjects: 0.227000 ms CreateObjectMapping: 0.043400 ms MarkObjects: 1.505800 ms  DeleteObjects: 0.021400 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 1748.405324 seconds.
+  Time since last request: 8.736474 seconds.
+  path: Assets/GUI Kit Mono Round/_PNG/19_Function_Button/Button_Line/line_Black/btn_line_black_certificate.png
+  artifactKey: Guid(31127112d9f02473bb4987dcf603da90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit Mono Round/_PNG/19_Function_Button/Button_Line/line_Black/btn_line_black_certificate.png using Guid(31127112d9f02473bb4987dcf603da90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13f87d386a8917a7273068f2b47b0b30') in 0.165720 seconds
+  Import took 0.168730 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000176 seconds.
+  path: Assets/GUI Kit Mono Round/_PNG/19_Function_Button/Button_Line/line_Black/btn_line_black_notification_on.png
+  artifactKey: Guid(94206d09611eb435a809c605e8b9d78a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit Mono Round/_PNG/19_Function_Button/Button_Line/line_Black/btn_line_black_notification_on.png using Guid(94206d09611eb435a809c605e8b9d78a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7126ccc9c5af25ee943eda912cf1c55') in 0.031227 seconds
+  Import took 0.033657 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000157 seconds.
+  path: Assets/GUI Kit Mono Round/_PNG/19_Function_Button/Button_Line/line_Black/btn_line_black_location.png
+  artifactKey: Guid(0d057c12b43994a4ab8b526ece114da0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit Mono Round/_PNG/19_Function_Button/Button_Line/line_Black/btn_line_black_location.png using Guid(0d057c12b43994a4ab8b526ece114da0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5093278e166ab8123088a91d7ab8dc74') in 0.045954 seconds
+  Import took 0.048346 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000165 seconds.
+  path: Assets/GUI Kit Mono Round/_PNG/19_Function_Button/Button_Line/line_Black/btn_line_black_notification_off.png
+  artifactKey: Guid(aa59fd531ce30445192d342e083de927) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit Mono Round/_PNG/19_Function_Button/Button_Line/line_Black/btn_line_black_notification_off.png using Guid(aa59fd531ce30445192d342e083de927) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '621d30d3b66646d61b023741af2bc6f9') in 0.028945 seconds
+  Import took 0.031331 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000155 seconds.
+  path: Assets/GUI Kit Mono Round/_PNG/19_Function_Button/Button_Line/line_Blue/btn_line_blue_mark_caution.png
+  artifactKey: Guid(e85e7613516c84ed0826205601308079) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit Mono Round/_PNG/19_Function_Button/Button_Line/line_Blue/btn_line_blue_mark_caution.png using Guid(e85e7613516c84ed0826205601308079) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42be6316b64888f77bf9510c93d32c7b') in 0.042995 seconds
+  Import took 0.045482 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000163 seconds.
+  path: Assets/GUI Kit Mono Round/_PNG/19_Function_Button/Button_Line/line_Gray/btn_line_gray_cart.png
+  artifactKey: Guid(614bebc194c7d428a9f2ecab4e075bcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit Mono Round/_PNG/19_Function_Button/Button_Line/line_Gray/btn_line_gray_cart.png using Guid(614bebc194c7d428a9f2ecab4e075bcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '699ed9132cb543f1a451f9bd4b50f141') in 0.033406 seconds
+  Import took 0.035904 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000161 seconds.
+  path: Assets/GUI Kit Mono Round/_PNG/19_Function_Button/Button_Line/line_Orange/btn_line_orange_cart.png
+  artifactKey: Guid(4420bc826035a44bb8f7649cbbb5858c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit Mono Round/_PNG/19_Function_Button/Button_Line/line_Orange/btn_line_orange_cart.png using Guid(4420bc826035a44bb8f7649cbbb5858c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ad11ad7dbbba4270aa07ef144ac4a7e') in 0.042866 seconds
+  Import took 0.060020 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000215 seconds.
+  path: Assets/GUI Kit Mono Round/_PNG/19_Function_Button/Button_Line/line_Gray/btn_line_gray_cart.png
+  artifactKey: Guid(614bebc194c7d428a9f2ecab4e075bcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit Mono Round/_PNG/19_Function_Button/Button_Line/line_Gray/btn_line_gray_cart.png using Guid(614bebc194c7d428a9f2ecab4e075bcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '699ed9132cb543f1a451f9bd4b50f141') in 0.015312 seconds
+  Import took 0.018103 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000152 seconds.
+  path: Assets/GUI Kit Mono Round/_PNG/19_Function_Button/Button_Translucence_Solid/Translucence_Solid_Black/btn_translucence_black_cart.png
+  artifactKey: Guid(fdd2a1b6200b14798a9a484d9e569176) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit Mono Round/_PNG/19_Function_Button/Button_Translucence_Solid/Translucence_Solid_Black/btn_translucence_black_cart.png using Guid(fdd2a1b6200b14798a9a484d9e569176) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29923da284bbffac0c095ba8d4b79f3f') in 0.040871 seconds
+  Import took 0.043333 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000168 seconds.
+  path: Assets/GUI Kit Mono Round/_PNG/19_Function_Button/Button_Translucence_Solid/Translucence_Solid_White/btn_translucence_white_cart.png
+  artifactKey: Guid(d8ee117f4b0fc47aa8ed40c5b628beaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit Mono Round/_PNG/19_Function_Button/Button_Translucence_Solid/Translucence_Solid_White/btn_translucence_white_cart.png using Guid(d8ee117f4b0fc47aa8ed40c5b628beaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bfaf776a48c712d8fb1db00c35aea2e') in 0.041823 seconds
+  Import took 0.044219 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000164 seconds.
+  path: Assets/GUI Kit Mono Round/_PNG/19_Function_Button/Button_Line/line_Black/btn_line_black_mark_caution.png
+  artifactKey: Guid(d095d3d632ee84bf39fcffc2c58e547c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit Mono Round/_PNG/19_Function_Button/Button_Line/line_Black/btn_line_black_mark_caution.png using Guid(d095d3d632ee84bf39fcffc2c58e547c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f7ffa51c888867be89c007b318d0da4') in 0.029013 seconds
+  Import took 0.031398 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000153 seconds.
+  path: Assets/GUI Kit Mono Round/_PNG/19_Function_Button/Button_Line/line_White/btn_line_white_cart.png
+  artifactKey: Guid(3777ed384a9dc4448ae0946e546e1591) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit Mono Round/_PNG/19_Function_Button/Button_Line/line_White/btn_line_white_cart.png using Guid(3777ed384a9dc4448ae0946e546e1591) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90597796157f432dac2fedccc4352b8f') in 0.030518 seconds
+  Import took 0.032924 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000162 seconds.
+  path: Assets/GUI Kit Mono Round/_PNG/19_Function_Button/Button_Line/line_Green/btn_line_green_cart.png
+  artifactKey: Guid(3cb3733b76b994c00ac21a925427ac1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit Mono Round/_PNG/19_Function_Button/Button_Line/line_Green/btn_line_green_cart.png using Guid(3cb3733b76b994c00ac21a925427ac1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d7de62ab83cef9d1ce77f0645ba81cb') in 0.044756 seconds
+  Import took 0.047130 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000167 seconds.
+  path: Assets/GUI Kit Mono Round/_PNG/19_Function_Button/Button_Line/line_Blue/btn_line_blue_location.png
+  artifactKey: Guid(4a8672afcc92543d88c55c1c834352b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit Mono Round/_PNG/19_Function_Button/Button_Line/line_Blue/btn_line_blue_location.png using Guid(4a8672afcc92543d88c55c1c834352b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfc49bf0b6bc4d47338c445fb6c6ce3c') in 0.074155 seconds
+  Import took 0.076542 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 45.469079 seconds.
   path: Assets/Scenes/Main Menu.unity
   artifactKey: Guid(264ed997b8361c641a1faeaef043857b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Main Menu.unity using Guid(264ed997b8361c641a1faeaef043857b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61772683f5e4461182fd972af41a8943') in 0.010731 seconds
-  Import took 0.013644 seconds .
+Start importing Assets/Scenes/Main Menu.unity using Guid(264ed997b8361c641a1faeaef043857b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb1f3058e0f31c4ea83eb2a37705e9b3') in 0.005575 seconds
+  Import took 0.008293 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.000889 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.83 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.733 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.83 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1623 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 85.3 MB.
-System memory in use after: 85.4 MB.
-
-Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 2114.
-Total: 1.633000 ms (FindLiveObjects: 0.207300 ms CreateObjectMapping: 0.036500 ms MarkObjects: 1.372800 ms  DeleteObjects: 0.015500 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001154 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.89 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.855 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.94 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1623 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 84.7 MB.
-System memory in use after: 84.8 MB.
-
-Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 2116.
-Total: 1.752300 ms (FindLiveObjects: 0.215000 ms CreateObjectMapping: 0.038100 ms MarkObjects: 1.481800 ms  DeleteObjects: 0.016600 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 192.845348 seconds.
-  path: Assets/Scenes/Three Lives.unity
-  artifactKey: Guid(1f058823520e3d64ba04edd59907f57f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Three Lives.unity using Guid(1f058823520e3d64ba04edd59907f57f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a857ceb7432558ab58dc13d4bc07d90') in 0.009361 seconds
-  Import took 0.012562 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.860195 seconds.
-  path: Assets/Scenes/Arcade.unity
-  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Arcade.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f61b721938b83f80b46a1e014b7879a0') in 0.006294 seconds
-  Import took 0.009174 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000888 seconds.
+Registered in 0.000943 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0.81 ms, found 0 plugins.
@@ -704,227 +1355,177 @@ Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.761 seconds
+- Completed reload, in  0.680 seconds
 Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.82 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1623 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 85.0 MB.
-System memory in use after: 85.1 MB.
-
-Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 2118.
-Total: 1.628400 ms (FindLiveObjects: 0.193500 ms CreateObjectMapping: 0.034900 ms MarkObjects: 1.382400 ms  DeleteObjects: 0.016600 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 574.667632 seconds.
-  path: Assets/Scenes/Arcade.unity
-  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Arcade.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3377c38b3957eb9a8ebfe4001e6f520') in 0.013886 seconds
-  Import took 0.016987 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000804 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.84 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.754 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.82 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1623 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 85.3 MB.
-System memory in use after: 85.4 MB.
-
-Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 2120.
-Total: 1.902200 ms (FindLiveObjects: 0.202900 ms CreateObjectMapping: 0.036000 ms MarkObjects: 1.641600 ms  DeleteObjects: 0.020700 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 10.749909 seconds.
-  path: Assets/Scenes/Main Menu.unity
-  artifactKey: Guid(264ed997b8361c641a1faeaef043857b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Main Menu.unity using Guid(264ed997b8361c641a1faeaef043857b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbadf41a8eced80747c3999bcbc3a23e') in 0.010323 seconds
-  Import took 0.013315 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000884 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.79 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.749 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.81 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1623 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 85.4 MB.
-System memory in use after: 85.5 MB.
-
-Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 2122.
-Total: 1.599500 ms (FindLiveObjects: 0.197600 ms CreateObjectMapping: 0.034300 ms MarkObjects: 1.351500 ms  DeleteObjects: 0.015300 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 107.744814 seconds.
-  path: Assets/Scenes/Arcade.unity
-  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Arcade.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0eb86c2eaf3f07e425fcef7720153807') in 0.010241 seconds
-  Import took 0.013226 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000949 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.80 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.757 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.91 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1623 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 84.9 MB.
-System memory in use after: 85.0 MB.
-
-Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 2124.
-Total: 1.639400 ms (FindLiveObjects: 0.189700 ms CreateObjectMapping: 0.035500 ms MarkObjects: 1.397400 ms  DeleteObjects: 0.015900 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000841 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.80 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.764 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.83 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1623 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 85.2 MB.
-System memory in use after: 85.3 MB.
-
-Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 2126.
-Total: 1.923000 ms (FindLiveObjects: 0.262700 ms CreateObjectMapping: 0.039100 ms MarkObjects: 1.596600 ms  DeleteObjects: 0.023700 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000891 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.77 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.781 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.79 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1623 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 85.4 MB.
-System memory in use after: 85.5 MB.
-
-Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 2128.
-Total: 1.753900 ms (FindLiveObjects: 0.195200 ms CreateObjectMapping: 0.036800 ms MarkObjects: 1.497800 ms  DeleteObjects: 0.023000 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 569.567548 seconds.
-  path: Assets/Scenes/Arcade.unity
-  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Arcade.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f0eb645480d45d08fe9b77b56ab7787') in 0.010104 seconds
-  Import took 0.012888 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001333 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.80 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.776 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.81 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1623 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 84.8 MB.
-System memory in use after: 84.9 MB.
-
-Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 2130.
-Total: 1.592900 ms (FindLiveObjects: 0.197700 ms CreateObjectMapping: 0.034300 ms MarkObjects: 1.345800 ms  DeleteObjects: 0.014400 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 37.090169 seconds.
-  path: Assets/Scenes/Main Menu.unity
-  artifactKey: Guid(264ed997b8361c641a1faeaef043857b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Main Menu.unity using Guid(264ed997b8361c641a1faeaef043857b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6952f622272377744b2d543a21a8f16e') in 0.011446 seconds
-  Import took 0.014370 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000745 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.83 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.781 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.82 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1623 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 85.1 MB.
-System memory in use after: 85.2 MB.
+Unloading 1622 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 87.3 MB.
+System memory in use after: 87.4 MB.
 
 Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 2132.
-Total: 1.650900 ms (FindLiveObjects: 0.217500 ms CreateObjectMapping: 0.044000 ms MarkObjects: 1.374500 ms  DeleteObjects: 0.014300 ms)
+Total: 1.715400 ms (FindLiveObjects: 0.202400 ms CreateObjectMapping: 0.040100 ms MarkObjects: 1.449600 ms  DeleteObjects: 0.022400 ms)
 
 ========================================================================
 Received Prepare
-Refreshing native plugins compatible for Editor in 4.79 ms, found 0 plugins.
+Registering precompiled user dll's ...
+Registered in 0.000663 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.81 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 23 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 54.1 MB.
-System memory in use after: 54.2 MB.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.662 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.81 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1622 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 87.6 MB.
+System memory in use after: 87.7 MB.
 
-Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 2132.
-Total: 1.695500 ms (FindLiveObjects: 0.230700 ms CreateObjectMapping: 0.036700 ms MarkObjects: 1.412500 ms  DeleteObjects: 0.014600 ms)
+Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 2134.
+Total: 1.859500 ms (FindLiveObjects: 0.224200 ms CreateObjectMapping: 0.037100 ms MarkObjects: 1.576400 ms  DeleteObjects: 0.020700 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 257.400006 seconds.
+  path: Assets/Prefabs/Ball.prefab
+  artifactKey: Guid(c29be544d411249409fefd86aeffbed9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Ball.prefab using Guid(c29be544d411249409fefd86aeffbed9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a9e96cf00fa2363f9deaf1765fe2ecf') in 0.388286 seconds
+  Import took 0.391300 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000994 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.85 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.701 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.86 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1622 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 88.0 MB.
+System memory in use after: 88.1 MB.
+
+Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 2141.
+Total: 1.771200 ms (FindLiveObjects: 0.208500 ms CreateObjectMapping: 0.040200 ms MarkObjects: 1.501200 ms  DeleteObjects: 0.020400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000901 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.82 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.671 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.81 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1622 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 88.3 MB.
+System memory in use after: 88.4 MB.
+
+Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 2143.
+Total: 1.674800 ms (FindLiveObjects: 0.214000 ms CreateObjectMapping: 0.043100 ms MarkObjects: 1.399600 ms  DeleteObjects: 0.017100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000982 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.85 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.684 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.81 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1622 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 88.4 MB.
+System memory in use after: 88.5 MB.
+
+Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 2145.
+Total: 1.884700 ms (FindLiveObjects: 0.324700 ms CreateObjectMapping: 0.039900 ms MarkObjects: 1.498100 ms  DeleteObjects: 0.021200 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000798 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.82 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.673 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.86 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1622 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 87.9 MB.
+System memory in use after: 88.0 MB.
+
+Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 2147.
+Total: 1.636200 ms (FindLiveObjects: 0.182600 ms CreateObjectMapping: 0.036500 ms MarkObjects: 1.400200 ms  DeleteObjects: 0.016100 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 489.875089 seconds.
+  path: Assets/512 px/Carnival.png
+  artifactKey: Guid(d6c1e469f40c1bb4fba3eb2c68772abe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/512 px/Carnival.png using Guid(d6c1e469f40c1bb4fba3eb2c68772abe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '533d14692d068c3704623998ce386a84') in 0.073720 seconds
+  Import took 0.076760 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.190933 seconds.
+  path: Assets/512 px/Carnival.png
+  artifactKey: Guid(d6c1e469f40c1bb4fba3eb2c68772abe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/512 px/Carnival.png using Guid(d6c1e469f40c1bb4fba3eb2c68772abe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8cde59d5f39d7dd57af300ed0cf1b1c') in 0.035898 seconds
+  Import took 0.038735 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000786 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.82 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.679 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.84 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1622 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 88.2 MB.
+System memory in use after: 88.3 MB.
+
+Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 2152.
+Total: 1.617600 ms (FindLiveObjects: 0.201800 ms CreateObjectMapping: 0.036300 ms MarkObjects: 1.362900 ms  DeleteObjects: 0.015700 ms)
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file

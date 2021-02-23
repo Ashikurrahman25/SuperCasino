@@ -156,5 +156,6 @@ public class ShopManager : MonoBehaviour
     public void ActivateDeactivatePanel(GameObject panel)
     {
         panel.SetActive(!panel.activeSelf);
+        AudioController.audioController.PlayButtonAudio();
     }
 }

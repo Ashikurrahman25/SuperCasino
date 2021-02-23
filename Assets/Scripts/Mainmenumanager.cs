@@ -29,7 +29,8 @@ public class Mainmenumanager : MonoBehaviour
 
     public void ShowHideSettings()
     {
-        settingsPanel.SetActive(!settingsPanel.activeSelf);    
+        settingsPanel.SetActive(!settingsPanel.activeSelf);
+        AudioController.audioController.PlayButtonAudio();
     }
 
 
@@ -67,31 +68,36 @@ public class Mainmenumanager : MonoBehaviour
 
     public void ArcadeMode()  
     {
+        AudioController.audioController.PlayButtonAudio();
         SceneManager.LoadScene("Arcade");
     }
     public void LimitedMode()
     {
-       
+        AudioController.audioController.PlayButtonAudio();
         SceneManager.LoadScene("Three Lives");
     }
 
     public void Play()
     {
+        AudioController.audioController.PlayButtonAudio();
         ModeSelectionPanel.SetActive(true);
     }
 
     public void Cross()
     {
+        AudioController.audioController.PlayButtonAudio();
         ModeSelectionPanel.SetActive(false);
     }
 
     public void ActivateDeactivatePanel(GameObject panel)
     {
+        AudioController.audioController.PlayButtonAudio();
         panel.SetActive(!panel.activeSelf);
     }
 
     public void Quit()
     {
+        AudioController.audioController.PlayButtonAudio();
         Application.Quit();
     }
 
@@ -103,11 +109,13 @@ public class Mainmenumanager : MonoBehaviour
         }
 
         panelToActivate.SetActive(true);
+        AudioController.audioController.PlayButtonAudio();
     }
 
     public void HideShopPanel(GameObject panelToHide)
     {
         panelToHide.SetActive(false);
+        AudioController.audioController.PlayButtonAudio();
     }
 
     public void GoToPrize()
@@ -128,6 +136,7 @@ public class Mainmenumanager : MonoBehaviour
             ShowItem();
 
         }
+        AudioController.audioController.PlayButtonAudio();
     }
 
     public void ShowItem()

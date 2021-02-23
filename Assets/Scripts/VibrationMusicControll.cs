@@ -8,41 +8,58 @@ public class VibrationMusicControll : MonoBehaviour
 
     public int VibratorIndex;
     public int MusicIndex;
+    public int muteIndex;
+    public int sfxIndex;
 
     public Slider musicOn;
     public Slider vibrationOn;
+    public Slider sfxSlider;
+    public Slider muteSlider;
     
     private void Start()
     {
         MusicIndex = PlayerPrefs.GetInt("music");
         VibratorIndex = PlayerPrefs.GetInt("vibrate");
+        sfxIndex = PlayerPrefs.GetInt("sfx");
+        muteIndex = PlayerPrefs.GetInt("mute");
 
         musicOn.transform.parent.GetComponent<Switch>().OnClickSwitchButton(MusicIndex == 0 ? false : true);
         vibrationOn.transform.parent.GetComponent<Switch>().OnClickSwitchButton(VibratorIndex == 0 ? false : true);
+        sfxSlider.transform.parent.GetComponent<Switch>().OnClickSwitchButton(sfxIndex == 0 ? false : true);
+        muteSlider.transform.parent.GetComponent<Switch>().OnClickSwitchButton(muteIndex == 0 ? true : false);
     }
 
 
     public void AudioControl()
     {
-        if (MusicIndex == 0)
-            MusicIndex = 1;
-        else
-            MusicIndex = 0;
-
-        PlayerPrefs.SetInt("music",MusicIndex);
-       // musicOn.GetComponentInParent<Switch>().OnClickSwitchButton(MusicIndex == 0 ? true : false);
+        ControlPlayerpref(MusicIndex, "music");
     }
 
-    public void VibrateControl()
+    public void ControlVibrate()
+    {
+        ControlPlayerpref(VibratorIndex, "vibrate");
+    }
+
+    public void ControlSFX()
+    {
+        ControlPlayerpref(sfxIndex, "sfx");
+    }
+
+    public void ControlMute()
+    {
+        ControlPlayerpref(muteIndex, "mute");
+    }
+
+    public void ControlPlayerpref(int index, string key)
     {
 
-        if (VibratorIndex == 0)
-            VibratorIndex = 1;
+        if (index == 0)
+            index = 1;
         else
-            VibratorIndex = 0;
+            index = 0;
 
-        PlayerPrefs.SetInt("vibrate", VibratorIndex);
-        //vibrationOn.GetComponentInParent<Switch>().OnClickSwitchButton(VibratorIndex == 0 ? true:false);
+        PlayerPrefs.SetInt(key, index);
+        AudioController.audioController.PlayButtonAudio();
     }
 
 }

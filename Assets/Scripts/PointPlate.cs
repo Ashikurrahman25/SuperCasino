@@ -33,6 +33,9 @@ public class PointPlate : MonoBehaviour
     public Renderer m_renderer;
     public bool isVisible;
     public bool isTop;
+
+    AudioSource audioS;
+    public AudioClip[] audios;
     private void Start()
     {
         Speed = normalSpeed;
@@ -42,6 +45,7 @@ public class PointPlate : MonoBehaviour
         iniPos = transform.position;
         lifeManager = FindObjectOfType<LifeCountManager>();
         m_renderer = GetComponentInChildren<Renderer>();
+        audioS = GetComponent<AudioSource>();
 
     }
     void Update()
@@ -181,11 +185,12 @@ public class PointPlate : MonoBehaviour
         for (int i = 0; i < BrokenPlate.Length; i++)
         {
             BrokenPlate[i].GetComponent<Rigidbody>().isKinematic = false;
-            BrokenPlate[i].GetComponent<Rigidbody>().AddForce(Force*Random.Range(-0.001f,0.09f) * Time.deltaTime, ForceMode.Force);
-        
+            BrokenPlate[i].GetComponent<Rigidbody>().AddForce(Force * Random.Range(-0.001f, 0.09f) * Time.deltaTime, ForceMode.Force);
+
         }
         scoreManager.IncreasePoint(scoreToAdd);
         GetComponent<BoxCollider>().enabled = false;
+        audioS.PlayOneShot(audios[Random.Range(0,audios.Length)]);
         Destroy(gameObject, 3);
     }
    
