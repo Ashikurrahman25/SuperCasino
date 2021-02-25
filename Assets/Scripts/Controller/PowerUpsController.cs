@@ -54,28 +54,24 @@ public class PowerUpsController : MonoBehaviour
     {
         StartPowerUp();
         freeze = true;
-        Debug.Log("Doing freeze....");
     }
 
     public void EnableSpeed()
     {
         StartPowerUp();
         speedUp = true;
-        Debug.Log("Doing speeding....");
     }
 
     public void EnableSlow()
     {
         StartPowerUp();
         slowDown = true;
-        Debug.Log("Doing slowing....");
     }
 
     public void EnableDouble()
     {
         StartPowerUp();
         doublePoints = true;
-        Debug.Log("Doing Double Points....");
     }
 
     void StartPowerUp()
@@ -121,6 +117,8 @@ public class PowerUpsController : MonoBehaviour
         int count = PlayerPrefs.GetInt("bomb", 0);
         if (count == 0) return;
 
+        int random = Random.Range(0, 2);
+
         _plates = FindObjectsOfType<PointPlate>();
 
         if (_plates.Length != 0)
@@ -129,8 +127,17 @@ public class PowerUpsController : MonoBehaviour
             {
                 if(!_plates[i].isBomb && !_plates[i].isFreeze &&!_plates[i].isFast && !_plates[i].isDouble && !_plates[i].isSlow)
                 {
-                    if (_plates[i].isTop)
-                        _plates[i].Break();
+                    if(random == 0)
+                    {
+                        if (_plates[i].isTop)
+                            _plates[i].Break();
+                    }
+                    else
+                    {
+                        if (!_plates[i].isTop)
+                            _plates[i].Break();
+                    }
+                    
                 }
                 
             }

@@ -65,8 +65,6 @@ public class VibrationMusicControll : MonoBehaviour
         {
             index = 0;
             Debug.Log(index);
-
-
         }
 
 

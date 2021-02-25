@@ -36,6 +36,8 @@ public class PointPlate : MonoBehaviour
 
     AudioSource audioS;
     public AudioClip[] audios;
+    public AudioClip powerUp;
+    public AudioClip bombEx;
     private void Start()
     {
         Speed = normalSpeed;
@@ -134,6 +136,12 @@ public class PointPlate : MonoBehaviour
     {
         if (other.CompareTag("Ball"))
         {
+
+            if(PlayerPrefs.GetInt("vibrate",0) == 0)
+            {
+                Vibration.Vibrate(200);
+            }
+
             if (!isBomb && !isFast && !isFreeze && !isSlow && !isDouble)
             {
                 if (!isBroken)
@@ -145,29 +153,29 @@ public class PointPlate : MonoBehaviour
             }
             else if(isBomb)
             {
-                Destroy(gameObject);
+                audioS.PlayOneShot(bombEx);
+                Destroy(gameObject, bombEx.length);
                 lifeManager.HandleLifeDecrease();
-
             }
             else if(isFast)
             {
+                audioS.PlayOneShot(powerUp);
                 powerupsController.EnableSpeed();
-                Debug.Log("Should Enable fast");
             }
             else if (isSlow)
             {
+                audioS.PlayOneShot(powerUp);
                 powerupsController.EnableSlow();
-                Debug.Log("Should Enable slow");
             }
             else if (isFreeze)
             {
+                audioS.PlayOneShot(powerUp);
                 powerupsController.EnableFreeze();
-                Debug.Log("Should Enable freeze");
             }
             else if (isDouble)
             {
+                audioS.PlayOneShot(powerUp);
                 powerupsController.EnableDouble();
-                Debug.Log("Should Enable double");
             }
 
 

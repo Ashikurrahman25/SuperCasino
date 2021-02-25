@@ -66,6 +66,8 @@ ScriptsOnlyBuild:
     - TMPro.TextMeshProUGUI
     Unity.Timeline.Editor.dll:
     - TimelineProjectSettings
+    Unity.VectorGraphics.Editor.dll:
+    - Unity.VectorGraphics.Editor.SVGImporterEditor
     UnityEditor.Graphs.dll:
     - UnityEditor.Graphs.AnimationBlendTree.Graph
     - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
@@ -202,8 +204,6 @@ ScriptsOnlyBuild:
       Script: {instanceID: 4482}
     - Class: 114
       Script: {instanceID: 4784}
-    - Class: 114
-      Script: {instanceID: 126104}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -483,8 +483,6 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 2748}
     - Class: 114
-      Script: {instanceID: 2782}
-    - Class: 114
       Script: {instanceID: 2862}
     - Class: 114
       Script: {instanceID: 2872}
@@ -512,10 +510,6 @@ ScriptsOnlyBuild:
       Script: {instanceID: 4482}
     - Class: 114
       Script: {instanceID: 4784}
-    - Class: 114
-      Script: {instanceID: 126104}
-    - Class: 114
-      Script: {instanceID: 126116}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -759,7 +753,7 @@ ScriptsOnlyBuild:
     className: TMP_StyleSheet
   - hash:
       serializedVersion: 2
-      Hash: 9e2fcf1294b84a01e1feb621cf5a6ffc
+      Hash: 7e12e0a1f8002f2b28e1d5c4f17ad65e
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: AudioController
@@ -1197,7 +1191,7 @@ ScriptsOnlyBuild:
     className: RemoteTestResultSender
   - hash:
       serializedVersion: 2
-      Hash: e88435e7b55867f0bf6083faf16ced70
+      Hash: 00f8666ac44d4b58be99e7051f3ba4e4
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: PointPlate

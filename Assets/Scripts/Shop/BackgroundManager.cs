@@ -8,7 +8,6 @@ public class BackgroundManager : MonoBehaviour
     void Start()
     {
         backGround.sprite = ProductManager.instance.backgroundSprites[GlobalData.selectedBG];
-        Debug.Log(GlobalData.selectedBG);
     }
 
 

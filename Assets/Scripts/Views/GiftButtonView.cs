@@ -28,5 +28,7 @@ public class GiftButtonView : MonoBehaviour
 
         if (ProductManager.instance.allLists.achievedPrizes.Count == 0)
             FindObjectOfType<Mainmenumanager>().ShowItem();
+
+        AudioController.audioController.CoinAdded();
     }
 }

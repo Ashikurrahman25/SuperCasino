@@ -1931,7 +1931,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 1, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 397.30832}
-  m_SizeDelta: {x: -1666.533, y: 75.49}
+  m_SizeDelta: {x: -1667.038, y: 75.49}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &570529833
 MonoBehaviour:
@@ -2729,7 +2729,6 @@ GameObject:
   - component: {fileID: 963194228}
   - component: {fileID: 963194227}
   - component: {fileID: 963194226}
-  - component: {fileID: 963194229}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -2802,18 +2801,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &963194229
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 963194225}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a79441f348de89743a2939f4d699eac1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &987183957
 GameObject:
   m_ObjectHideFlags: 0
@@ -15140,7 +15127,7 @@ MonoBehaviour:
   speedUp: 0
   slowDown: 0
   doublePoints: 0
-  powerUpLength: 0
+  powerUpLength: 5
   elaspedTime: 0
 --- !u!1 &1618894588
 GameObject:
@@ -15326,7 +15313,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4d1c6bdcb0c111548a7bfecce72bc36a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  minScoreForPrize: 5
+  minScoreForPrize: 120
   selectedPrizeIndex: 0
   claimed: 0
   prizeToClaim:
@@ -15339,185 +15326,185 @@ MonoBehaviour:
   prizeImage: {fileID: 1593762054591620711}
   prizeVariations:
   - iconIndex: 0
-    prizeName: Prize 1
-    sellPrice: 20
-  - iconIndex: 1
-    prizeName: Prize 2
+    prizeName: Piano
     sellPrice: 25
+  - iconIndex: 1
+    prizeName: Robot
+    sellPrice: 50
   - iconIndex: 2
-    prizeName: Prize 3
-    sellPrice: 30
+    prizeName: Airplane
+    sellPrice: 75
   - iconIndex: 3
-    prizeName: Prize 4
-    sellPrice: 35
+    prizeName: Water Gun
+    sellPrice: 100
   - iconIndex: 4
-    prizeName: Prize 5
-    sellPrice: 40
-  - iconIndex: 4
-    prizeName: Prize 5
-    sellPrice: 40
-  - iconIndex: 4
-    prizeName: Prize 5
-    sellPrice: 40
-  - iconIndex: 4
-    prizeName: Prize 5
-    sellPrice: 40
-  - iconIndex: 4
-    prizeName: Prize 5
-    sellPrice: 40
-  - iconIndex: 4
-    prizeName: Prize 5
-    sellPrice: 40
-  - iconIndex: 4
-    prizeName: Prize 5
-    sellPrice: 40
-  - iconIndex: 4
-    prizeName: Prize 5
-    sellPrice: 40
-  - iconIndex: 4
-    prizeName: Prize 5
-    sellPrice: 40
-  - iconIndex: 4
-    prizeName: Prize 5
-    sellPrice: 40
-  - iconIndex: 4
-    prizeName: Prize 5
-    sellPrice: 40
-  - iconIndex: 4
-    prizeName: Prize 5
-    sellPrice: 40
-  - iconIndex: 4
-    prizeName: Prize 5
-    sellPrice: 40
-  - iconIndex: 4
-    prizeName: Prize 5
-    sellPrice: 40
-  - iconIndex: 4
-    prizeName: Prize 5
-    sellPrice: 40
-  - iconIndex: 4
-    prizeName: Prize 5
-    sellPrice: 40
-  - iconIndex: 4
-    prizeName: Prize 5
-    sellPrice: 40
-  - iconIndex: 4
-    prizeName: Prize 5
-    sellPrice: 40
-  - iconIndex: 4
-    prizeName: Prize 5
-    sellPrice: 40
-  - iconIndex: 4
-    prizeName: Prize 5
-    sellPrice: 40
-  - iconIndex: 4
-    prizeName: Prize 5
-    sellPrice: 40
-  - iconIndex: 4
-    prizeName: Prize 5
-    sellPrice: 40
-  - iconIndex: 4
-    prizeName: Prize 5
-    sellPrice: 40
-  - iconIndex: 4
-    prizeName: Prize 5
-    sellPrice: 40
-  - iconIndex: 4
-    prizeName: Prize 5
-    sellPrice: 40
-  - iconIndex: 4
-    prizeName: Prize 5
-    sellPrice: 40
-  - iconIndex: 4
-    prizeName: Prize 5
-    sellPrice: 40
-  - iconIndex: 4
-    prizeName: Prize 5
-    sellPrice: 40
-  - iconIndex: 4
-    prizeName: Prize 5
-    sellPrice: 40
-  - iconIndex: 4
-    prizeName: Prize 5
-    sellPrice: 40
-  - iconIndex: 4
-    prizeName: Prize 5
-    sellPrice: 40
-  - iconIndex: 4
-    prizeName: Prize 5
-    sellPrice: 40
-  - iconIndex: 4
-    prizeName: Prize 5
-    sellPrice: 40
-  - iconIndex: 4
-    prizeName: Prize 5
-    sellPrice: 40
-  - iconIndex: 4
-    prizeName: Prize 5
-    sellPrice: 40
-  - iconIndex: 4
-    prizeName: Prize 5
-    sellPrice: 40
-  - iconIndex: 4
-    prizeName: Prize 5
-    sellPrice: 40
-  - iconIndex: 4
-    prizeName: Prize 5
-    sellPrice: 40
-  - iconIndex: 4
-    prizeName: Prize 5
-    sellPrice: 40
-  - iconIndex: 4
-    prizeName: Prize 5
-    sellPrice: 40
-  - iconIndex: 4
-    prizeName: Prize 5
-    sellPrice: 40
-  - iconIndex: 4
-    prizeName: Prize 5
-    sellPrice: 40
-  - iconIndex: 4
-    prizeName: Prize 5
-    sellPrice: 40
-  - iconIndex: 4
-    prizeName: Prize 5
-    sellPrice: 40
-  - iconIndex: 4
-    prizeName: Prize 5
-    sellPrice: 40
-  - iconIndex: 4
-    prizeName: Prize 5
-    sellPrice: 40
-  - iconIndex: 4
-    prizeName: Prize 5
-    sellPrice: 40
-  - iconIndex: 4
-    prizeName: Prize 5
-    sellPrice: 40
-  - iconIndex: 4
-    prizeName: Prize 5
-    sellPrice: 40
-  - iconIndex: 4
-    prizeName: Prize 5
-    sellPrice: 40
-  - iconIndex: 4
-    prizeName: Prize 5
-    sellPrice: 40
-  - iconIndex: 4
-    prizeName: Prize 5
-    sellPrice: 40
-  - iconIndex: 4
-    prizeName: Prize 5
-    sellPrice: 40
-  - iconIndex: 4
-    prizeName: Prize 5
-    sellPrice: 40
-  - iconIndex: 4
-    prizeName: Prize 5
-    sellPrice: 40
-  - iconIndex: 4
-    prizeName: Prize 5
-    sellPrice: 40
+    prizeName: Jigsaw
+    sellPrice: 125
+  - iconIndex: 5
+    prizeName: Teddy
+    sellPrice: 150
+  - iconIndex: 6
+    prizeName: Blocks
+    sellPrice: 175
+  - iconIndex: 7
+    prizeName: Remote Control
+    sellPrice: 200
+  - iconIndex: 8
+    prizeName: Robot
+    sellPrice: 225
+  - iconIndex: 9
+    prizeName: Sword
+    sellPrice: 240
+  - iconIndex: 10
+    prizeName: Rocking Chair
+    sellPrice: 280
+  - iconIndex: 11
+    prizeName: Train
+    sellPrice: 300
+  - iconIndex: 60
+    prizeName: Spinner
+    sellPrice: 350
+  - iconIndex: 12
+    prizeName: Game Console
+    sellPrice: 320
+  - iconIndex: 13
+    prizeName: Rubik's Cube
+    sellPrice: 340
+  - iconIndex: 14
+    prizeName: Toy Boat
+    sellPrice: 350
+  - iconIndex: 15
+    prizeName: Tricycle
+    sellPrice: 360
+  - iconIndex: 16
+    prizeName: Pyramid
+    sellPrice: 370
+  - iconIndex: 17
+    prizeName: Sword
+    sellPrice: 380
+  - iconIndex: 18
+    prizeName: Bear
+    sellPrice: 400
+  - iconIndex: 19
+    prizeName: Drum
+    sellPrice: 410
+  - iconIndex: 20
+    prizeName: Duck
+    sellPrice: 420
+  - iconIndex: 21
+    prizeName: Train
+    sellPrice: 430
+  - iconIndex: 22
+    prizeName: Spinner
+    sellPrice: 440
+  - iconIndex: 23
+    prizeName: Wakie Takie
+    sellPrice: 450
+  - iconIndex: 24
+    prizeName: Dumpstar
+    sellPrice: 460
+  - iconIndex: 25
+    prizeName: Xylophone
+    sellPrice: 470
+  - iconIndex: 26
+    prizeName: Baseball
+    sellPrice: 480
+  - iconIndex: 27
+    prizeName: Roller Shoe
+    sellPrice: 490
+  - iconIndex: 28
+    prizeName: Ballon
+    sellPrice: 500
+  - iconIndex: 29
+    prizeName: Puzzle
+    sellPrice: 510
+  - iconIndex: 30
+    prizeName: Doll House
+    sellPrice: 520
+  - iconIndex: 31
+    prizeName: Football
+    sellPrice: 530
+  - iconIndex: 32
+    prizeName: Remote
+    sellPrice: 540
+  - iconIndex: 33
+    prizeName: Dice
+    sellPrice: 550
+  - iconIndex: 34
+    prizeName: Rattle
+    sellPrice: 560
+  - iconIndex: 35
+    prizeName: Rocket
+    sellPrice: 570
+  - iconIndex: 36
+    prizeName: Spinner
+    sellPrice: 580
+  - iconIndex: 37
+    prizeName: House
+    sellPrice: 590
+  - iconIndex: 38
+    prizeName: Tea Cup
+    sellPrice: 600
+  - iconIndex: 39
+    prizeName: Aeroplane
+    sellPrice: 610
+  - iconIndex: 40
+    prizeName: Toy Car
+    sellPrice: 620
+  - iconIndex: 41
+    prizeName: Beach Ball
+    sellPrice: 630
+  - iconIndex: 42
+    prizeName: Viewer
+    sellPrice: 640
+  - iconIndex: 43
+    prizeName: Abacus
+    sellPrice: 650
+  - iconIndex: 44
+    prizeName: Baby Toy
+    sellPrice: 660
+  - iconIndex: 45
+    prizeName: Beach Ball
+    sellPrice: 670
+  - iconIndex: 46
+    prizeName: Spinner
+    sellPrice: 680
+  - iconIndex: 47
+    prizeName: Drum
+    sellPrice: 690
+  - iconIndex: 48
+    prizeName: Sand Box
+    sellPrice: 700
+  - iconIndex: 49
+    prizeName: Yo Yo
+    sellPrice: 710
+  - iconIndex: 50
+    prizeName: Basket Ball
+    sellPrice: 720
+  - iconIndex: 51
+    prizeName: Teleskop
+    sellPrice: 730
+  - iconIndex: 52
+    prizeName: Key Car
+    sellPrice: 740
+  - iconIndex: 53
+    prizeName: Trumpet
+    sellPrice: 750
+  - iconIndex: 54
+    prizeName: Blocks
+    sellPrice: 750
+  - iconIndex: 55
+    prizeName: Doll
+    sellPrice: 750
+  - iconIndex: 56
+    prizeName: Microwave
+    sellPrice: 750
+  - iconIndex: 57
+    prizeName: Rubber Duck
+    sellPrice: 750
+  - iconIndex: 58
+    prizeName: Rubber Duck
+    sellPrice: 750
 --- !u!4 &1641620123
 Transform:
   m_ObjectHideFlags: 0
@@ -15717,7 +15704,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 18abf021ac20d2d4aac1902e0feee4b7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TimeSec: 10
+  TimeSec: 120
   TimesUp: 0
   TimerText: {fileID: 2010280707}
   Minute: 0

@@ -33,7 +33,7 @@ public class PrizeController : MonoBehaviour
             selectedPrizeIndex = Random.Range(15,30);
         else if(score >= minScoreForPrize * 3 && score < minScoreForPrize * 4)
             selectedPrizeIndex = Random.Range(30, 45);
-        else if (score >= minScoreForPrize * 4 && score < minScoreForPrize * 5)
+        else if (score >= minScoreForPrize * 4)
             selectedPrizeIndex = Random.Range(45, 60);
 
         prizeToClaim = prizeVariations[selectedPrizeIndex];
@@ -63,6 +63,7 @@ public class PrizeController : MonoBehaviour
 
         coins += prizeToClaim.sellPrice;
         PlayerPrefs.SetInt("coins", coins);
+        AudioController.audioController.CoinAdded();
     }
 
 }

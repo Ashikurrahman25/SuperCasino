@@ -11,6 +11,7 @@ public class AudioController : MonoBehaviour
     public AudioClip buttonClick;
     public AudioClip prizeAudio;
     public AudioClip successBuyAudio;
+    public AudioClip coinAdded;
     void Awake()
     {
         DontDestroyOnLoad(this);
@@ -57,4 +58,10 @@ public class AudioController : MonoBehaviour
     {
         sfxAudioS.PlayOneShot(successBuyAudio);
     }
+
+    public void CoinAdded()
+    {
+        sfxAudioS.PlayOneShot(coinAdded);
+    }
+
 }
