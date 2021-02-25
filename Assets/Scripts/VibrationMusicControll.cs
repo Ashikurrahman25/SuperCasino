@@ -16,6 +16,7 @@ public class VibrationMusicControll : MonoBehaviour
     public Slider sfxSlider;
     public Slider muteSlider;
     
+
     private void Start()
     {
         MusicIndex = PlayerPrefs.GetInt("music");
@@ -32,34 +33,47 @@ public class VibrationMusicControll : MonoBehaviour
 
     public void AudioControl()
     {
-        ControlPlayerpref(MusicIndex, "music");
+        ControlPlayerpref(ref MusicIndex, "music");
     }
 
     public void ControlVibrate()
     {
-        ControlPlayerpref(VibratorIndex, "vibrate");
+        ControlPlayerpref(ref VibratorIndex, "vibrate");
     }
 
     public void ControlSFX()
     {
-        ControlPlayerpref(sfxIndex, "sfx");
+        ControlPlayerpref(ref sfxIndex, "sfx");
     }
 
     public void ControlMute()
     {
-        ControlPlayerpref(muteIndex, "mute");
+        ControlPlayerpref(ref muteIndex, "mute");
+        Debug.Log(muteIndex);
     }
 
-    public void ControlPlayerpref(int index, string key)
+    public void ControlPlayerpref(ref int index, string key)
     {
 
         if (index == 0)
+        {
             index = 1;
-        else
+            Debug.Log(index);
+
+        }
+        else if (index == 1)
+        {
             index = 0;
+            Debug.Log(index);
+
+
+        }
+
 
         PlayerPrefs.SetInt(key, index);
         AudioController.audioController.PlayButtonAudio();
+        AudioController.audioController.HandleAudio();
+
     }
 
 }

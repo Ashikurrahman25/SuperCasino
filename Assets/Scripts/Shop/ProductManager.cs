@@ -12,6 +12,8 @@ public class ProductManager : MonoBehaviour
     public Sprite[] backgroundSprites;
     public Sprite[] powerUpSprites;
 
+    public Sprite[] bgIcons;
+
     public Sprite[] prizeSprites;
 
     private void Awake()

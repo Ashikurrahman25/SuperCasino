@@ -10506,15 +10506,15 @@ MonoBehaviour:
       isBought: 0
       isSelected: 0
     backgrounds:
-    - productName: BG 1
+    - productName: Carnival
       productPrice: 0
       isBought: 1
       isSelected: 1
-    - productName: BG 2
+    - productName: Static Concrete
       productPrice: 250
       isBought: 0
       isSelected: 0
-    - productName: BG 3
+    - productName: Wall Concrete
       productPrice: 500
       isBought: 0
       isSelected: 0
@@ -10544,12 +10544,16 @@ MonoBehaviour:
   - {fileID: 21300000, guid: 1001d69dd0310d44884e18e679813490, type: 3}
   - {fileID: 21300000, guid: f4b6f00c18793cc4784b4c7a6e85d579, type: 3}
   backgroundSprites:
-  - {fileID: 3286163911610860551, guid: 7826898b545e168418ff72d1f30241eb, type: 3}
   - {fileID: 3286163911610860551, guid: 96efb1e113a114748962f65e74255315, type: 3}
-  - {fileID: 21300000, guid: e771708ca0786ce468872351f6a467dc, type: 3}
+  - {fileID: 3286163911610860551, guid: bf3f17b469f1bfa459fae79714609c59, type: 3}
+  - {fileID: 3286163911610860551, guid: a7ce465820a8e0d4d8cfcc5f606d9574, type: 3}
   powerUpSprites:
   - {fileID: 21300000, guid: b09b2bca23a254de7a49ec035a3abcd6, type: 3}
   - {fileID: 21300000, guid: 1275e668bfcf3404d82767bf71df7db5, type: 3}
+  bgIcons:
+  - {fileID: 21300000, guid: d6c1e469f40c1bb4fba3eb2c68772abe, type: 3}
+  - {fileID: 21300000, guid: 99ace38bce0cd844c9b698cd3f2716bf, type: 3}
+  - {fileID: 21300000, guid: b6a506d6493143f47b35a0dba1a3700a, type: 3}
   prizeSprites:
   - {fileID: 21300000, guid: 655893a6d11cc9d4f8689f7301598f36, type: 3}
   - {fileID: 21300000, guid: 2926fd9234b4a1d419fa5f2dc15a5829, type: 3}
@@ -21985,6 +21989,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sfxAudioS: {fileID: 1876682805}
+  bgAS: {fileID: 383852354}
   buttonClick: {fileID: 8300000, guid: 20e84d12981d0894e9ff3729133ad0ac, type: 3}
   prizeAudio: {fileID: 8300000, guid: 91ed0056b9a99f74ba4b97a11210a804, type: 3}
   successBuyAudio: {fileID: 8300000, guid: fc1263b5ad2f191499adb3886badc0d1, type: 3}

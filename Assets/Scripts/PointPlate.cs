@@ -47,6 +47,11 @@ public class PointPlate : MonoBehaviour
         m_renderer = GetComponentInChildren<Renderer>();
         audioS = GetComponent<AudioSource>();
 
+        if (PlayerPrefs.GetInt("mute", 0) == 0)
+            audioS.mute = PlayerPrefs.GetInt("sfx", 0) == 0 ? false : true;
+        else
+            audioS.mute = true;
+
     }
     void Update()
     {

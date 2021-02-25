@@ -99,13 +99,13 @@ public class ShopManager : MonoBehaviour
                 if (productManager.allLists.backgrounds[i].isSelected)
                 {
                     item.GetComponent<ItemView>().SetDetail(productManager.allLists.backgrounds[i].productName,
-                     "Selected", productManager.backgroundSprites[i]);
+                     "Selected", productManager.bgIcons[i]);
                     item.GetComponent<ItemView>().ChangeStatus(true);
                 }
                 else
                 {
                     item.GetComponent<ItemView>().SetDetail(productManager.allLists.backgrounds[i].productName,
-                    "Select", productManager.backgroundSprites[i]);
+                    "Select", productManager.bgIcons[i]);
                     item.GetComponent<ItemView>().ChangeStatus(false);  
                 }
 
@@ -114,8 +114,8 @@ public class ShopManager : MonoBehaviour
             }
             else
             {
-                item.GetComponent<ItemView>().SetDetail(productManager.allLists.ballSkins[i].productName,
-                productManager.allLists.backgrounds[i].productPrice.ToString("00"), productManager.backgroundSprites[i]);
+                item.GetComponent<ItemView>().SetDetail(productManager.allLists.backgrounds[i].productName,
+                productManager.allLists.backgrounds[i].productPrice.ToString("00"), productManager.bgIcons[i]);
             }
 
         }
